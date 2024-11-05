@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosProfile>
+  <Version>3</Version>
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>1920,1080</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>True</AlwaysOnTop>
+      <Background />
+      <Children />
+    </Monitor>
+  </Monitors>
+  <Interfaces>
+    <Interface TypeIdentifier="Helios.Base.ProfileInterface" Name="Profile" />
+    <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
+      <KeyDelay>30</KeyDelay>
+    </Interface>
+    <Interface TypeIdentifier="Patching.DCS.AdditionalViewports" Name="DCS Additional Viewports" />
+    <Interface TypeIdentifier="Patching.DCS.MonitorSetup" Name="DCS Monitor Setup" />
+  </Interfaces>
+  <Bindings />
+</HeliosProfile>
