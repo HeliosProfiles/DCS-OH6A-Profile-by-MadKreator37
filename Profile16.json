@@ -11,7 +11,7 @@
 	"VersionsRequired": [
 		{
 			"Product":	"Helios",
-			"Minimum":	"_MinimumReleaseLevel",
+			"Minimum":	"1.6.6110.0005",
 			"Maximum":	null
 		}
 	],
@@ -23,13 +23,13 @@
 					"Version":	"_ProfileVersionNumber",
 					"AspectRatio": "16:9",
 					"NativeResolution": "1920x1080",
-                    "Description": "Aicraft:\t\t_Author _Vehicle _ProfileVersionNumber\nRequirements:\tHelios _MinimumReleaseLevel or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
+                    "Description": "Aicraft:\t\t_Author _Vehicle _ProfileVersionNumber\nRequirements:\tHelios 1.6.6110.0005 or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
                     "Excludes": [
                     ],
 					"VersionsRequired": [
 											{
 												"Product":	"Helios",
-												"Minimum":	"_MinimumReleaseLevel",
+												"Minimum":	"1.6.6110.0005",
 												"Maximum":	null
 											}
 										],

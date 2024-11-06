@@ -1,4 +1,4 @@
-## This is a Helios profile for _aircraft _ProfileVersionNumber in DCS World
+## This is a Helios profile for OH6A _ProfileVersionNumber in DCS World
 
 This profile has been created by _author and is maintained on [GitHub](_ProjectURL) and is available under the GNU General Public License v3.0.
 

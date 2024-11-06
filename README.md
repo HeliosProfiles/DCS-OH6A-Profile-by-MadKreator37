@@ -1,5 +1,5 @@
-# Helios Profile for _aircraft by _author
-This is a profile for Helios Virtual Cockpit to support the _aircraft.
+# Helios Profile for OH6A by _author
+This is a profile for Helios Virtual Cockpit to support the OH6A.
 
 ### Creating a New Profile
 
@@ -32,7 +32,7 @@ Enter the directory where you want the repo to exist on your local machine into 
 The following variables appear in directory names, file names, and internally within files, and should be manually replaced with 
 the required values.
 
-1. _aircraft eg "F-5E"
+1. OH6A eg "F-5E"
 1. _author eg "MadKreator37"
 1. _minheliosrelease  eg 1.6.6090.0000
 1. _vehicle eg "F-5E-3"
