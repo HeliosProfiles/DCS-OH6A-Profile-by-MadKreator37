@@ -12,11 +12,11 @@ on:
   workflow_dispatch:
 
 env:
-  VEHICLE: _vehicle
-  VEHICLECOMMONNAME: _aircraft
-  MINHELIOSRELEASE: _minheliosrelease
-  PROFILENAME: _aircraft__author
-  AUTHOR: _author
+  VEHICLE: OH-6A
+  VEHICLECOMMONNAME: OH-6A Cayuse
+  MINHELIOSRELEASE: 1.6.6110.0005
+  PROFILENAME: OH-6A_MadKreator37
+  AUTHOR: MadKreator37
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -60,20 +60,20 @@ jobs:
         run: |
           # substitutions for specific files
           sed -i -- 's#_aircraft#${{ env.VEHICLE }}#g' './README.md'
-          sed -i -- 's#_author#${{ env.AUTHOR }}#g' './README.md'
+          sed -i -- 's#MadKreator37#${{ env.AUTHOR }}#g' './README.md'
           #
           sed -i -- 's#_aircraft#${{ env.VEHICLE }}#g' './Profile16.json'
-          sed -i -- 's#_author#${{ env.AUTHOR }}#g' './Profile16.json'
+          sed -i -- 's#MadKreator37#${{ env.AUTHOR }}#g' './Profile16.json'
           sed -i -- 's#_MinimumReleaseLevel#${{ env.MINHELIOSRELEASE }}#g' './Profile16.json'
           #
-          sed -i -- 's#_minheliosrelease#${{ env.MINHELIOSRELEASE }}#g' './Profile16.json'
+          sed -i -- 's#1.6.6110.0005#${{ env.MINHELIOSRELEASE }}#g' './Profile16.json'
           sed -i -- 's#_aircraft#${{ env.VEHICLE }}#g' './_aircraft - About this profile.md'
-          sed -i -- 's#_author#${{ env.AUTHOR }}#g' './_aircraft - About this profile.md'
+          sed -i -- 's#MadKreator37#${{ env.AUTHOR }}#g' './_aircraft - About this profile.md'
           #
-          # sed -i -- 's#_minheliosrelease#$MINHELIOSRELEASE#g' './.github/workflows/BuildProfilePackage.yml'
+          # sed -i -- 's#1.6.6110.0005#$MINHELIOSRELEASE#g' './.github/workflows/BuildProfilePackage.yml'
           # sed -i -- 's#_aircraft#${{ env.VEHICLE }}#g' './.github/workflows/BuildProfilePackage.yml'
-          # sed -i -- 's#_vehicle#${{ env.VEHICLE }}#g' './.github/workflows/BuildProfilePackage.yml'
-          # sed -i -- 's#_author#$AUTHOR#g' './.github/workflows/BuildProfilePackage.yml'         
+          # sed -i -- 's#OH-6A#${{ env.VEHICLE }}#g' './.github/workflows/BuildProfilePackage.yml'
+          # sed -i -- 's#MadKreator37#$AUTHOR#g' './.github/workflows/BuildProfilePackage.yml'         
       - name: Rename Directories and Files
         id: renameDirs
         run: |
@@ -84,16 +84,16 @@ jobs:
           mv "$filename" "${filename%/*}/${basename//_aircraft/${{ env.VEHICLE }}}"
           done
           ' _ {} +
-          find . -name "*_author*" -depth -exec bash -c '
+          find . -name "*MadKreator37*" -depth -exec bash -c '
           for filename do
           basename=${filename##*/}
-          mv "$filename" "${filename%/*}/${basename//_author/${{ env.AUTHOR }}}"
+          mv "$filename" "${filename%/*}/${basename//MadKreator37/${{ env.AUTHOR }}}"
           done
           ' _ {} +
-          find . -name "*_vehicle*" -depth -exec bash -c '
+          find . -name "*OH-6A*" -depth -exec bash -c '
           for filename do
           basename=${filename##*/}
-          mv "$filename" "${filename%/*}/${basename//_vehicle/${{ env.VEHICLE }}}"
+          mv "$filename" "${filename%/*}/${basename//OH-6A/${{ env.VEHICLE }}}"
           done
           ' _ {} +
           ls -r
