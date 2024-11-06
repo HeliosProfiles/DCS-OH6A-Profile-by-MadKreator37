@@ -15,7 +15,7 @@ env:
   VEHICLE: OH-6A
   VEHICLECOMMONNAME: OH-6A Cayuse
   MINHELIOSRELEASE: 1.6.6110.0005
-  PROFILENAME: OH-6A_MadKreator37
+  PROFILENAME: OH-6A_Cayuse_MadKreator37
   AUTHOR: MadKreator37
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
