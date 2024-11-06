@@ -72,9 +72,9 @@ jobs:
           sed -i -- 's#Visual;Monitor 4#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 5#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 6#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
-          # rm '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.newbindings'
-          rm '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
-          mv '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
+          # rm '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf.newbindings'
+          rm '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf'
       - run: |
           mkdir -p output
           smallTag=$(echo ${{ steps.bump_tag.outputs.tag }} | cut -c1-5)
@@ -85,7 +85,7 @@ jobs:
           sed -i -- 's#_Author#'"${{ env.AUTHOR }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
           sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
-          mv '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
           echo Substituting info in the Profile16.json manifest
           sed -i -- 's/_MinimumReleaseLevel/${{ env.MINHELIOSRELEASE }}/g' Profile16.json
           sed -i -- 's/_ReleaseDate/'"$(date "+%d %B %Y")"'/g' Profile16.json
