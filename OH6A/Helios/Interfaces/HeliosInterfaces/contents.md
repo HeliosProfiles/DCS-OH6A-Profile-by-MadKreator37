@@ -1,1 +1,0 @@
-* What goes into this directory
