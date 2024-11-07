@@ -12,12 +12,13 @@ This profile utilises an aircraft specifc interface which was written into the H
 
 ### IMPORTANT! PLEASE READ!
    There are a couple files that need to be added manually, if you want the Fuel on/off Valve to function and the RWR export to work, for the time being.
-   In Documents/Helios folder you will find a folder called _OH-6A_Manually _Replace. Open it, LOOK AT THE README and the screenshots of where to put the included folder "Mods".
+   After Installing. in Documents/Helios folder you will find a folder called _OH-6A_Manually _Replace. Open it, LOOK AT THE README and the screenshots of where to put the included folder, "Mods"s. Please do this step BEFORE actually setting up the profile. It will save you from having to go back in and reconfiguring again.
+
 ![Screenshot 2024-11-06 194756](https://github.com/user-attachments/assets/cc362f6e-4629-41bb-94c7-dec93d37663c)
 ![Screenshot 2024-11-06 194810](https://github.com/user-attachments/assets/6aa17d92-f451-4b4e-856d-b6dd6c7b2637)
 
 
-This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the OH-6A cockpit and texture files. Every piece used is specific to the OH-6A n (Except the RWR).  The hope is to bring you a  complete, visually appealing and easy to use profile for the OH-6A Cayuse in DCS that we could.  There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu, f-keys, Kneeboard functions etc. 
+This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the OH-6A cockpit and texture files. Every piece used is specific to the OH-6A.  The hope is to bring you a complete, visually appealing and easy to use profile for the OH-6A Cayuse in DCS that we could. There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu, f-keys, Kneeboard functions etc. 
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
