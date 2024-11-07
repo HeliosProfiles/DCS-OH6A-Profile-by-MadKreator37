@@ -4465,7 +4465,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="False">
           <Location>0,749</Location>
           <Size>545,331</Size>
           <Hidden>False</Hidden>
