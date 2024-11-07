@@ -4478,7 +4478,7 @@
           <TimerEnabled>True</TimerEnabled>
           <TimerInterval>5.5</TimerInterval>
           <Children>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A\OH6_Splash.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -4491,7 +4491,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="False">
               <Location>79,5</Location>
               <Size>29,22</Size>
               <Hidden>False</Hidden>
@@ -4499,7 +4499,7 @@
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="False">
               <Location>109,5</Location>
               <Size>29,22</Size>
               <Hidden>False</Hidden>
@@ -4511,7 +4511,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="False">
               <Location>64,5</Location>
               <Size>24,22</Size>
               <Hidden>False</Hidden>
@@ -4525,7 +4525,7 @@
               <TimerInterval>1.5</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen" SnapTarget="True" Locked="False">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
               <FontColor>#F8060606</FontColor>
@@ -4533,7 +4533,7 @@
                 <FontFamily>Constantia</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Bold</FontWeight>
-                <FontSize>10</FontSize>
+                <FontSize>13</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
@@ -4550,7 +4550,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="False">
               <Location>149,5</Location>
               <Size>29,22</Size>
               <Hidden>False</Hidden>
@@ -4558,7 +4558,7 @@
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="False">
               <Location>179,5</Location>
               <Size>29,22</Size>
               <Hidden>False</Hidden>
@@ -4570,7 +4570,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen 1" SnapTarget="True" Locked="False">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
               <FontColor>#F1000000</FontColor>
@@ -4595,7 +4595,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2" SnapTarget="False" Locked="False">
               <Location>318,5</Location>
               <Size>27,30</Size>
               <Hidden>False</Hidden>
@@ -4603,7 +4603,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add" SnapTarget="False" Locked="False">
               <Location>352,5</Location>
               <Size>33,32</Size>
               <Hidden>False</Hidden>
@@ -4615,7 +4615,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1" SnapTarget="True" Locked="False">
               <Location>294,5</Location>
               <Size>24,22</Size>
               <Hidden>False</Hidden>
@@ -4674,158 +4674,68 @@
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Off/CLEAR/FIRE.changed" />
-      <Action Target="Visual;Monitor 2.Armament Panel.wpn mode Switch;Helios.Base.RotarySwitch;wpn mode Switch" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc54xxxN.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.CustomDrum 1 1 1;Helios.Base.CustomDrum;CustomDrum 1 1 1" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.ARM/SAFE .changed" />
-      <Action Target="Visual;Monitor 2.Armament Panel.master arm;Helios.Base.ToggleSwitch;master arm" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc54xxNx.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.CustomDrum 1 1;Helios.Base.CustomDrum;CustomDrum 1 1" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Armed.changed" />
-      <Action Target="Visual;Monitor 2.Armament Panel.armed ind;Helios.Base.Indicator;armed ind" Name="set.indicator" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc54xNxx.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.CustomDrum 1;Helios.Base.CustomDrum;CustomDrum 1" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Low_Ammo.changed" />
-      <Action Target="Visual;Monitor 2.Armament Panel.ammo low ind;Helios.Base.Indicator;ammo low ind" Name="set.indicator" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc54Nxxx.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.CustomDrum;Helios.Base.CustomDrum;CustomDrum" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Gun_Not_Cleared.changed" />
-      <Action Target="Visual;Monitor 2.Armament Panel.gnc ind;Helios.Base.Indicator;gnc ind" Name="set.indicator" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Volume.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.fm volume;Helios.Base.Potentiometer;fm volume" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_IAS.changed" />
-      <Action Target="Visual;Monitor 2.Airspeed Gauge;Helios.Base.CustomGauge;Airspeed Gauge" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Squelch.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.fm squelch mode sw;Helios.Base.RotarySwitch;fm squelch mode sw" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.TORQUE.changed" />
-      <Action Target="Visual;Monitor 2.Torque Gauge;Helios.Base.CustomGauge;Torque Gauge" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Mode.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.fm comm mode sw;Helios.Base.RotarySwitch;fm comm mode sw" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_TEMP.changed" />
-      <Action Target="Visual;Monitor 2.TOT Gauge;Helios.Base.CustomGauge;TOT Gauge" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.RPM_N1.changed" />
-      <Action Target="Visual;Monitor 2.RPM N1;Helios.Base.CustomGauge;RPM N1" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Decimal-Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 54 panel.Rotary Encoder 1;Helios.Base.RotaryEncoder;Rotary Encoder 1" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.RPM_R.changed" />
-      <Action Target="Visual;Monitor 2.RPM R Gauge;Helios.Base.CustomGauge;RPM R Gauge" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.10 Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter;Helios.Base.CalibrationFilter;Calibration Filter" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.RPM_N2.changed" />
-      <Action Target="Visual;Monitor 2.RPM N2 Gauge;Helios.Base.CustomGauge;RPM N2 Gauge" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="RWR.RWR, ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.RWR on off switch;Helios.Base.ToggleSwitch;RWR on off switch" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="RWR.RWR, Brightness.changed" />
-      <Action Target="Visual;Monitor 2.rwr brilliance ;Helios.Base.Potentiometer;rwr brilliance " Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_FUEL.changed" />
-      <Action Target="Visual;Monitor 2.Fuel Gauge;Helios.Base.CustomGauge;Fuel Gauge" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_OILTEMP.changed" />
-      <Action Target="Visual;Monitor 2.Eng Oil Temp Gauge;Helios.Base.CustomGauge;Eng Oil Temp Gauge" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_OILPRESS.changed" />
-      <Action Target="Visual;Monitor 2.Eng Oil Press Gauge;Helios.Base.CustomGauge;Eng Oil Press Gauge" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_DCAMPS.changed" />
-      <Action Target="Visual;Monitor 2.DC Amp Gauge;Helios.Base.CustomGauge;DC Amp Gauge" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_CLIMB.changed" />
-      <Action Target="Visual;Monitor 2.VVI Gauge;Helios.Base.CustomGauge;VVI Gauge" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Simulator Telemetry.radar altitude.changed" />
-      <Action Target="Visual;Monitor 2.RAlt Digi.Calibration Filter 1;Helios.Base.CalibrationFilter;Calibration Filter 1" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_PITCH.changed" />
-      <Action Target="Visual;Monitor 2.ADI Tape;Helios.Base.CustomTape;ADI Tape" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_BANK.changed" />
-      <Action Target="Visual;Monitor 2.ADI Tape;Helios.Base.CustomTape;ADI Tape" Name="set.Tape Rotation" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_SLIP.changed" />
-      <Action Target="Visual;Monitor 2.Slip Ball Gauge;Helios.Base.CustomTape;Slip Ball Gauge" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_BANK.changed" />
-      <Action Target="Visual;Monitor 2.ADI Bank Pointer;Helios.Base.CustomGauge;ADI Bank Pointer" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_SLIP.changed" />
-      <Action Target="Visual;Monitor 2.Slip Ball Gauge;Helios.Base.CustomTape;Slip Ball Gauge" Name="set.Tape Rotation" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ID_1351_HDG Compass.changed" />
-      <Action Target="Visual;Monitor 2.HSI Compass;Helios.Base.CustomGauge;HSI Compass" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ID_1351_ADF Needle.changed" />
-      <Action Target="Visual;Monitor 2.HSI Needle;Helios.Base.CustomGauge;HSI Needle" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ID_1351_ADF2 Course Deviation.changed" />
-      <Action Target="Visual;Monitor 2.HSI Course Dev;Helios.Base.CustomGauge;HSI Course Dev" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.ID_1351_OFF.changed" />
-      <Action Target="Visual;Monitor 2.HSI Off Flag;Helios.Base.CustomGauge;HSI Off Flag" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.ATTITUDE_OFF.changed" />
-      <Action Target="Visual;Monitor 2.ADI Off Flag ;Helios.Base.CustomGauge;ADI Off Flag " Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Mode.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio mode selector;Helios.Base.RotarySwitch;radio mode selector" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.10 Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 1;Helios.Base.CalibrationFilter;Calibration Filter 1" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Function.changed" />
       <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio master selector;Helios.Base.RotarySwitch;radio master selector" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Mode.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio mode selector;Helios.Base.RotarySwitch;radio mode selector" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -4839,18 +4749,63 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Squelch.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.fm squelch mode sw;Helios.Base.RotarySwitch;fm squelch mode sw" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.deci Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2;Helios.Base.CalibrationFilter;Calibration Filter 2" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Volume.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.fm volume;Helios.Base.Potentiometer;fm volume" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.deci Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2 1;Helios.Base.CalibrationFilter;Calibration Filter 2 1" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Mode.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.fm comm mode sw;Helios.Base.RotarySwitch;fm comm mode sw" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2 1 1;Helios.Base.CalibrationFilter;Calibration Filter 2 1 1" Name="Input.set.Value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Preset Channel.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 3;Helios.Base.CalibrationFilter;Calibration Filter 3" Name="Input.set.Value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.10 Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.10mega knob;Helios.Base.RotarySwitch;10mega knob" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.deci Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Deci knob;Helios.Base.RotarySwitch;Deci knob" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Preset Channel.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.PRESET knob;Helios.Base.RotarySwitch;PRESET knob" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Megacycle.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.mega knob;Helios.Base.RotarySwitch;mega knob" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc83TuneMeter.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 83 panel.CustomGauge;Helios.Base.CustomGauge;CustomGauge" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc83Freq.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 83 panel.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc83Band.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 83 panel.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_83.Squelch.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 83 panel.adf bfo switch;Helios.Base.ToggleSwitch;adf bfo switch" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -4869,18 +4824,38 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Oil_Press.changed" />
-      <Action Target="Visual;Monitor 2.xmsn press ind;Helios.Base.Indicator;xmsn press ind" Name="set.indicator" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_83.Tune.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 83 panel.tune knob;Helios.Base.RotaryEncoder;tune knob" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Engine_Out.changed" />
-      <Action Target="Visual;Monitor 2.engine out ind;Helios.Base.Indicator;engine out ind" Name="set.indicator" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_83.Gain.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 83 panel.tune knob 1;Helios.Base.RotaryEncoder;tune knob 1" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Oil_Temp.changed" />
-      <Action Target="Visual;Monitor 2.xmsn temp ind;Helios.Base.Indicator;xmsn temp ind" Name="set.indicator" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.ARM/SAFE .changed" />
+      <Action Target="Visual;Monitor 2.Armament Panel.master arm;Helios.Base.ToggleSwitch;master arm" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Gun_Not_Cleared.changed" />
+      <Action Target="Visual;Monitor 2.Armament Panel.gnc ind;Helios.Base.Indicator;gnc ind" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Off/CLEAR/FIRE.changed" />
+      <Action Target="Visual;Monitor 2.Armament Panel.wpn mode Switch;Helios.Base.RotarySwitch;wpn mode Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Armed.changed" />
+      <Action Target="Visual;Monitor 2.Armament Panel.armed ind;Helios.Base.Indicator;armed ind" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Low_Ammo.changed" />
+      <Action Target="Visual;Monitor 2.Armament Panel.ammo low ind;Helios.Base.Indicator;ammo low ind" Name="set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -4914,98 +4889,133 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Panel.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.sw pan brt kb;Helios.Base.Potentiometer;sw pan brt kb" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.TORQUE.changed" />
+      <Action Target="Visual;Monitor 2.Torque Gauge;Helios.Base.CustomGauge;Torque Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Radio.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.radio brt kb;Helios.Base.Potentiometer;radio brt kb" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_TEMP.changed" />
+      <Action Target="Visual;Monitor 2.TOT Gauge;Helios.Base.CustomGauge;TOT Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Engine.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.engine brt kb;Helios.Base.Potentiometer;engine brt kb" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.RPM_N1.changed" />
+      <Action Target="Visual;Monitor 2.RPM N1;Helios.Base.CustomGauge;RPM N1" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Flight.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.flight brt kb;Helios.Base.Potentiometer;flight brt kb" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_IAS.changed" />
+      <Action Target="Visual;Monitor 2.Airspeed Gauge;Helios.Base.CustomGauge;Airspeed Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.Pos. light DIM/OFF/BRT.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Pos Lt;Helios.Base.ThreeWayToggleSwitch;Pos Lt" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.RPM_N2.changed" />
+      <Action Target="Visual;Monitor 2.RPM N2 Gauge;Helios.Base.CustomGauge;RPM N2 Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.Anti. Col. OFF/ON.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.anti coll;Helios.Base.ToggleSwitch;anti coll" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.RPM_R.changed" />
+      <Action Target="Visual;Monitor 2.RPM R Gauge;Helios.Base.CustomGauge;RPM R Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Gyro. ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Gyro;Helios.Base.ToggleSwitch;Gyro" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_PITCH.changed" />
+      <Action Target="Visual;Monitor 2.ADI Tape;Helios.Base.CustomTape;ADI Tape" Name="set.Tape Vertical Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Aux. tank ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Aux Tank;Helios.Base.ToggleSwitch;Aux Tank" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_BANK.changed" />
+      <Action Target="Visual;Monitor 2.ADI Tape;Helios.Base.CustomTape;ADI Tape" Name="set.Tape Rotation" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Inverter ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Inverter;Helios.Base.ToggleSwitch;Inverter" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.ATTITUDE_OFF.changed" />
+      <Action Target="Visual;Monitor 2.ADI Off Flag ;Helios.Base.CustomGauge;ADI Off Flag " Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Gen ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Gen;Helios.Base.ToggleSwitch;Gen" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_BANK.changed" />
+      <Action Target="Visual;Monitor 2.ADI Bank Pointer;Helios.Base.CustomGauge;ADI Bank Pointer" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Fuelpump ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Fuel Pump;Helios.Base.ToggleSwitch;Fuel Pump" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_SLIP.changed" />
+      <Action Target="Visual;Monitor 2.Slip Ball Gauge;Helios.Base.CustomTape;Slip Ball Gauge" Name="set.Tape Horizontal Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Power BATT/OFF/EXT.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Batt;Helios.Base.ThreeWayToggleSwitch;Batt" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_SLIP.changed" />
+      <Action Target="Visual;Monitor 2.Slip Ball Gauge;Helios.Base.CustomTape;Slip Ball Gauge" Name="set.Tape Rotation" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Gun/Rockets.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select;Helios.Base.ToggleSwitch;gun rock select" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_CLIMB.changed" />
+      <Action Target="Visual;Monitor 2.VVI Gauge;Helios.Base.CustomGauge;VVI Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Rocket Pairs.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.rock pair;Helios.Base.RotarySwitch;rock pair" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_FUEL.changed" />
+      <Action Target="Visual;Monitor 2.Fuel Gauge;Helios.Base.CustomGauge;Fuel Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Jettison Cover.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Guard ;Helios.Base.GuardedSwitch;Guard " Name="set.guard position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_OILPRESS.changed" />
+      <Action Target="Visual;Monitor 2.Eng Oil Press Gauge;Helios.Base.CustomGauge;Eng Oil Press Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Jettison.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_OILTEMP.changed" />
+      <Action Target="Visual;Monitor 2.Eng Oil Temp Gauge;Helios.Base.CustomGauge;Eng Oil Temp Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.CMWS Arm/Safe.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.cmws arm;Helios.Base.ToggleSwitch;cmws arm" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.IND_DCAMPS.changed" />
+      <Action Target="Visual;Monitor 2.DC Amp Gauge;Helios.Base.CustomGauge;DC Amp Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Flare Dispense.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.flare button;Helios.Base.PushButton;flare button" Name="set.physical state" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Oil_Press.changed" />
+      <Action Target="Visual;Monitor 2.xmsn press ind;Helios.Base.Indicator;xmsn press ind" Name="set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="FUEL_INTERFACE.Fuel Valve.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Oil_Temp.changed" />
+      <Action Target="Visual;Monitor 2.xmsn temp ind;Helios.Base.Indicator;xmsn temp ind" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Warning Lights.Engine_Out.changed" />
+      <Action Target="Visual;Monitor 2.engine out ind;Helios.Base.Indicator;engine out ind" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ID_1351_HDG Compass.changed" />
+      <Action Target="Visual;Monitor 2.HSI Compass;Helios.Base.CustomGauge;HSI Compass" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ID_1351_ADF Needle.changed" />
+      <Action Target="Visual;Monitor 2.HSI Needle;Helios.Base.CustomGauge;HSI Needle" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.ID_1351_OFF.changed" />
+      <Action Target="Visual;Monitor 2.HSI Off Flag;Helios.Base.CustomGauge;HSI Off Flag" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ID_1351_ADF2 Course Deviation.changed" />
+      <Action Target="Visual;Monitor 2.HSI Course Dev;Helios.Base.CustomGauge;HSI Course Dev" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="RWR.RWR, Brightness.changed" />
+      <Action Target="Visual;Monitor 2.rwr brilliance ;Helios.Base.Potentiometer;rwr brilliance " Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="RWR.RWR, ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.RWR on off switch;Helios.Base.ToggleSwitch;RWR on off switch" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5024,13 +5034,23 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Baro Altimeter.changed" />
-      <Action Target="Visual;Monitor 2.Altimeter Panel.Baro Altimeter Gauge;Helios.Base.CustomGauge;Baro Altimeter Gauge" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Simulator Telemetry.radar altitude.changed" />
+      <Action Target="Visual;Monitor 2.RAlt Digi.Calibration Filter 1;Helios.Base.CalibrationFilter;Calibration Filter 1" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.altadjxxxN Pressure 100th.changed" />
-      <Action Target="Visual;Monitor 2.Altimeter Panel.Press 100th;Helios.Base.CustomDrum;Press 100th" Name="set.Drum tape offset" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.altxxN Alt 100s.changed" />
+      <Action Target="Visual;Monitor 2.Altimeter Panel.Alt 10s;Helios.Base.CustomDrum;Alt 10s" Name="set.Drum tape offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.altNxx Alt 10000s.changed" />
+      <Action Target="Visual;Monitor 2.Altimeter Panel.Alt 10000s;Helios.Base.CustomDrum;Alt 10000s" Name="set.Drum tape offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.altxNx Alt 1000s.changed" />
+      <Action Target="Visual;Monitor 2.Altimeter Panel.Alt 1000s;Helios.Base.CustomDrum;Alt 1000s" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5049,23 +5069,8 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.altxxN Alt 100s.changed" />
-      <Action Target="Visual;Monitor 2.Altimeter Panel.Alt 10s;Helios.Base.CustomDrum;Alt 10s" Name="set.Drum tape offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.altxNx Alt 1000s.changed" />
-      <Action Target="Visual;Monitor 2.Altimeter Panel.Alt 1000s;Helios.Base.CustomDrum;Alt 1000s" Name="set.Drum tape offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.altNxx Alt 10000s.changed" />
-      <Action Target="Visual;Monitor 2.Altimeter Panel.Alt 10000s;Helios.Base.CustomDrum;Alt 10000s" Name="set.Drum tape offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="RWR.RWR, Loudness.changed" />
-      <Action Target="Visual;Monitor 2.rwr brilliance  1;Helios.Base.Potentiometer;rwr brilliance  1" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.altadjxxxN Pressure 100th.changed" />
+      <Action Target="Visual;Monitor 2.Altimeter Panel.Press 100th;Helios.Base.CustomDrum;Press 100th" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5074,93 +5079,8 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc54Nxxx.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.CustomDrum;Helios.Base.CustomDrum;CustomDrum" Name="set.Drum tape offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc54xNxx.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.CustomDrum 1;Helios.Base.CustomDrum;CustomDrum 1" Name="set.Drum tape offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc54xxNx.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.CustomDrum 1 1;Helios.Base.CustomDrum;CustomDrum 1 1" Name="set.Drum tape offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc54xxxN.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.CustomDrum 1 1 1;Helios.Base.CustomDrum;CustomDrum 1 1 1" Name="set.Drum tape offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.10 Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter;Helios.Base.CalibrationFilter;Calibration Filter" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.10 Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 1;Helios.Base.CalibrationFilter;Calibration Filter 1" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.deci Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2 1;Helios.Base.CalibrationFilter;Calibration Filter 2 1" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.deci Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2;Helios.Base.CalibrationFilter;Calibration Filter 2" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2 1 1;Helios.Base.CalibrationFilter;Calibration Filter 2 1 1" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Preset Channel.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 3;Helios.Base.CalibrationFilter;Calibration Filter 3" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Preset Channel.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.PRESET knob;Helios.Base.RotarySwitch;PRESET knob" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.deci Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Deci knob;Helios.Base.RotarySwitch;Deci knob" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.mega knob;Helios.Base.RotarySwitch;mega knob" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.10 Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.10mega knob;Helios.Base.RotarySwitch;10mega knob" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_83.Squelch.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 83 panel.adf bfo switch;Helios.Base.ToggleSwitch;adf bfo switch" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc83TuneMeter.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 83 panel.CustomGauge;Helios.Base.CustomGauge;CustomGauge" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc83Freq.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 83 panel.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Anarc83Band.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 83 panel.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Vertical Offset" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Baro Altimeter.changed" />
+      <Action Target="Visual;Monitor 2.Altimeter Panel.Baro Altimeter Gauge;Helios.Base.CustomGauge;Baro Altimeter Gauge" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5169,23 +5089,123 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Decimal-Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.Rotary Encoder 1;Helios.Base.RotaryEncoder;Rotary Encoder 1" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="RWR.RWR, Loudness.changed" />
+      <Action Target="Visual;Monitor 2.rwr brilliance  1;Helios.Base.Potentiometer;rwr brilliance  1" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_54.Megacycle.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 54 panel.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Select.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.interphone upper mode dial;Helios.Base.RotarySwitch;interphone upper mode dial" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_83.Tune.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 83 panel.tune knob;Helios.Base.RotaryEncoder;tune knob" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Select.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.interphone lower mode dial;Helios.Base.RotarySwitch;interphone lower mode dial" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_83.Gain.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 83 panel.tune knob 1;Helios.Base.RotaryEncoder;tune knob 1" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Vol.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.interphone lower vol;Helios.Base.Potentiometer;interphone lower vol" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Vol.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.interphone upper vol;Helios.Base.Potentiometer;interphone upper vol" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Panel.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.sw pan brt kb;Helios.Base.Potentiometer;sw pan brt kb" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Radio.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.radio brt kb;Helios.Base.Potentiometer;radio brt kb" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Flight.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.flight brt kb;Helios.Base.Potentiometer;flight brt kb" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Engine.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.engine brt kb;Helios.Base.Potentiometer;engine brt kb" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Rocket Pairs.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.rock pair;Helios.Base.RotarySwitch;rock pair" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Gun/Rockets.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select;Helios.Base.ToggleSwitch;gun rock select" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.Anti. Col. OFF/ON.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.anti coll;Helios.Base.ToggleSwitch;anti coll" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.CMWS Arm/Safe.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.cmws arm;Helios.Base.ToggleSwitch;cmws arm" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.Pos. light DIM/OFF/BRT.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Pos Lt;Helios.Base.ThreeWayToggleSwitch;Pos Lt" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Gyro. ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Gyro;Helios.Base.ToggleSwitch;Gyro" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Aux. tank ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Aux Tank;Helios.Base.ToggleSwitch;Aux Tank" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Inverter ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Inverter;Helios.Base.ToggleSwitch;Inverter" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Fuelpump ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Fuel Pump;Helios.Base.ToggleSwitch;Fuel Pump" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Gen ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Gen;Helios.Base.ToggleSwitch;Gen" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Power BATT/OFF/EXT.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Batt;Helios.Base.ThreeWayToggleSwitch;Batt" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Flare Dispense.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.flare button;Helios.Base.PushButton;flare button" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Jettison.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Jettison Cover.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Guard ;Helios.Base.GuardedSwitch;Guard " Name="set.guard position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="FUEL_INTERFACE.Fuel Valve.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5219,26 +5239,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Nav.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Int.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 4.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 3.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 1.changed" />
       <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2;Helios.Base.ToggleSwitch;gun rock select 1 2" Name="set.position" />
       <TriggerValue />
@@ -5249,23 +5249,23 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Select.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.interphone upper mode dial;Helios.Base.RotarySwitch;interphone upper mode dial" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 3.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Select.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.interphone lower mode dial;Helios.Base.RotarySwitch;interphone lower mode dial" Name="set.position" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 4.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Vol.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.interphone upper vol;Helios.Base.Potentiometer;interphone upper vol" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Int.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Vol.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.interphone lower vol;Helios.Base.Potentiometer;interphone lower vol" Name="set.value" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Nav.changed" />
+      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1 1" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5355,12 +5355,12 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.ANARC 51 Radio panel.10mega knob;Helios.Base.RotarySwitch;10mega knob" Name="position.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter;Helios.Base.CalibrationFilter;Calibration Filter" Name="Input.set.Value" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.set.10 Megacycle" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.ANARC 51 Radio panel.10mega knob;Helios.Base.RotarySwitch;10mega knob" Name="position.changed" />
-      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.set.10 Megacycle" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter;Helios.Base.CalibrationFilter;Calibration Filter" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5370,7 +5370,7 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.ANARC 51 Radio panel.Deci knob;Helios.Base.RotarySwitch;Deci knob" Name="position.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2 1;Helios.Base.CalibrationFilter;Calibration Filter 2 1" Name="Input.set.Value" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.set.deci Megacycle" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5380,7 +5380,7 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.ANARC 51 Radio panel.Deci knob;Helios.Base.RotarySwitch;Deci knob" Name="position.changed" />
-      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.set.deci Megacycle" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2 1;Helios.Base.CalibrationFilter;Calibration Filter 2 1" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5395,12 +5395,12 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.ANARC 51 Radio panel.mega knob;Helios.Base.RotarySwitch;mega knob" Name="position.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2 1 1;Helios.Base.CalibrationFilter;Calibration Filter 2 1 1" Name="Input.set.Value" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.set.Megacycle" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.ANARC 51 Radio panel.mega knob;Helios.Base.RotarySwitch;mega knob" Name="position.changed" />
-      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.set.Megacycle" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2 1 1;Helios.Base.CalibrationFilter;Calibration Filter 2 1 1" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5834,14 +5834,9 @@
       <StaticValue>1</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen;Helios.Base.Text;Splash Screen" Name="set.Text" />
-      <LuaScript>return(string.sub(" _ProfileVersionNumber  _BuildDate ",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub(" V 1.0.0  07 Nov 2024 ",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
@@ -5859,6 +5854,16 @@
       <StaticValue>1</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel;Helios.Panel.Timer;trigger panel" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Default Interval" />
+      <StaticValue>.01</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel;Helios.Panel.Timer;trigger panel" Name="hidden" />
       <Action Target="Visual;Monitor 2.Splash Screen.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
@@ -5874,24 +5879,19 @@
       <StaticValue>1.0</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel;Helios.Panel.Timer;trigger panel" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Default Interval" />
-      <StaticValue>.01</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 1;Helios.Special.Metronome;Metronome 1" Name="Metronome Tick" />
       <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="set.Numeric addition Value" />
       <StaticValue>1</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Upper/Lower threshold breach.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 1;Helios.Special.Metronome;Metronome 1" Name="Metronome.set.Enable" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen 1;Helios.Base.Text;Splash Screen 1" Name="set.Text" />
       <LuaScript>return(string.sub("    ~MadKreator37~   ",0,TriggerValue))</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Upper/Lower threshold breach.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 1;Helios.Special.Metronome;Metronome 1" Name="Metronome.set.Enable" />
+      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome Tick" />
