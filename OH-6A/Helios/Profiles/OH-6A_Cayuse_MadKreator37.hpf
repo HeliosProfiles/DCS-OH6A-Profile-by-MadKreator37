@@ -4478,7 +4478,7 @@
           <TimerEnabled>True</TimerEnabled>
           <TimerInterval>5.5</TimerInterval>
           <Children>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
               <Image>MadKreator37\OH-6A\OH6_Splash.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -4491,7 +4491,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="True">
               <Location>79,5</Location>
               <Size>29,22</Size>
               <Hidden>False</Hidden>
@@ -4499,7 +4499,7 @@
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="True">
               <Location>109,5</Location>
               <Size>29,22</Size>
               <Hidden>False</Hidden>
@@ -4511,7 +4511,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="True">
               <Location>64,5</Location>
               <Size>24,22</Size>
               <Hidden>False</Hidden>
@@ -4525,7 +4525,7 @@
               <TimerInterval>1.5</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen" SnapTarget="True" Locked="True">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
               <FontColor>#F8060606</FontColor>
@@ -4550,7 +4550,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="True">
               <Location>149,5</Location>
               <Size>29,22</Size>
               <Hidden>False</Hidden>
@@ -4558,7 +4558,7 @@
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="True">
               <Location>179,5</Location>
               <Size>29,22</Size>
               <Hidden>False</Hidden>
@@ -4570,7 +4570,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen 1" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen 1" SnapTarget="True" Locked="True">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
               <FontColor>#F1000000</FontColor>
@@ -4595,7 +4595,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2" SnapTarget="False" Locked="True">
               <Location>318,5</Location>
               <Size>27,30</Size>
               <Hidden>False</Hidden>
@@ -4603,7 +4603,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add" SnapTarget="False" Locked="True">
               <Location>352,5</Location>
               <Size>33,32</Size>
               <Hidden>False</Hidden>
@@ -4615,7 +4615,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1" SnapTarget="True" Locked="True">
               <Location>294,5</Location>
               <Size>24,22</Size>
               <Hidden>False</Hidden>
@@ -5836,7 +5836,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen;Helios.Base.Text;Splash Screen" Name="set.Text" />
-      <LuaScript>return(string.sub(" V 1.0.0  07 Nov 2024 ",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub("  _ProfileVersionNumber  _BuildDate ",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
