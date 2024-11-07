@@ -17,7 +17,7 @@ This profile utilizes an aircraft specifc interface which was written into the H
 ![Screenshot 2024-11-06 194810](https://github.com/user-attachments/assets/6aa17d92-f451-4b4e-856d-b6dd6c7b2637)
 
 
-This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the OH-6A cockpit and texture files. Every piece used is specific to the OH-6A.  The hope is to bring you a complete, visually appealing and easy to use profile for the OH-6A Cayuse in DCS that we could. There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu, f-keys, Kneeboard functions, doors, gunsight, visor etc. 
+This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the OH-6A cockpit and texture files. Every piece used is specific to the OH-6A.  The hope is to bring you the most complete, visually appealing and easy to use profile for the OH-6A Cayuse in DCS that we could. There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu, f-keys, Kneeboard functions, doors, gunsight, visor etc. 
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
