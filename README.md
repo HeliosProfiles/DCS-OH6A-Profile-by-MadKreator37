@@ -12,7 +12,7 @@ This profile utilises an aircraft specifc interface which was written into the H
 
 ### IMPORTANT! PLEASE READ!
    There are a couple files that need to be added manually, if you want the Fuel on/off Valve to function and the RWR export to work, for the time being.
-   After Installing. In the Documents/Helios folder, you will find a folder called "_OH-6A_Manually _Replace". Open it, LOOK AT THE README and the screenshots of where to put the included folder, "Mods"s. Please do this step BEFORE actually setting up the profile. It will save you from having to go back in and reconfiguring again.
+   After Installing. In the Documents/Helios folder, you will find a folder called "_OH-6A_Manually _Replace". Open it, LOOK AT THE README and the screenshots of where to put the included folder, "Mods". Please do this step BEFORE actually setting up the profile. It will save you from having to go back in and reconfiguring again.
 
 ![Screenshot 2024-11-06 194756](https://github.com/user-attachments/assets/cc362f6e-4629-41bb-94c7-dec93d37663c)
 ![Screenshot 2024-11-06 194810](https://github.com/user-attachments/assets/6aa17d92-f451-4b4e-856d-b6dd6c7b2637)
