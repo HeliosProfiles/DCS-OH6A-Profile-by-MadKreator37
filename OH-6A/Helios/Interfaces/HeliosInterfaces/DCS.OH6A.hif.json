@@ -133,7 +133,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "55"
         }
@@ -547,17 +547,17 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "-1.000",
           "name": "Position 1",
           "actionID": "3234"
         },
         {
-          "argumentValue": "1.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3234"
         },
         {
-          "argumentValue": "2.000",
+          "argumentValue": "1.000",
           "name": "Position 3",
           "actionID": "3234"
         }
@@ -786,7 +786,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "66"
         }
@@ -1063,7 +1063,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "170"
         }
@@ -1072,12 +1072,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3258"
         },
         {
-          "argumentValue": "1.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3258"
         }
@@ -1085,7 +1085,7 @@
     },
     {
       "heliosType": "DCS.Common.Axis",
-      "device": "INTERCOM",
+      "device": "INTERCOM_INTERFACE",
       "name": "Intercom2 Vol",
       "description": "Current value of this axis.",
       "exports": [
@@ -1101,14 +1101,14 @@
       "argumentMax": 1.0,
       "actions": {
         "set": {
-          "deviceId": "19",
+          "deviceId": "20",
           "actionId": "3215"
         }
       }
     },
     {
       "heliosType": "DCS.Common.Axis",
-      "device": "INTERCOM",
+      "device": "INTERCOM_INTERFACE",
       "name": "Intercom1 Vol",
       "description": "Current value of this axis.",
       "exports": [
@@ -1124,7 +1124,7 @@
       "argumentMax": 1.0,
       "actions": {
         "set": {
-          "deviceId": "19",
+          "deviceId": "20",
           "actionId": "3207"
         }
       }
@@ -1136,7 +1136,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "340"
         }
@@ -1145,12 +1145,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3209"
         },
         {
-          "argumentValue": "1.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3209"
         }
@@ -1163,7 +1163,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "341"
         }
@@ -1172,12 +1172,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3210"
         },
         {
-          "argumentValue": "1.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3210"
         }
@@ -1190,7 +1190,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "342"
         }
@@ -1199,12 +1199,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3211"
         },
         {
-          "argumentValue": "1.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3211"
         }
@@ -1217,7 +1217,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "343"
         }
@@ -1226,12 +1226,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3212"
         },
         {
-          "argumentValue": "1.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3212"
         }
@@ -1244,7 +1244,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "344"
         }
@@ -1253,12 +1253,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3213"
         },
         {
-          "argumentValue": "1.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3213"
         }
@@ -1271,7 +1271,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "345"
         }
@@ -1280,12 +1280,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3214"
         },
         {
-          "argumentValue": "1.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3214"
         }
@@ -1345,7 +1345,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "348"
         }
@@ -1354,12 +1354,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3201"
         },
         {
-          "argumentValue": "2.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3201"
         }
@@ -1372,7 +1372,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "349"
         }
@@ -1381,12 +1381,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3202"
         },
         {
-          "argumentValue": "2.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3202"
         }
@@ -1399,7 +1399,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "350"
         }
@@ -1408,12 +1408,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3203"
         },
         {
-          "argumentValue": "2.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3203"
         }
@@ -1426,7 +1426,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "351"
         }
@@ -1435,12 +1435,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3204"
         },
         {
-          "argumentValue": "2.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3204"
         }
@@ -1453,7 +1453,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "352"
         }
@@ -1462,12 +1462,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3205"
         },
         {
-          "argumentValue": "2.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3205"
         }
@@ -1480,7 +1480,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "353"
         }
@@ -1489,12 +1489,12 @@
       "incrementalPulseValue": "",
       "positions": [
         {
-          "argumentValue": "0.000",
+          "argumentValue": "1.000",
           "name": "Position 1",
           "actionID": "3206"
         },
         {
-          "argumentValue": "2.000",
+          "argumentValue": "0.000",
           "name": "Position 2",
           "actionID": "3206"
         }
@@ -1646,7 +1646,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "356"
         }
@@ -1678,7 +1678,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "357"
         }
@@ -2419,7 +2419,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "70"
         }
@@ -3615,7 +3615,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "371"
         }
@@ -3726,7 +3726,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "374"
         }
@@ -3753,7 +3753,7 @@
       "description": "Current position of this switch.",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.1f",
           "isExportedEveryFrame": false,
           "id": "75"
         }
