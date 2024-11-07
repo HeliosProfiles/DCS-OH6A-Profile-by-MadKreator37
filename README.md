@@ -2,7 +2,7 @@
 # Helios Profile for OH-6A Cayuse (Community Mod) by MadKreator37
 
 This is a Helios profile for the amazing OH-6A Community Mod, created by Tobsen and Eightball, designed for DCS World and contributed by @MadKreator37 and @Bluefinbima. 
-This profile utilises an aircraft specifc interface which was written into the Helios Virtual Cockpit project.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
+This profile utilizes an aircraft specifc interface which was written into the Helios Virtual Cockpit project.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 
 
 ### ABOUT
