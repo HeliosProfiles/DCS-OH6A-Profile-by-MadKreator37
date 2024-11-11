@@ -1698,6 +1698,90 @@
         }
       ]
     },
+	{
+      "heliosType": "DCS.Common.NetworkValue",
+      "device": "Network Values",
+      "name": "Pedals",
+      "description": "Main Panel",
+      "exports": [
+        {
+          "format": "%.4f",
+          "id": "213"
+        }
+      ],
+      "valueDescription": "from -1.0 to 1.0",
+      "unit": "Numeric"
+    },
+	{
+      "heliosType": "DCS.Common.NetworkValue",
+      "device": "Network Values",
+      "name": "Cyclic_Pitch",
+      "description": "Main Panel",
+      "exports": [
+        {
+          "format": "%.4f",
+          "id": "214"
+        }
+      ],
+      "valueDescription": "from -1.0 to 1.0",
+      "unit": "Numeric"
+    },
+	{
+      "heliosType": "DCS.Common.NetworkValue",
+      "device": "Network Values",
+      "name": "Cyclic_Roll",
+      "description": "Main Panel",
+      "exports": [
+        {
+          "format": "%.4f",
+          "id": "215"
+        }
+      ],
+      "valueDescription": "from -1.0 to 1.0",
+      "unit": "Numeric"
+    },
+	{
+      "heliosType": "DCS.Common.NetworkValue",
+      "device": "Network Values",
+      "name": "Collective_Pitch",
+      "description": "Main Panel",
+      "exports": [
+        {
+          "format": "%.4f",
+          "id": "210"
+        }
+      ],
+      "valueDescription": "from -1.0 to 1.0",
+      "unit": "Numeric"
+    },
+	{
+      "heliosType": "DCS.Common.NetworkValue",
+      "device": "Network Values",
+      "name": "Collective Throttle",
+      "description": "Main Panel",
+      "exports": [
+        {
+          "format": "%.4f",
+          "id": "211"
+        }
+      ],
+      "valueDescription": "from 0.0 to 1.0",
+      "unit": "Numeric"
+    },
+	{
+      "heliosType": "DCS.Common.NetworkValue",
+      "device": "Network Values",
+      "name": "Collective_Idle",
+      "description": "Main Panel",
+      "exports": [
+        {
+          "format": "%.4f",
+          "id": "212"
+        }
+      ],
+      "valueDescription": "from 0.0 to 1.0",
+      "unit": "Numeric"
+    },
     {
       "heliosType": "DCS.Common.NetworkValue",
       "device": "Network Values",
@@ -1808,48 +1892,6 @@
         }
       ],
       "valueDescription": "from 0.0 to 1.0",
-      "unit": "Numeric"
-    },
-    {
-      "heliosType": "DCS.Common.NetworkValue",
-      "device": "Network Values",
-      "name": "COLLECTIVE_COCKPIT",
-      "description": "Main Panel",
-      "exports": [
-        {
-          "format": "%.4f",
-          "id": "210"
-        }
-      ],
-      "valueDescription": "from 0 to 1",
-      "unit": "Numeric"
-    },
-    {
-      "heliosType": "DCS.Common.NetworkValue",
-      "device": "Network Values",
-      "name": "COLLECTIVE_THROTTLE",
-      "description": "Main Panel",
-      "exports": [
-        {
-          "format": "%.4f",
-          "id": "211"
-        }
-      ],
-      "valueDescription": "from 0 to 1",
-      "unit": "Numeric"
-    },
-    {
-      "heliosType": "DCS.Common.NetworkValue",
-      "device": "Network Values",
-      "name": "COLLECTIVE_IDLE",
-      "description": "Main Panel",
-      "exports": [
-        {
-          "format": "%.4f",
-          "id": "212"
-        }
-      ],
-      "valueDescription": "from 0 to 1",
       "unit": "Numeric"
     },
     {
@@ -2385,7 +2427,7 @@
       "unit": "Numeric"
     },
     {
-      "heliosType": "DCS.Common.NetworkValue",
+      "heliosType": "DCS.Common.FlagValue",
       "device": "Network Values",
       "name": "RWR_VISIBLE",
       "description": "Main Panel",
@@ -2399,13 +2441,13 @@
       "unit": "Numeric"
     },
     {
-      "heliosType": "DCS.Common.NetworkValue",
+      "heliosType": "DCS.Common.FlagValue",
       "device": "Network Values",
       "name": "FLARES_EQUIPPED",
       "description": "Main Panel",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.1f",
           "id": "74"
         }
       ],
@@ -3628,8 +3670,8 @@
           "name": "Position 1",
           "actionID": "3220"
         },
-        {
-          "argumentValue": "0.000",
+		{
+          "argumentValue": "-1.000",
           "name": "Position 2",
           "actionID": "3220"
         }
