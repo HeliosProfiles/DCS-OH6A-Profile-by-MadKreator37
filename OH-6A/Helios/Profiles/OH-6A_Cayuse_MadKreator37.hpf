@@ -19,7 +19,7 @@
       <AlwaysOnTop>True</AlwaysOnTop>
       <Background />
       <Children>
-        <Control TypeIdentifier="Helios.Base.Image" Name="outside backdrop" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="outside backdrop" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Lower_Image.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -28,7 +28,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="OH6A_RWR" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="OH6A_RWR" SnapTarget="True" Locked="True">
           <FillBackground>True</FillBackground>
           <BackgroundColor>#807DDB29</BackgroundColor>
           <FontColor>#FFFFFFFF</FontColor>
@@ -54,7 +54,7 @@
           <ViewportName>OH6A_RWR</ViewportName>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Background" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Background" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Main_BG_T1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -63,7 +63,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="ANARC 54 panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="ANARC 54 panel" SnapTarget="True" Locked="True">
           <Location>54,112</Location>
           <Size>466,252</Size>
           <Hidden>False</Hidden>
@@ -227,7 +227,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="ANARC 51 Radio panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="ANARC 51 Radio panel" SnapTarget="True" Locked="True">
           <Location>54,393</Location>
           <Size>466,358</Size>
           <Hidden>False</Hidden>
@@ -1080,7 +1080,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="ANARC 83 panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="ANARC 83 panel" SnapTarget="True" Locked="True">
           <Location>52,778</Location>
           <Size>436,220</Size>
           <Hidden>False</Hidden>
@@ -1256,7 +1256,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Armament Panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="Armament Panel" SnapTarget="True" Locked="True">
           <Location>559,258</Location>
           <Size>192,512</Size>
           <Hidden>False</Hidden>
@@ -1384,7 +1384,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="trigauge base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="trigauge base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Tri_Gauge_Panel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1393,7 +1393,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="bypass air base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="bypass air base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\Air_Bypass_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1402,7 +1402,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="bypass air 1nd" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="bypass air 1nd" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\Air_Bypass_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1428,7 +1428,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="oil chip base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="oil chip base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\Oil_Chips_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1437,7 +1437,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="oil chip ind" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="oil chip ind" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\Oil_Chips_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1463,7 +1463,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel filter base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel filter base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\Fuel_Filter_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1472,7 +1472,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel filter ind" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel filter ind" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\Fuel_Filter_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1498,7 +1498,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="gen out base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="gen out base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\Generator_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1507,7 +1507,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="generator out ind" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="generator out ind" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\Generator_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1533,7 +1533,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel low base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel low base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\Fuel_Low_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1542,7 +1542,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel low ind" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel low ind" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\Fuel_Low_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1568,7 +1568,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="oil byp base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="oil byp base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\Oil_Bypass_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1577,7 +1577,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="oil bypass ind" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="oil bypass ind" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\Oil_Bypass_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1603,7 +1603,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Torque Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Torque Gauge" SnapTarget="True" Locked="True">
           <Location>771,118</Location>
           <Size>179,179</Size>
           <Hidden>False</Hidden>
@@ -1622,7 +1622,7 @@
           <RotationTravel>331.685393258427</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1635,7 +1635,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="torque ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="torque ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1644,7 +1644,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="TOT Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="TOT Gauge" SnapTarget="True" Locked="True">
           <Location>770,369</Location>
           <Size>179,181</Size>
           <Hidden>False</Hidden>
@@ -1663,7 +1663,7 @@
           <RotationTravel>280.719101123596</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1676,7 +1676,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="tot ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="tot ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1685,7 +1685,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N1" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N1" SnapTarget="True" Locked="True">
           <Location>770,623</Location>
           <Size>179,179</Size>
           <Hidden>False</Hidden>
@@ -1704,7 +1704,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1717,7 +1717,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="RPM N1 ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="RPM N1 ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1726,7 +1726,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Airspeed Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Airspeed Gauge" SnapTarget="True" Locked="True">
           <Location>978,170</Location>
           <Size>280,280</Size>
           <Hidden>False</Hidden>
@@ -1745,7 +1745,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1758,7 +1758,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="airspeed ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="airspeed ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1767,7 +1767,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="airspeed ss" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="airspeed ss" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1776,7 +1776,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N2 Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N2 Gauge" SnapTarget="True" Locked="True">
           <Location>978,531</Location>
           <Size>280,280</Size>
           <Hidden>False</Hidden>
@@ -1795,7 +1795,7 @@
           <RotationTravel>301.395348837209</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM R Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM R Gauge" SnapTarget="True" Locked="True">
           <Location>978,531</Location>
           <Size>280,280</Size>
           <Hidden>False</Hidden>
@@ -1814,7 +1814,7 @@
           <RotationTravel>300.751341681574</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1827,7 +1827,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="rpm R N2 ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="rpm R N2 ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1836,7 +1836,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="rpm ss" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="rpm ss" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1845,7 +1845,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="ADI Tape" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomTape" Name="ADI Tape" SnapTarget="True" Locked="True">
           <Location>1329,212</Location>
           <Size>201,201</Size>
           <Hidden>False</Hidden>
@@ -1881,7 +1881,7 @@
           <MaxInputRotation>180</MaxInputRotation>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Round_Shadow.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1894,7 +1894,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 4 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 4 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1907,7 +1907,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Off Flag " SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Off Flag " SnapTarget="True" Locked="True">
           <Location>1388,270</Location>
           <Size>155,155</Size>
           <Hidden>False</Hidden>
@@ -1926,7 +1926,7 @@
           <RotationTravel>260.46511627907</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="ADI Bezel" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="ADI Bezel" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\ADI_Face.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1935,7 +1935,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Bank Pointer" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Bank Pointer" SnapTarget="True" Locked="True">
           <Location>1322,205</Location>
           <Size>214,214</Size>
           <Hidden>False</Hidden>
@@ -1954,7 +1954,7 @@
           <RotationTravel>180</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="ADI Wings" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="ADI Wings" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\ADI_Wings.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1963,7 +1963,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="adi ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="adi ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1972,7 +1972,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="Slip Ball Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomTape" Name="Slip Ball Gauge" SnapTarget="True" Locked="True">
           <Location>1301,270</Location>
           <Size>256,204</Size>
           <Hidden>False</Hidden>
@@ -2008,7 +2008,7 @@
           <MaxInputRotation>180</MaxInputRotation>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="slip centers" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="slip centers" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\Slip_Ball_Indicator_Marks.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2017,7 +2017,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="slip ends" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="slip ends" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\Slip_Indicator_End_Caps.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2026,7 +2026,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="adi ss" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="adi ss" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2035,7 +2035,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="alt ss" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="alt ss" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2044,7 +2044,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="VVI Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="VVI Gauge" SnapTarget="True" Locked="True">
           <Location>1645,503</Location>
           <Size>220,220</Size>
           <Hidden>False</Hidden>
@@ -2063,7 +2063,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2076,7 +2076,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="vvi ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="vvi ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2085,7 +2085,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Fuel Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Fuel Gauge" SnapTarget="True" Locked="True">
           <Location>1645,784</Location>
           <Size>220,220</Size>
           <Hidden>False</Hidden>
@@ -2104,7 +2104,7 @@
           <RotationTravel>214.150447227191</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2117,7 +2117,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2126,7 +2126,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Press Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Press Gauge" SnapTarget="True" Locked="True">
           <Location>778,869</Location>
           <Size>135,135</Size>
           <Hidden>False</Hidden>
@@ -2145,7 +2145,7 @@
           <RotationTravel>87.4538881896197</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="oil press ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="oil press ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2154,7 +2154,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Temp Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Temp Gauge" SnapTarget="True" Locked="True">
           <Location>936,869</Location>
           <Size>135,135</Size>
           <Hidden>False</Hidden>
@@ -2173,7 +2173,7 @@
           <RotationTravel>92.260296734346</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="oil temp ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="oil temp ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2182,7 +2182,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="DC Amp Gauge" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="DC Amp Gauge" SnapTarget="True" Locked="True">
           <Location>1092,869</Location>
           <Size>135,135</Size>
           <Hidden>False</Hidden>
@@ -2201,7 +2201,7 @@
           <RotationTravel>81.6861979359482</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="dc amps ring" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="dc amps ring" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2210,7 +2210,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="xmsn press base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="xmsn press base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\XMission_Oil_Press_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2219,7 +2219,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="xmsn press ind" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="xmsn press ind" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\XMission_Oil_Press_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -2245,7 +2245,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="xmsn temp base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="xmsn temp base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\XMission_Oil_Temp_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2254,7 +2254,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="xmsn temp ind" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="xmsn temp ind" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\XMission_Oil_Temp_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -2280,7 +2280,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="engine out base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="engine out base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Indicators\Engine_Out_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2289,7 +2289,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="engine out ind" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="engine out ind" SnapTarget="True" Locked="True">
           <OnImage>MadKreator37\OH-6A\Indicators\Engine_Out_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -2315,7 +2315,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Compass" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Compass" SnapTarget="True" Locked="True">
           <Location>1296,526</Location>
           <Size>311,311</Size>
           <Hidden>False</Hidden>
@@ -2334,7 +2334,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Needle" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Needle" SnapTarget="True" Locked="True">
           <Location>1296,526</Location>
           <Size>311,311</Size>
           <Hidden>False</Hidden>
@@ -2353,7 +2353,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Off Flag" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Off Flag" SnapTarget="True" Locked="True">
           <Location>1302,531</Location>
           <Size>155,155</Size>
           <Hidden>False</Hidden>
@@ -2372,7 +2372,7 @@
           <RotationTravel>45.1162790697674</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 3 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 3 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2386,7 +2386,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="HSI bezel" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="HSI bezel" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\HSI_Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2395,7 +2395,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Course Dev" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Course Dev" SnapTarget="True" Locked="True">
           <Location>1296,526</Location>
           <Size>311,311</Size>
           <Hidden>False</Hidden>
@@ -2414,7 +2414,7 @@
           <RotationTravel>86.5116279069768</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="decor" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="decor" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2423,7 +2423,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape" SnapTarget="True" Locked="True">
           <Location>579,77</Location>
           <Size>150,150</Size>
           <Hidden>False</Hidden>
@@ -2459,7 +2459,7 @@
           <MaxInputRotation>15</MaxInputRotation>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Round_Shadow.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2472,7 +2472,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 4 1 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 4 1 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2485,7 +2485,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="compass center" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="compass center" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\ADF_Compass_Center_Line.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2494,7 +2494,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Compass Base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Compass Base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Mag_Compass.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2503,7 +2503,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RAlt Digi" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="RAlt Digi" SnapTarget="True" Locked="True">
           <Location>1678,55</Location>
           <Size>114,61</Size>
           <Hidden>False</Hidden>
@@ -2594,7 +2594,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Altimeter Panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="Altimeter Panel" SnapTarget="True" Locked="True">
           <Location>1566,158</Location>
           <Size>336,323</Size>
           <Hidden>False</Hidden>
@@ -2802,7 +2802,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2811,7 +2811,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button" SnapTarget="True" Locked="True">
           <Location>821,60</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
@@ -2839,7 +2839,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2848,7 +2848,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="True">
           <Location>1455,1003</Location>
           <Size>41,41</Size>
           <Hidden>False</Hidden>
@@ -2876,7 +2876,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2885,7 +2885,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="True">
           <Location>1350,1003</Location>
           <Size>87,42</Size>
           <Hidden>False</Hidden>
@@ -2913,7 +2913,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2922,7 +2922,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="True">
           <Location>1292,1004</Location>
           <Size>41,41</Size>
           <Hidden>False</Hidden>
@@ -2950,7 +2950,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2959,7 +2959,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Markpoint Button" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Markpoint Button" SnapTarget="True" Locked="True">
           <Location>1517,1003</Location>
           <Size>50,40</Size>
           <Hidden>False</Hidden>
@@ -2987,7 +2987,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="control center base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="control center base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2996,7 +2996,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="control center button" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="control center button" SnapTarget="True" Locked="True">
           <Location>436,67</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
@@ -3024,7 +3024,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="KEYS BASE" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="KEYS BASE" SnapTarget="True" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3033,7 +3033,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="KEYS BUTTON " SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="KEYS BUTTON " SnapTarget="True" Locked="True">
           <Location>1723,742</Location>
           <Size>71,23</Size>
           <Hidden>False</Hidden>
@@ -3061,7 +3061,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3070,7 +3070,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1" SnapTarget="True" Locked="True">
           <Location>96,67</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
@@ -3098,7 +3098,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 1 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 1 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3107,7 +3107,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1 1" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1 1" SnapTarget="True" Locked="True">
           <Location>351,67</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
@@ -3135,7 +3135,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 2" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 2" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3144,7 +3144,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 2 1" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 2 1" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3153,7 +3153,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2" SnapTarget="True" Locked="True">
           <Location>266,67</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
@@ -3181,7 +3181,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2 1" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2 1" SnapTarget="True" Locked="True">
           <Location>181,67</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
@@ -3209,7 +3209,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="True">
           <Location>0,749</Location>
           <Size>545,331</Size>
           <Hidden>False</Hidden>
@@ -3375,7 +3375,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RWR Panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="RWR Panel" SnapTarget="True" Locked="True">
           <Location>489,763</Location>
           <Size>265,265</Size>
           <Hidden>False</Hidden>
@@ -3498,7 +3498,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Controls Panel argument activate" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="Controls Panel argument activate" SnapTarget="True" Locked="True">
           <Location>499,771</Location>
           <Size>250,245</Size>
           <Hidden>False</Hidden>
@@ -3718,7 +3718,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Controls Panel button activate" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="Controls Panel button activate" SnapTarget="True" Locked="True">
           <Location>499,771</Location>
           <Size>250,245</Size>
           <Hidden>True</Hidden>
@@ -3938,7 +3938,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="control repeater base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="control repeater base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3947,7 +3947,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="control repeater button" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="control repeater button" SnapTarget="True" Locked="True">
           <Location>993,60</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
@@ -3975,7 +3975,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="filler" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="filler" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Repeater_Filler.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3984,7 +3984,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="True">
           <Location>1580,773</Location>
           <Size>340,280</Size>
           <Hidden>True</Hidden>
@@ -4601,12 +4601,12 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Center Console Panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="Console Panel" SnapTarget="True" Locked="True">
           <Location>51,0</Location>
           <Size>700,1080</Size>
           <Hidden>True</Hidden>
           <Background>
-            <Color>#CA000000</Color>
+            <Color>#C1000000</Color>
           </Background>
           <Border>
             <TopLeftCorner />
@@ -4624,17 +4624,71 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="True">
-              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Center_Console.png</Image>
+            <Control TypeIdentifier="Helios.Base.Image" Name="filler" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Console_Fill_Panel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>17,19</Location>
-              <Size>664,1041</Size>
+              <Location>443,26</Location>
+              <Size>235,212</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="interphone upper mode dial" SnapTarget="True" Locked="True">
-              <Location>168,110</Location>
+            <Control TypeIdentifier="Helios.Base.Image" Name="electronics panel" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Electronic_Panel_HR.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>20,694</Location>
+              <Size>660,357</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="cmws panel" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\OH-6A\Bezels_And_Faces\CMWS_Panel_HR.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>20,587</Location>
+              <Size>422,107</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="weapons panel" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Gun_Rocket_Panel_HR.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>20,452</Location>
+              <Size>422,135</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="icom 2" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Intercom_Panel_HR.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>20,238</Location>
+              <Size>422,214</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="icom1 panel" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Intercom_Panel_HR.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>20,24</Location>
+              <Size>422,214</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="lighting panel" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Lighting_Panel_HR.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>444,239</Location>
+              <Size>235,456</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="interphone upper mode dial" SnapTarget="True" Locked="False">
+              <Location>172,118</Location>
               <Size>118,118</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A\Buttons_Switches_Knobs\Knob_8.png</KnobImage>
@@ -4652,8 +4706,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="interphone lower mode dial" SnapTarget="True" Locked="True">
-              <Location>168,330</Location>
+            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="interphone lower mode dial" SnapTarget="True" Locked="False">
+              <Location>173,333</Location>
               <Size>118,118</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A\Buttons_Switches_Knobs\Knob_8.png</KnobImage>
@@ -4671,8 +4725,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="interphone lower vol" SnapTarget="True" Locked="True">
-              <Location>74,369</Location>
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="interphone lower vol" SnapTarget="True" Locked="False">
+              <Location>79,370</Location>
               <Size>90,90</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -4689,8 +4743,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="interphone upper vol" SnapTarget="True" Locked="True">
-              <Location>74,145</Location>
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="interphone upper vol" SnapTarget="True" Locked="False">
+              <Location>78,156</Location>
               <Size>90,90</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -4707,8 +4761,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="sw pan brt kb" SnapTarget="True" Locked="True">
-              <Location>466,437</Location>
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="sw pan brt kb" SnapTarget="True" Locked="False">
+              <Location>467,437</Location>
               <Size>90,90</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -4725,8 +4779,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="radio brt kb" SnapTarget="True" Locked="True">
-              <Location>565,438</Location>
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="radio brt kb" SnapTarget="True" Locked="False">
+              <Location>566,438</Location>
               <Size>90,90</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -4743,8 +4797,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="flight brt kb" SnapTarget="True" Locked="True">
-              <Location>566,559</Location>
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="flight brt kb" SnapTarget="True" Locked="False">
+              <Location>567,559</Location>
               <Size>90,90</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -4761,8 +4815,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="engine brt kb" SnapTarget="True" Locked="True">
-              <Location>466,559</Location>
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="engine brt kb" SnapTarget="True" Locked="False">
+              <Location>467,559</Location>
               <Size>90,90</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -4779,8 +4833,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="rock pair" SnapTarget="True" Locked="True">
-              <Location>179,493</Location>
+            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="rock pair" SnapTarget="True" Locked="False">
+              <Location>184,495</Location>
               <Size>55,55</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A\Buttons_Switches_Knobs\Knob_6.png</KnobImage>
@@ -4800,9 +4854,9 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="anti coll" SnapTarget="True" Locked="True">
-              <Location>595,332</Location>
-              <Size>20,44</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="anti coll" SnapTarget="True" Locked="False">
+              <Location>594,330</Location>
+              <Size>21,50</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -4812,9 +4866,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="cmws arm" SnapTarget="True" Locked="True">
-              <Location>147,616</Location>
-              <Size>20,44</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="cmws arm" SnapTarget="True" Locked="False">
+              <Location>153,614</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -4824,9 +4878,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Pos Lt" SnapTarget="True" Locked="True">
-              <Location>508,332</Location>
-              <Size>20,45</Size>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Pos Lt" SnapTarget="True" Locked="False">
+              <Location>507,331</Location>
+              <Size>22,50</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -4837,8 +4891,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gyro" SnapTarget="True" Locked="True">
-              <Location>65,773</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gyro" SnapTarget="True" Locked="False">
+              <Location>75,766</Location>
               <Size>25,83</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4849,8 +4903,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Aux Tank" SnapTarget="True" Locked="True">
-              <Location>142,773</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Aux Tank" SnapTarget="True" Locked="False">
+              <Location>147,766</Location>
               <Size>25,83</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4861,8 +4915,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Inverter" SnapTarget="True" Locked="True">
-              <Location>69,920</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Inverter" SnapTarget="True" Locked="False">
+              <Location>75,912</Location>
               <Size>25,83</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4873,8 +4927,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Fuel Pump" SnapTarget="True" Locked="True">
-              <Location>218,787</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Fuel Pump" SnapTarget="True" Locked="False">
+              <Location>223,779</Location>
               <Size>26,60</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4885,8 +4939,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gen" SnapTarget="True" Locked="True">
-              <Location>142,933</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gen" SnapTarget="True" Locked="False">
+              <Location>146,926</Location>
               <Size>26,60</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4897,9 +4951,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Batt" SnapTarget="True" Locked="True">
-              <Location>294,937</Location>
-              <Size>30,70</Size>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Batt" SnapTarget="True" Locked="False">
+              <Location>296,932</Location>
+              <Size>31,72</Size>
               <Rotation>CW</Rotation>
               <Hidden>False</Hidden>
               <SwitchType>OnOnOn</SwitchType>
@@ -4911,27 +4965,27 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="flare button" SnapTarget="True" Locked="True">
-              <Location>276,626</Location>
-              <Size>36,35</Size>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="flare button" SnapTarget="True" Locked="False">
+              <Location>281,622</Location>
+              <Size>38,38</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Flare_Button_Norm.png</Image>
               <PushedImage>MadKreator37\OH-6A\Buttons_Switches_Knobs\Flare_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="jett sw base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="jett sw base" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Switch_2_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>340,519</Location>
-              <Size>27,25</Size>
+              <Location>345,518</Location>
+              <Size>27,28</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Jett Switch" SnapTarget="True" Locked="True">
-              <Location>345,512</Location>
-              <Size>18,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Jett Switch" SnapTarget="True" Locked="False">
+              <Location>349,509</Location>
+              <Size>20,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>MomOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -4941,8 +4995,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard " SnapTarget="True" Locked="True">
-              <Location>336,443</Location>
+            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard " SnapTarget="True" Locked="False">
+              <Location>341,446</Location>
               <Size>38,116</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4960,9 +5014,9 @@
               <DefaultGuardPosition>Down</DefaultGuardPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch" SnapTarget="True" Locked="True">
-              <Location>305,770</Location>
-              <Size>81,90</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch" SnapTarget="True" Locked="False">
+              <Location>309,761</Location>
+              <Size>90,100</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -4972,9 +5026,9 @@
               <DefaultPosition>One</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1" SnapTarget="True" Locked="True">
-              <Location>89,33</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1" SnapTarget="True" Locked="False">
+              <Location>92,40</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -4984,9 +5038,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1" SnapTarget="True" Locked="True">
-              <Location>135,33</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1" SnapTarget="True" Locked="False">
+              <Location>139,40</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -4996,9 +5050,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 1" SnapTarget="True" Locked="True">
-              <Location>183,33</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 1" SnapTarget="True" Locked="False">
+              <Location>186,40</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5008,9 +5062,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2" SnapTarget="True" Locked="True">
-              <Location>233,33</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2" SnapTarget="True" Locked="False">
+              <Location>237,40</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5020,9 +5074,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2 1" SnapTarget="True" Locked="True">
-              <Location>280,33</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2 1" SnapTarget="True" Locked="False">
+              <Location>284,40</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5032,9 +5086,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2 1 1" SnapTarget="True" Locked="True">
-              <Location>334,33</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2 1 1" SnapTarget="True" Locked="False">
+              <Location>337,40</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5044,9 +5098,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2" SnapTarget="True" Locked="True">
-              <Location>88,254</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2" SnapTarget="True" Locked="False">
+              <Location>91,254</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5056,9 +5110,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1" SnapTarget="True" Locked="True">
-              <Location>135,253</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1" SnapTarget="True" Locked="False">
+              <Location>139,254</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5068,9 +5122,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1" SnapTarget="True" Locked="True">
-              <Location>182,252</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1" SnapTarget="True" Locked="False">
+              <Location>186,254</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5080,9 +5134,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1" SnapTarget="True" Locked="True">
-              <Location>234,252</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1" SnapTarget="True" Locked="False">
+              <Location>237,254</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5092,9 +5146,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1 1" SnapTarget="True" Locked="True">
-              <Location>279,252</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1 1" SnapTarget="True" Locked="False">
+              <Location>284,254</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5104,9 +5158,9 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1 1 1" SnapTarget="True" Locked="True">
-              <Location>333,253</Location>
-              <Size>17,39</Size>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1 1 1" SnapTarget="True" Locked="False">
+              <Location>337,254</Location>
+              <Size>19,44</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5116,17 +5170,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Image 1" SnapTarget="False" Locked="True">
-              <Image>MadKreator37\OH-6A\Bezels_And_Faces\CMWS_Cover.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>17,589</Location>
-              <Size>420,107</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch 1" SnapTarget="True" Locked="True">
-              <Location>52,473</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch 1" SnapTarget="True" Locked="False">
+              <Location>60,473</Location>
               <Size>22,50</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -5135,6 +5180,15 @@
               <PositionOneImage>MadKreator37\OH-6A\Buttons_Switches_Knobs\Switch_2_Up.png</PositionOneImage>
               <PositionTwoImage>MadKreator37\OH-6A\Buttons_Switches_Knobs\Switch_2_Dn.png</PositionTwoImage>
               <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="cmws cover" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\OH-6A\Bezels_And_Faces\CMWS_Cover.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>20,588</Location>
+              <Size>422,105</Size>
+              <Hidden>False</Hidden>
               <Children />
             </Control>
           </Children>
@@ -5237,26 +5291,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Function.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio master selector;Helios.Base.RotarySwitch;radio master selector" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Mode.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio mode selector;Helios.Base.RotarySwitch;radio mode selector" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Volume.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio vol;Helios.Base.Potentiometer;radio vol" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Squelch.changed" />
-      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.squelch switch;Helios.Base.ToggleSwitch;squelch switch" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.deci Megacycle.changed" />
       <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 2;Helios.Base.CalibrationFilter;Calibration Filter 2" Name="Input.set.Value" />
       <TriggerValue />
@@ -5274,6 +5308,26 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Preset Channel.changed" />
       <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.Calibration Filter 3;Helios.Base.CalibrationFilter;Calibration Filter 3" Name="Input.set.Value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Function.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio master selector;Helios.Base.RotarySwitch;radio master selector" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Mode.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio mode selector;Helios.Base.RotarySwitch;radio mode selector" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Volume.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.radio vol;Helios.Base.Potentiometer;radio vol" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="AN_ARC_51.Squelch.changed" />
+      <Action Target="Visual;Monitor 2.ANARC 51 Radio panel.squelch switch;Helios.Base.ToggleSwitch;squelch switch" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5587,176 +5641,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Select.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.interphone upper mode dial;Helios.Base.RotarySwitch;interphone upper mode dial" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Select.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.interphone lower mode dial;Helios.Base.RotarySwitch;interphone lower mode dial" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Vol.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.interphone lower vol;Helios.Base.Potentiometer;interphone lower vol" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Vol.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.interphone upper vol;Helios.Base.Potentiometer;interphone upper vol" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Panel.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.sw pan brt kb;Helios.Base.Potentiometer;sw pan brt kb" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Radio.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.radio brt kb;Helios.Base.Potentiometer;radio brt kb" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Flight.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.flight brt kb;Helios.Base.Potentiometer;flight brt kb" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Engine.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.engine brt kb;Helios.Base.Potentiometer;engine brt kb" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Rocket Pairs.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.rock pair;Helios.Base.RotarySwitch;rock pair" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.Anti. Col. OFF/ON.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.anti coll;Helios.Base.ToggleSwitch;anti coll" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.CMWS Arm/Safe.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.cmws arm;Helios.Base.ToggleSwitch;cmws arm" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.Pos. light DIM/OFF/BRT.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Pos Lt;Helios.Base.ThreeWayToggleSwitch;Pos Lt" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Gyro. ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Gyro;Helios.Base.ToggleSwitch;Gyro" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Aux. tank ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Aux Tank;Helios.Base.ToggleSwitch;Aux Tank" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Inverter ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Inverter;Helios.Base.ToggleSwitch;Inverter" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Fuelpump ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Fuel Pump;Helios.Base.ToggleSwitch;Fuel Pump" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Gen ON/OFF.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Gen;Helios.Base.ToggleSwitch;Gen" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Power BATT/OFF/EXT.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Batt;Helios.Base.ThreeWayToggleSwitch;Batt" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Flare Dispense.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.flare button;Helios.Base.PushButton;flare button" Name="set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Jettison.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Jettison Cover.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Guard ;Helios.Base.GuardedSwitch;Guard " Name="set.guard position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="FUEL_INTERFACE.Fuel Valve.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 1.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1;Helios.Base.ToggleSwitch;gun rock select 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 2.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 3.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 4.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 1 2;Helios.Base.ToggleSwitch;gun rock select 1 1 2" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Int.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 1 2 1;Helios.Base.ToggleSwitch;gun rock select 1 1 2 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Nav.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1 2 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 1.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2;Helios.Base.ToggleSwitch;gun rock select 1 2" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 2.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 3.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 4.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Int.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Nav.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="RWR.RWR, Brightness.changed" />
       <Action Target="Visual;Monitor 2.RWR Panel.rwr brilliance ;Helios.Base.Potentiometer;rwr brilliance " Name="set.value" />
       <TriggerValue />
@@ -5772,18 +5656,8 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Gun/Rockets.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Toggle Switch 1;Helios.Base.ToggleSwitch;Toggle Switch 1" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Cyclic_Pitch.changed" />
-      <Action Target="Visual;Monitor 2.Controls Panel argument activate.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Cyclic_Roll.changed" />
-      <Action Target="Visual;Monitor 2.Controls Panel argument activate.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Horizontal Offset" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.RWR_VISIBLE.changed" />
+      <Action Target="Visual;Monitor 2.Controls Panel argument activate;Helios.Panel;Controls Panel argument activate" Name="set.hidden" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5797,18 +5671,13 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.FLARES_EQUIPPED.changed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel.Image 1;Helios.Base.Image;Image 1" Name="set.hidden" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Cyclic_Pitch.changed" />
+      <Action Target="Visual;Monitor 2.Controls Panel argument activate.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Vertical Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.RWR_VISIBLE.changed" />
-      <Action Target="Visual;Monitor 2.Controls Panel argument activate;Helios.Panel;Controls Panel argument activate" Name="set.hidden" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.RWR_VISIBLE.changed" />
-      <Action Target="Visual;Monitor 2.filler;Helios.Base.Image;filler" Name="set.hidden" />
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Cyclic_Roll.changed" />
+      <Action Target="Visual;Monitor 2.Controls Panel argument activate.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Horizontal Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5829,6 +5698,196 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.Cyclic_Roll.changed" />
       <Action Target="Visual;Monitor 2.Controls Panel button activate.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.RWR_VISIBLE.changed" />
+      <Action Target="Visual;Monitor 2.filler;Helios.Base.Image;filler" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.FLARES_EQUIPPED.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.cmws cover;Helios.Base.Image;cmws cover" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.FLARES_EQUIPPED.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.cmws panel;Helios.Base.Image;cmws panel" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Select.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.interphone upper mode dial;Helios.Base.RotarySwitch;interphone upper mode dial" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Select.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.interphone lower mode dial;Helios.Base.RotarySwitch;interphone lower mode dial" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Vol.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.interphone lower vol;Helios.Base.Potentiometer;interphone lower vol" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Vol.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.interphone upper vol;Helios.Base.Potentiometer;interphone upper vol" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Panel.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.sw pan brt kb;Helios.Base.Potentiometer;sw pan brt kb" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Radio.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.radio brt kb;Helios.Base.Potentiometer;radio brt kb" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Flight.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.flight brt kb;Helios.Base.Potentiometer;flight brt kb" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.Engine.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.engine brt kb;Helios.Base.Potentiometer;engine brt kb" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Rocket Pairs.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.rock pair;Helios.Base.RotarySwitch;rock pair" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.Anti. Col. OFF/ON.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.anti coll;Helios.Base.ToggleSwitch;anti coll" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.CMWS Arm/Safe.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.cmws arm;Helios.Base.ToggleSwitch;cmws arm" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.Pos. light DIM/OFF/BRT.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Pos Lt;Helios.Base.ThreeWayToggleSwitch;Pos Lt" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Gyro. ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Gyro;Helios.Base.ToggleSwitch;Gyro" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Aux. tank ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Aux Tank;Helios.Base.ToggleSwitch;Aux Tank" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Inverter ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Inverter;Helios.Base.ToggleSwitch;Inverter" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Fuelpump ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Fuel Pump;Helios.Base.ToggleSwitch;Fuel Pump" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Gen ON/OFF.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Gen;Helios.Base.ToggleSwitch;Gen" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.Power BATT/OFF/EXT.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Batt;Helios.Base.ThreeWayToggleSwitch;Batt" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Flare Dispense.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.flare button;Helios.Base.PushButton;flare button" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Jettison.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Jettison Cover.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Guard ;Helios.Base.GuardedSwitch;Guard " Name="set.guard position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="FUEL_INTERFACE.Fuel Valve.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 1.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1;Helios.Base.ToggleSwitch;gun rock select 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 2.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 3.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 4.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 1 2;Helios.Base.ToggleSwitch;gun rock select 1 1 2" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Int.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 1 2 1;Helios.Base.ToggleSwitch;gun rock select 1 1 2 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom1 Nav.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1 2 1 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 1.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 2;Helios.Base.ToggleSwitch;gun rock select 1 2" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 2.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 2 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 3.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 4.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 2 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Int.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 2 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.Intercom2 Nav.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.gun rock select 1 2 1 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Gun/Rockets.changed" />
+      <Action Target="Visual;Monitor 2.Console Panel.Toggle Switch 1;Helios.Base.ToggleSwitch;Toggle Switch 1" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -6033,12 +6092,12 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Console button;Helios.Base.PushButton;Console button" Name="closed" />
-      <Action Target="Visual;Monitor 2.Center Console Panel;Helios.Panel;Center Console Panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.Console Panel;Helios.Panel;Console Panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Console button;Helios.Base.PushButton;Console button" Name="open" />
-      <Action Target="Visual;Monitor 2.Center Console Panel;Helios.Panel;Center Console Panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.Console Panel;Helios.Panel;Console Panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -6119,7 +6178,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen;Helios.Base.Text;Splash Screen" Name="set.Text" />
-      <LuaScript>return(string.sub("  _ProfileVersionNumber  _BuildDate ",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub("  V 1.0.3  11 Nov 2024 ",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
@@ -6297,187 +6356,187 @@
       <StaticValue>{ESCAPE}</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.interphone upper mode dial;Helios.Base.RotarySwitch;interphone upper mode dial" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.interphone upper mode dial;Helios.Base.RotarySwitch;interphone upper mode dial" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom1 Select" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.interphone lower mode dial;Helios.Base.RotarySwitch;interphone lower mode dial" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.interphone lower mode dial;Helios.Base.RotarySwitch;interphone lower mode dial" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom2 Select" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.interphone lower vol;Helios.Base.Potentiometer;interphone lower vol" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.interphone lower vol;Helios.Base.Potentiometer;interphone lower vol" Name="value.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom2 Vol" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.interphone upper vol;Helios.Base.Potentiometer;interphone upper vol" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.interphone upper vol;Helios.Base.Potentiometer;interphone upper vol" Name="value.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom1 Vol" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.sw pan brt kb;Helios.Base.Potentiometer;sw pan brt kb" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.sw pan brt kb;Helios.Base.Potentiometer;sw pan brt kb" Name="value.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.set.Panel" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.radio brt kb;Helios.Base.Potentiometer;radio brt kb" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.radio brt kb;Helios.Base.Potentiometer;radio brt kb" Name="value.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.set.Radio" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.flight brt kb;Helios.Base.Potentiometer;flight brt kb" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.flight brt kb;Helios.Base.Potentiometer;flight brt kb" Name="value.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.set.Flight" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.engine brt kb;Helios.Base.Potentiometer;engine brt kb" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.engine brt kb;Helios.Base.Potentiometer;engine brt kb" Name="value.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT.set.Engine" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.rock pair;Helios.Base.RotarySwitch;rock pair" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.rock pair;Helios.Base.RotarySwitch;rock pair" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.set.Rocket Pairs" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.anti coll;Helios.Base.ToggleSwitch;anti coll" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.anti coll;Helios.Base.ToggleSwitch;anti coll" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.set.Anti. Col. OFF/ON" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.cmws arm;Helios.Base.ToggleSwitch;cmws arm" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.cmws arm;Helios.Base.ToggleSwitch;cmws arm" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.set.CMWS Arm/Safe" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Pos Lt;Helios.Base.ThreeWayToggleSwitch;Pos Lt" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Pos Lt;Helios.Base.ThreeWayToggleSwitch;Pos Lt" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="LIGHT_INTERFACE.set.Pos. light DIM/OFF/BRT" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Gyro;Helios.Base.ToggleSwitch;Gyro" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Gyro;Helios.Base.ToggleSwitch;Gyro" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.set.Gyro. ON/OFF" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Aux Tank;Helios.Base.ToggleSwitch;Aux Tank" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Aux Tank;Helios.Base.ToggleSwitch;Aux Tank" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.set.Aux. tank ON/OFF" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Inverter;Helios.Base.ToggleSwitch;Inverter" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Inverter;Helios.Base.ToggleSwitch;Inverter" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.set.Inverter ON/OFF" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Fuel Pump;Helios.Base.ToggleSwitch;Fuel Pump" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Fuel Pump;Helios.Base.ToggleSwitch;Fuel Pump" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.set.Fuelpump ON/OFF" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Gen;Helios.Base.ToggleSwitch;Gen" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Gen;Helios.Base.ToggleSwitch;Gen" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.set.Gen ON/OFF" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Batt;Helios.Base.ThreeWayToggleSwitch;Batt" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Batt;Helios.Base.ThreeWayToggleSwitch;Batt" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="ELECTRIC_SYSTEM.set.Power BATT/OFF/EXT" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.flare button;Helios.Base.PushButton;flare button" Name="closed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.flare button;Helios.Base.PushButton;flare button" Name="closed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.push.Flare Dispense" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.flare button;Helios.Base.PushButton;flare button" Name="open" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.flare button;Helios.Base.PushButton;flare button" Name="open" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.release.Flare Dispense" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.set.Jettison" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Guard ;Helios.Base.GuardedSwitch;Guard " Name="guard position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Guard ;Helios.Base.GuardedSwitch;Guard " Name="guard position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.set.Jettison Cover" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="position two.entered" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="position two.entered" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="FUEL_INTERFACE.set.Fuel Valve" />
       <StaticValue>2</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="position one.entered" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="position one.entered" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="FUEL_INTERFACE.set.Fuel Valve" />
       <StaticValue>1</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1;Helios.Base.ToggleSwitch;gun rock select 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1;Helios.Base.ToggleSwitch;gun rock select 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom1 1" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom1 2" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom1 3" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 1 2;Helios.Base.ToggleSwitch;gun rock select 1 1 2" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 1 2;Helios.Base.ToggleSwitch;gun rock select 1 1 2" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom1 4" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 1 2 1;Helios.Base.ToggleSwitch;gun rock select 1 1 2 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 1 2 1;Helios.Base.ToggleSwitch;gun rock select 1 1 2 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom1 Int" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1 2 1 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 1 2 1 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom1 Nav" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 2;Helios.Base.ToggleSwitch;gun rock select 1 2" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 2;Helios.Base.ToggleSwitch;gun rock select 1 2" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom2 1" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 2 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom2 2" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 2 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom2 3" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 2 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom2 4" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 2 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom2 Int" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.gun rock select 1 2 1 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.gun rock select 1 2 1 1 1 1 1;Helios.Base.ToggleSwitch;gun rock select 1 2 1 1 1 1 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="INTERCOM_INTERFACE.set.Intercom2 Nav" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Center Console Panel.Toggle Switch 1;Helios.Base.ToggleSwitch;Toggle Switch 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Console Panel.Toggle Switch 1;Helios.Base.ToggleSwitch;Toggle Switch 1" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.set.Gun/Rockets" />
       <TriggerValue />
     </Binding>

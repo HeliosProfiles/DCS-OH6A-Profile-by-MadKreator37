@@ -30,11 +30,15 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 1: Fixed Gun/Rocket switch.
 2: Added a blank panel that hides the CMWS panel when not in use.
-3: Added a Controls Indicator repeater panel that covers/ appears when the RWR when not in use.
+3: Added a Controls Indicator repeater panel that covers/ appears when the RWR is not in use.
     3a. When RWR is activated in ME, the added controls repeater is able to be toggled by a switch that also un-hides.
 4: Misc interface Adjustments
 
 ![Screenshot 2024-11-10 212104](https://github.com/user-attachments/assets/c7583f6d-03a3-4454-b639-555cd5382299)
+
+###CHANGELOG FROM 1.0.3
+
+1. Center console has new individual panel images so it can pulled apart easier, for multi-screen use.
 
 ### ENJOY!
 
