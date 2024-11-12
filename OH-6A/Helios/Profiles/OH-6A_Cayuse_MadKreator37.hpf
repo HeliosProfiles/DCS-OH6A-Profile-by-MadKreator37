@@ -6178,7 +6178,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen;Helios.Base.Text;Splash Screen" Name="set.Text" />
-      <LuaScript>return(string.sub("  V 1.0.3  11 Nov 2024 ",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub("  _ProfileVersionNumber  _BuildDate  ",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
