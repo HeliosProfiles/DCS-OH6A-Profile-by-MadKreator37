@@ -17,6 +17,7 @@ env:
   VEHICLECOMMONNAME: OH-6A Cayuse
   MINHELIOSRELEASE: 1.6.6110.0005
   PROFILENAME: OH-6A_Cayuse_MadKreator37
+  NIGHTPROFILENAME: OH-6A_Cayuse_Night_MadKreator37
   AUTHOR: MadKreator37
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -65,16 +66,24 @@ jobs:
       - name: execute python script(s) to adjust the profile
         run: |
           echo "Adjust the profile internals"
-          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf' '.github/workflows/VariantBindings.xml' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf.newbindings'
           python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf.new'
           sed -i -- 's#Visual;Monitor 2#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 3#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 4#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 5#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 6#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
-          # rm '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf.newbindings'
           rm '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf'
           mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf'
+        run: |
+          echo "Adjust the Night profile internals"
+          python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.NIGHTPROFILENAME }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.NIGHTPROFILENAME }}.hpf.new'
+          sed -i -- 's#Visual;Monitor 2#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf.new'
+          sed -i -- 's#Visual;Monitor 3#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf.new'
+          sed -i -- 's#Visual;Monitor 4#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf.new'
+          sed -i -- 's#Visual;Monitor 5#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf.new'
+          sed -i -- 's#Visual;Monitor 6#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf.new'
+          rm '${{ env.VEHICLE }}/Helios/Profiles/${{ env.NIGHTPROFILENAME }}.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.NIGHTPROFILENAME }}.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.NIGHTPROFILENAME }}.hpf'
       - run: |
           mkdir -p output
           smallTag=$(echo ${{ steps.bump_tag.outputs.tag }} | cut -c1-5)
@@ -99,6 +108,14 @@ jobs:
           sed -i -- 's#_ProjectURL#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
           sed -i -- 's#_commit#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
+      - run: |
+          sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
+          sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
+          sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
+          sed -i -- 's#_Author#'"${{ env.AUTHOR }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
+          sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
+          sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.NIGHTPROFILENAME }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
       - name: Package Files
         run: |
           mv ./${{ env.VEHICLE }}/Helios .
