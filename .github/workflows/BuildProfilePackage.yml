@@ -74,6 +74,7 @@ jobs:
           sed -i -- 's#Visual;Monitor 6#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf.new'
           rm '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf'
           mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.PROFILENAME }}.hpf'
+      - name: execute python script(s) to adjust the Night profile
         run: |
           echo "Adjust the Night profile internals"
           python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.NIGHTPROFILENAME }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.NIGHTPROFILENAME }}.hpf.new'
