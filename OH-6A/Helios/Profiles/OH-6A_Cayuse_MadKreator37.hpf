@@ -3209,17 +3209,17 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="night button base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="night button base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>222,995</Location>
+          <Location>812,311</Location>
           <Size>100,50</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Switch to Night button " SnapTarget="True" Locked="True">
-          <Location>235,1000</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Switch to Night button " SnapTarget="True" Locked="False">
+          <Location>825,316</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
