@@ -3,10 +3,13 @@
 
 This is a Helios profile for the amazing OH-6A Community Mod, created by Tobsen and Eightball, designed for DCS World and contributed by @MadKreator37 and @Bluefinbima. 
 This profile utilizes an aircraft specifc interface which was written into the Helios Virtual Cockpit project.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
+
 There are 2 Profiles included: One for day and one for night. Although they are separate, there is a button to swap between them without haviung to use Control Center.
 
 Both profiles need to be set up separately, after they are downloaded and installed. 
+
 After initial install, you will be shown the following screen instructing you to open each profile and set them up individually. It will not autoimatically open them for setup.
+![Screenshot 2024-12-01 163438](https://github.com/user-attachments/assets/c448b42e-5f82-4ded-998b-625ccc3a98bd)
 
 
 
@@ -30,6 +33,7 @@ This profile was designed and created by myself, in close collaboration with Blu
 ### IMAGES
 ![Screenshot 2024-11-06 195534](https://github.com/user-attachments/assets/54d9c0fd-a8d9-4f30-ae3b-a3c3974b0629)
 ![Screenshot 2024-11-06 195547](https://github.com/user-attachments/assets/6f31393c-1a9d-48f7-b1c2-b3477fcddd0b)
+![Screenshot 2024-12-01 193050](https://github.com/user-attachments/assets/1917c675-a7f7-4db3-a68d-cd655eca18ec)
 
 ### CHANGELOG FROM 1.0.1
 
