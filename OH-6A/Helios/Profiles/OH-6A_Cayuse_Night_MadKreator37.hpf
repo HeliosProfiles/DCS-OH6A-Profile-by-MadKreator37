@@ -45,7 +45,7 @@
           <ViewportName>OH6A_RWR</ViewportName>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Background" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Background" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A-Night\Main_BG_T1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6213,6 +6213,43 @@
             </Control>
           </Children>
         </Control>
+        <Control TypeIdentifier="Helios.Base.Image" Name="night button base" SnapTarget="False" Locked="False">
+          <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
+          <Alignment>Stretched</Alignment>
+          <CornerRadius>0</CornerRadius>
+          <Location>222,995</Location>
+          <Size>100,50</Size>
+          <Hidden>False</Hidden>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="night button " SnapTarget="True" Locked="False">
+          <Location>235,1000</Location>
+          <Size>71,34</Size>
+          <Hidden>False</Hidden>
+          <Type>Momentary</Type>
+          <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
+          <Text>
+            <Color>#FFABA67A</Color>
+            <Font>
+              <FontFamily>MS 33558 Regular</FontFamily>
+              <FontStyle>Normal</FontStyle>
+              <FontWeight>Normal</FontWeight>
+              <FontSize>10</FontSize>
+              <HorizontalAlignment>Center</HorizontalAlignment>
+              <VerticalAlignment>Top</VerticalAlignment>
+              <Padding>
+                <Left>0</Left>
+                <Top>0.211223267055264</Top>
+                <Right>0</Right>
+                <Bottom>0.211223267055264</Bottom>
+              </Padding>
+            </Font>
+            <Text>DAY</Text>
+            <ScalingMode>None</ScalingMode>
+          </Text>
+          <Children />
+        </Control>
       </Children>
     </Monitor>
     <Monitor>
@@ -7739,6 +7776,11 @@
       <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel 1;Helios.Panel.Timer;trigger panel 1" Name="hidden" />
       <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.night button ;Helios.Base.PushButton;night button " Name="released" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="transfer control" />
+      <StaticValue>OH-6A__ProfileVersionNumber_MadKreator37.hpf</StaticValue>
     </Binding>
   </Bindings>
 </HeliosProfile>
