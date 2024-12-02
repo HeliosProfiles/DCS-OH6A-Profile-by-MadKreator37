@@ -1,22 +1,20 @@
 
 # Helios Profile for OH-6A Cayuse (Community Mod) by MadKreator37
 
+### Minimum Helios version required: 1.6.6110.0005
+### Please download and install via the Helios16 installer under ASSETS. Do not clone the repo and copy the files. The profile will not function correctly!
+
 This is a Helios profile for the amazing OH-6A Community Mod, created by Tobsen and Eightball, designed for DCS World and contributed by @MadKreator37 and @Bluefinbima. 
 This profile utilizes an aircraft specifc interface which was written into the Helios Virtual Cockpit project.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 
-There are 2 Profiles included: One for day and one for night. Although they are separate, there is a button to swap between them without haviung to use Control Center.
+There are 2 profiles included. One for day and one for night. Although they are separate, there is a button to swap between them without having to use Control Center.
 
-Both profiles need to be set up separately, after they are downloaded and installed. 
+Both profiles need to be set up separately after they are downloaded and installed. 
 
-After initial install, you will be shown the following screen instructing you to open each profile and set them up individually. It will not autoimatically open them for setup.
+After initial install, you will be shown the following screen instructing you to open each profile and set them up individually. It will not autoimatically open them for setup like normal.
 ![Screenshot 2024-12-01 163438](https://github.com/user-attachments/assets/c448b42e-5f82-4ded-998b-625ccc3a98bd)
 
 
-
-### ABOUT
-
-### Minimum Helios version required: 1.6.6110.0005
-### Please download and install via the Helios16 installer under ASSETS. Do not clone the repo and copy the files. The profile will not function correctly!
 
 ### IMPORTANT! PLEASE READ!
    There are a couple files that need to be added manually, if you want the Fuel on/off Valve to function and the RWR export to work, for the time being. After Installing, in the Documents/Helios folder, you will find a folder called "_OH-6A_Manually _Replace". Open it, LOOK AT THE README and the screenshots of where to put the included folder, "Mods". 
@@ -25,6 +23,7 @@ After initial install, you will be shown the following screen instructing you to
 ![Screenshot 2024-11-06 194810](https://github.com/user-attachments/assets/6aa17d92-f451-4b4e-856d-b6dd6c7b2637)
 
 
+### ABOUT
 This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the OH-6A cockpit and texture files. Every piece used is specific to the OH-6A.  The hope is to bring you the most complete, visually appealing and easy to use profile for the OH-6A Cayuse in DCS that we could. There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu, f-keys, Kneeboard functions, doors, gunsight, visor etc. 
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
