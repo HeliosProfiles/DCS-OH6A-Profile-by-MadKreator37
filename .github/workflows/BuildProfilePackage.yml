@@ -89,6 +89,7 @@ jobs:
           mkdir -p output
           smallTag=$(echo ${{ steps.bump_tag.outputs.tag }} | cut -c1-5)
           echo 'Small Tag= '$smallTag
+          sed -i -- 's#_ProfileVersionNumberNoV#'"${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
           sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
           sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
           sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.PROFILENAME }}'.hpf'
@@ -110,6 +111,7 @@ jobs:
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
           sed -i -- 's#_commit#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
       - run: |
+          sed -i -- 's#_ProfileVersionNumberNoV#'"${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
           sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
           sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
           sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.NIGHTPROFILENAME }}'.hpf'
