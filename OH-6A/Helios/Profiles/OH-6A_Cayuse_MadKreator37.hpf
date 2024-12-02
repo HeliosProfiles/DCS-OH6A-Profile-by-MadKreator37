@@ -6200,7 +6200,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Switch to Night button ;Helios.Base.PushButton;Switch to Night button " Name="released" />
       <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="transfer control" />
-      <StaticValue>OH-6A_Night__ProfileVersionNumber_MadKreator37.hpf</StaticValue>
+      <StaticValue>OH-6A_Night__ProfileVersionNumberNoV_MadKreator37.hpf</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
