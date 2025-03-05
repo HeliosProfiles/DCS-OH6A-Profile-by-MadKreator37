@@ -46,7 +46,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: HeliosVirtualCockpit
-          DEFAULT_BUMP: 'patch'
+          DEFAULT_BUMP: patch
           INITIAL_VERSION: '0.0.0'
       - name: Check outputs
         run: |
