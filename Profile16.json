@@ -11,7 +11,7 @@
 	"VersionsRequired": [
 		{
 			"Product":	"Helios",
-			"Minimum":	"1.6.6110.0005",
+			"Minimum":	"1.6.6130.0000",
 			"Maximum":	null
 		}
 	],
@@ -29,7 +29,7 @@
 					"VersionsRequired": [
 											{
 												"Product":	"Helios",
-												"Minimum":	"1.6.6110.0005",
+												"Minimum":	"1.6.6130.0000",
 												"Maximum":	null
 											}
 										],
