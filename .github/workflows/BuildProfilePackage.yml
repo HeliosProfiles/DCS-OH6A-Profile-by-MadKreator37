@@ -123,7 +123,7 @@ jobs:
         run: |
           mv ./${{ env.VEHICLE }}/Helios .
           zip -r output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16 ./Profile16.json ./LICENSE ./*.md ./Helios/ -x ".git/*" ".github/*" "./Helios/Profiles/*.bak" "./Helios/Profiles/*.hply"
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }} helios16 profile package
           path: output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16
