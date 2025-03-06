@@ -1,0 +1,5 @@
+﻿@@ -1284,191 +1284,43 @@
+     
+-dispatch_action(nil%2C EFM_commands.fuelsystem_fuel_valve%2C0.0)%0D%0A            fuel_valve_open %3Dtrue%0D%0A        else%0D%0A            dispatch_action(nil%2C EFM_commands.fuelsystem_fuel_valve%2C1.0)
++fuel_valve_open %3Dtrue%0D%0A        else
+ %0D%0A  
