@@ -17,10 +17,12 @@ After initial install, you will be shown the following screen instructing you to
 
 
 ### IMPORTANT! PLEASE READ!
-   There are a couple files that need to be added manually, if you want the Fuel on/off Valve to function and the RWR export to work, for the time being. After Installing, in the Documents/Helios folder, you will find a folder called "_OH-6A_Manually _Replace". Open it, LOOK AT THE README and the screenshots of where to put the included folder, "Mods". 
+ NEW USERS:The patchess for the RWR export and the adjusted file for the Fuel Control Valve to function properly are now included in the download and will be automatically applied via "DCS Additional Viewports". You will need to "Revert" then "Install" patches while setting up the profile.
+ EXISTING USERS of V1.0.5: No changes should be needed. 1.0.6 will only contain the patch changes. You may want to update just to have the Patches Folder added to the Helios Library for future use.
 
-![Screenshot 2024-11-06 194756](https://github.com/user-attachments/assets/cc362f6e-4629-41bb-94c7-dec93d37663c)
-![Screenshot 2024-11-06 194810](https://github.com/user-attachments/assets/6aa17d92-f451-4b4e-856d-b6dd6c7b2637)
+ IF you encounter any issues: Uninstall the mod, reinstall the vanilla version without the modified files. Install profile V 1.0.6. Revert and Install the patches.
+  
+  Patching of User Mods in Saved Games is a newly added feature. Please report any bugs or issues so we can work out a good routine on current and future profiles.
 
 
 ### ABOUT
@@ -51,6 +53,10 @@ This profile was designed and created by myself, in close collaboration with Blu
 ### CHANGELOG FROM 1.0.3/1.0.4
 
 1: Added "Night" version of the profile.
+
+### CHANGFELOG FROM 1.0.5
+
+1: Remove the folder containing  files to manually replace. Profile will install a new folder with the patches included and will automatically apply them via "DCS Additional Viewports", when you Revert and Install patches. 
 
 ### ENJOY!
 
