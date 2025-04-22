@@ -3209,7 +3209,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="night button base" SnapTarget="False" Locked="False">
+        <Control TypeIdentifier="Helios.Base.Image" Name="night button base" SnapTarget="False" Locked="True">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3218,7 +3218,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Switch to Night button " SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Switch to Night button " SnapTarget="True" Locked="True">
           <Location>825,316</Location>
           <Size>71,34</Size>
           <Hidden>False</Hidden>
@@ -3719,15 +3719,15 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
-              <Image>Misc\Sphere_1.png</Image>
+              <Image>MadKreator37\OH-6A\Sphere_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.200704229558748</DefaultOpacity>
+              <DefaultOpacity>0.18896047821311</DefaultOpacity>
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
               <Location>51,15</Location>
-              <Size>180,180</Size>
+              <Size>175,175</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -3939,7 +3939,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
-              <Image>Misc\Sphere_1.png</Image>
+              <Image>MadKreator37\OH-6A\Sphere_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <DefaultOpacity>0.200704229558748</DefaultOpacity>
@@ -3947,7 +3947,7 @@
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
               <Location>51,15</Location>
-              <Size>180,180</Size>
+              <Size>175,175</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
