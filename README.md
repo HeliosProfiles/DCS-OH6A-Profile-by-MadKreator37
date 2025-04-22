@@ -58,6 +58,10 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 1: Remove the folder containing  files to manually replace. Profile will install a new folder with the patches included and will automatically apply them via "DCS Additional Viewports", when you Revert and Install patches. 
 
+### CHANGELOG FROM 1.0.6
+
+1: Fixed missing image file path in controls indicators
+
 ### ENJOY!
 
 
