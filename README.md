@@ -17,7 +17,7 @@ After initial install, you will be shown the following screen instructing you to
 
 
 ### IMPORTANT! PLEASE READ!
- NEW USERS:The patches for the RWR export and the adjusted file for the Fuel Control Valve to function properly are now included in the download and will be automatically applied via "DCS Additional Viewports". You will need to "Revert" then "Install" patches while setting up the profile.
+ NEW USERS: The patches for the RWR export and the adjusted file for the Fuel Control Valve to function properly are now included in the download and will be automatically applied via "DCS Additional Viewports". You will need to "Revert" then "Install" patches while setting up the profile.
  EXISTING USERS of V1.0.5: No changes should be needed. 1.0.6 will only contain the patch changes. You may want to update just to have the Patches Folder added to the Helios Library for future use.
 
  IF you encounter any issues: Uninstall the mod, reinstall the vanilla version without the modified files. Install profile V 1.0.6. Revert and Install the patches.
