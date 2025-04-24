@@ -60,7 +60,8 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 ### CHANGELOG FROM 1.0.6
 
-1: Fixed missing image file path in controls indicators
+1: Fixed missing image file path in controls indicators.
+2: Correct Readme
 
 ### ENJOY!
 
