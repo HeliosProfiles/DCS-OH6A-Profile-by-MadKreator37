@@ -4,7 +4,7 @@
   <Monitors>
     <Monitor>
       <Location>0,0</Location>
-      <Size>3840,2160</Size>
+      <Size>3072,1728</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
       <AlwaysOnTop>True</AlwaysOnTop>
@@ -12,8 +12,8 @@
       <Children />
     </Monitor>
     <Monitor>
-      <Location>958,2160</Location>
-      <Size>1920,1080</Size>
+      <Location>673,1728</Location>
+      <Size>1536,864</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
       <AlwaysOnTop>True</AlwaysOnTop>
@@ -39,9 +39,10 @@
           </Font>
           <Text>OH6A_RWR</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>511,783</Location>
-          <Size>222,222</Size>
+          <Location>408,626</Location>
+          <Size>177,177</Size>
           <Hidden>False</Hidden>
+          <EffectsExclusion>True</EffectsExclusion>
           <ViewportName>OH6A_RWR</ViewportName>
           <Children />
         </Control>
@@ -50,7 +51,7 @@
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>0,0</Location>
-          <Size>1920,1080</Size>
+          <Size>1536,864</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -62,7 +63,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>15</FontSize>
+            <FontSize>12</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -74,8 +75,8 @@
           </Font>
           <Text>+</Text>
           <ScalingMode>Height</ScalingMode>
-          <Location>1598,113</Location>
-          <Size>27,25</Size>
+          <Location>1278,90</Location>
+          <Size>21,20</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -99,8 +100,8 @@
           </Font>
           <Text>-</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1542,109</Location>
-          <Size>30,30</Size>
+          <Location>1233,87</Location>
+          <Size>24,24</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -124,8 +125,8 @@
           </Font>
           <Text>.</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1567,38</Location>
-          <Size>33,28</Size>
+          <Location>1253,30</Location>
+          <Size>26,22</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -149,8 +150,8 @@
           </Font>
           <Text>.</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1605,65</Location>
-          <Size>33,28</Size>
+          <Location>1284,52</Location>
+          <Size>26,22</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -174,8 +175,8 @@
           </Font>
           <Text>.</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1590,44</Location>
-          <Size>33,28</Size>
+          <Location>1272,35</Location>
+          <Size>26,22</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -199,8 +200,8 @@
           </Font>
           <Text>.</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1605,88</Location>
-          <Size>33,28</Size>
+          <Location>1284,70</Location>
+          <Size>26,22</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -224,8 +225,8 @@
           </Font>
           <Text>.</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1543,44</Location>
-          <Size>33,28</Size>
+          <Location>1234,35</Location>
+          <Size>26,22</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -249,8 +250,8 @@
           </Font>
           <Text>.</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1528,65</Location>
-          <Size>33,28</Size>
+          <Location>1222,52</Location>
+          <Size>26,22</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -274,14 +275,14 @@
           </Font>
           <Text>.</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1528,88</Location>
-          <Size>33,28</Size>
+          <Location>1222,70</Location>
+          <Size>26,22</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Lighting Adjust Knob" SnapTarget="True" Locked="True">
-          <Location>1554,68</Location>
-          <Size>60,60</Size>
+          <Location>1243,54</Location>
+          <Size>48,48</Size>
           <Hidden>False</Hidden>
           <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_9.png</KnobImage>
           <InitialValue>1</InitialValue>
@@ -297,8 +298,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="ANARC 54 panel" SnapTarget="True" Locked="True">
-          <Location>54,112</Location>
-          <Size>466,252</Size>
+          <Location>43,89</Location>
+          <Size>372,201</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -311,8 +312,8 @@
               <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>10,5</Location>
-              <Size>448,235</Size>
+              <Location>8,4</Location>
+              <Size>358,188</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -324,14 +325,14 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>9,6</Location>
-              <Size>448,235</Size>
+              <Location>7,4</Location>
+              <Size>358,188</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum 1 1 1" SnapTarget="True" Locked="False">
-              <Location>254,163</Location>
-              <Size>25,40</Size>
+              <Location>203,130</Location>
+              <Size>20,32</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -346,8 +347,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum 1 1" SnapTarget="True" Locked="False">
-              <Location>232,163</Location>
-              <Size>25,40</Size>
+              <Location>185,130</Location>
+              <Size>20,32</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -362,8 +363,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum 1" SnapTarget="True" Locked="False">
-              <Location>202,163</Location>
-              <Size>25,40</Size>
+              <Location>161,130</Location>
+              <Size>20,32</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -378,8 +379,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum" SnapTarget="True" Locked="False">
-              <Location>179,163</Location>
-              <Size>25,40</Size>
+              <Location>143,130</Location>
+              <Size>20,32</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -398,13 +399,13 @@
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>0,0</Location>
-              <Size>465,251</Size>
+              <Size>372,200</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="fm volume" SnapTarget="True" Locked="False">
-              <Location>204,35</Location>
-              <Size>50,50</Size>
+              <Location>163,28</Location>
+              <Size>40,40</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_1.png</KnobImage>
               <InitialValue>0</InitialValue>
@@ -427,8 +428,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>60,42</Location>
-              <Size>69,69</Size>
+              <Location>48,33</Location>
+              <Size>55,55</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -440,20 +441,20 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>60,42</Location>
-              <Size>69,69</Size>
+              <Location>48,33</Location>
+              <Size>55,55</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="fm squelch mode sw" SnapTarget="True" Locked="False">
-              <Location>50,32</Location>
-              <Size>90,90</Size>
+              <Location>40,25</Location>
+              <Size>72,72</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_7.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="319.754658025692" />
-                <Position Name="1" Rotation="0" />
-                <Position Name="2" Rotation="35.7379219060225" />
+                <Position Name="0" Rotation="319.75" />
+                <Position Name="1" Rotation="0.00" />
+                <Position Name="2" Rotation="35.74" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -469,8 +470,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>325,42</Location>
-              <Size>69,69</Size>
+              <Location>260,33</Location>
+              <Size>55,55</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -482,21 +483,21 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>325,42</Location>
-              <Size>69,69</Size>
+              <Location>260,33</Location>
+              <Size>55,55</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="fm comm mode sw" SnapTarget="True" Locked="False">
-              <Location>315,32</Location>
-              <Size>90,90</Size>
+              <Location>252,25</Location>
+              <Size>72,72</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_7.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="310.820177549186" />
-                <Position Name="1" Rotation="343.481138318994" />
-                <Position Name="2" Rotation="22.8325612177366" />
-                <Position Name="3" Rotation="48.6432825943084" />
+                <Position Name="0" Rotation="310.82" />
+                <Position Name="1" Rotation="343.48" />
+                <Position Name="2" Rotation="22.83" />
+                <Position Name="3" Rotation="48.64" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -505,8 +506,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder" SnapTarget="True" Locked="False">
-              <Location>53,185</Location>
-              <Size>60,60</Size>
+              <Location>42,148</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
               <RotationStep>5</RotationStep>
@@ -519,8 +520,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder 1" SnapTarget="True" Locked="False">
-              <Location>345,185</Location>
-              <Size>60,60</Size>
+              <Location>276,148</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
               <RotationStep>5</RotationStep>
@@ -535,8 +536,8 @@
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="ANARC 51 Radio panel" SnapTarget="True" Locked="True">
-          <Location>54,393</Location>
-          <Size>466,358</Size>
+          <Location>43,314</Location>
+          <Size>372,286</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -549,8 +550,8 @@
               <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>19,5</Location>
-              <Size>432,332</Size>
+              <Location>15,4</Location>
+              <Size>345,265</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -562,15 +563,16 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>19,6</Location>
-              <Size>432,332</Size>
+              <Location>15,4</Location>
+              <Size>345,265</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter" SnapTarget="False" Locked="True">
-              <Location>18,300</Location>
-              <Size>58,51</Size>
+              <Location>14,240</Location>
+              <Size>46,40</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <PointCount>19</PointCount>
               <CalibrationPoints>
                 <Point>
@@ -653,9 +655,10 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter 1" SnapTarget="False" Locked="True">
-              <Location>131,306</Location>
-              <Size>58,51</Size>
+              <Location>104,244</Location>
+              <Size>46,40</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <PointCount>18</PointCount>
               <CalibrationPoints>
                 <Point>
@@ -734,9 +737,10 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter 2" SnapTarget="False" Locked="True">
-              <Location>366,307</Location>
-              <Size>58,51</Size>
+              <Location>292,245</Location>
+              <Size>46,40</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <PointCount>20</PointCount>
               <CalibrationPoints>
                 <Point>
@@ -823,9 +827,10 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter 2 1" SnapTarget="False" Locked="True">
-              <Location>305,307</Location>
-              <Size>58,51</Size>
+              <Location>244,245</Location>
+              <Size>46,40</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <PointCount>20</PointCount>
               <CalibrationPoints>
                 <Point>
@@ -912,9 +917,10 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter 2 1 1" SnapTarget="False" Locked="True">
-              <Location>210,307</Location>
-              <Size>58,51</Size>
+              <Location>168,245</Location>
+              <Size>46,40</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <PointCount>10</PointCount>
               <CalibrationPoints>
                 <Point>
@@ -961,9 +967,10 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter 3" SnapTarget="False" Locked="True">
-              <Location>11,10</Location>
-              <Size>58,51</Size>
+              <Location>8,8</Location>
+              <Size>46,40</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <PointCount>20</PointCount>
               <CalibrationPoints>
                 <Point>
@@ -1071,8 +1078,8 @@
               <UseBackground>True</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>69,61</Location>
-              <Size>35,30</Size>
+              <Location>55,48</Location>
+              <Size>28,24</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1098,8 +1105,8 @@
               <UseBackground>True</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>223,216</Location>
-              <Size>24,43</Size>
+              <Location>178,172</Location>
+              <Size>19,34</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1125,8 +1132,8 @@
               <UseBackground>True</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>257,216</Location>
-              <Size>24,43</Size>
+              <Location>205,172</Location>
+              <Size>19,34</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1152,8 +1159,8 @@
               <UseBackground>True</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>291,216</Location>
-              <Size>24,43</Size>
+              <Location>232,172</Location>
+              <Size>19,34</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1179,8 +1186,8 @@
               <UseBackground>True</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>155,216</Location>
-              <Size>24,43</Size>
+              <Location>124,172</Location>
+              <Size>19,34</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1206,8 +1213,8 @@
               <UseBackground>True</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>189,216</Location>
-              <Size>24,43</Size>
+              <Location>151,172</Location>
+              <Size>19,34</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1216,7 +1223,7 @@
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>0,0</Location>
-              <Size>465,357</Size>
+              <Size>372,285</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1228,8 +1235,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>347,190</Location>
-              <Size>60,60</Size>
+              <Location>277,152</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1241,21 +1248,21 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>347,190</Location>
-              <Size>60,60</Size>
+              <Location>277,152</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="radio master selector" SnapTarget="True" Locked="True">
-              <Location>334,179</Location>
-              <Size>83,83</Size>
+              <Location>267,143</Location>
+              <Size>66,66</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_7.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="44.1582004603383" />
-                <Position Name="1" Rotation="71.475843812045" />
-                <Position Name="2" Rotation="103.46933744722" />
-                <Position Name="3" Rotation="134.017207147584" />
+                <Position Name="0" Rotation="44.16" />
+                <Position Name="1" Rotation="71.48" />
+                <Position Name="2" Rotation="103.47" />
+                <Position Name="3" Rotation="134.02" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -1271,8 +1278,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>54,186</Location>
-              <Size>60,60</Size>
+              <Location>43,148</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1284,19 +1291,19 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>54,186</Location>
-              <Size>60,60</Size>
+              <Location>43,148</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="radio mode selector" SnapTarget="True" Locked="True">
-              <Location>42,174</Location>
-              <Size>83,83</Size>
+              <Location>33,139</Location>
+              <Size>66,66</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_7.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="89.8233228958116" />
-                <Position Name="1" Rotation="119.126406353408" />
+                <Position Name="0" Rotation="89.82" />
+                <Position Name="1" Rotation="119.13" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -1305,8 +1312,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="radio vol" SnapTarget="True" Locked="True">
-              <Location>340,122</Location>
-              <Size>58,58</Size>
+              <Location>272,97</Location>
+              <Size>46,46</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_4.png</KnobImage>
               <InitialValue>0</InitialValue>
@@ -1322,8 +1329,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="squelch switch" SnapTarget="True" Locked="True">
-              <Location>210,133</Location>
-              <Size>33,50</Size>
+              <Location>168,106</Location>
+              <Size>26,40</Size>
               <Rotation>CW</Rotation>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -1335,29 +1342,29 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="10mega knob" SnapTarget="True" Locked="True">
-              <Location>67,279</Location>
-              <Size>60,60</Size>
+              <Location>53,223</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_1.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="0" />
-                <Position Name="1" Rotation="17.2569366117753" />
-                <Position Name="2" Rotation="30.4534175501918" />
-                <Position Name="3" Rotation="47.710354161967" />
-                <Position Name="4" Rotation="68.0126325287615" />
-                <Position Name="5" Rotation="90.3451387322355" />
-                <Position Name="6" Rotation="107.602075344011" />
-                <Position Name="7" Rotation="127.904353710806" />
-                <Position Name="8" Rotation="149.22174599594" />
-                <Position Name="9" Rotation="166.478682607715" />
-                <Position Name="10" Rotation="187.796074892849" />
-                <Position Name="11" Rotation="205.053011504625" />
-                <Position Name="12" Rotation="225.355289871419" />
-                <Position Name="13" Rotation="251.748251748252" />
-                <Position Name="14" Rotation="269.005188360027" />
-                <Position Name="15" Rotation="292.352808481841" />
-                <Position Name="16" Rotation="332.95736521543" />
-                <Position Name="17" Rotation="360" />
+                <Position Name="0" Rotation="0.00" />
+                <Position Name="1" Rotation="17.26" />
+                <Position Name="2" Rotation="30.45" />
+                <Position Name="3" Rotation="47.71" />
+                <Position Name="4" Rotation="68.01" />
+                <Position Name="5" Rotation="90.35" />
+                <Position Name="6" Rotation="107.60" />
+                <Position Name="7" Rotation="127.90" />
+                <Position Name="8" Rotation="149.22" />
+                <Position Name="9" Rotation="166.48" />
+                <Position Name="10" Rotation="187.80" />
+                <Position Name="11" Rotation="205.05" />
+                <Position Name="12" Rotation="225.36" />
+                <Position Name="13" Rotation="251.75" />
+                <Position Name="14" Rotation="269.01" />
+                <Position Name="15" Rotation="292.35" />
+                <Position Name="16" Rotation="332.96" />
+                <Position Name="17" Rotation="360.00" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -1367,31 +1374,31 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Deci knob" SnapTarget="True" Locked="True">
-              <Location>343,279</Location>
-              <Size>60,60</Size>
+              <Location>274,223</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_1.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="0" />
-                <Position Name="1" Rotation="17.2569366117753" />
-                <Position Name="2" Rotation="30.4534175501918" />
-                <Position Name="3" Rotation="47.710354161967" />
-                <Position Name="4" Rotation="68.0126325287615" />
-                <Position Name="5" Rotation="90.3451387322355" />
-                <Position Name="6" Rotation="107.602075344011" />
-                <Position Name="7" Rotation="121.813670200767" />
-                <Position Name="8" Rotation="136.025265057523" />
-                <Position Name="9" Rotation="158.357771260997" />
-                <Position Name="10" Rotation="180.690277464471" />
-                <Position Name="11" Rotation="198.962327994586" />
-                <Position Name="12" Rotation="217.234378524701" />
-                <Position Name="13" Rotation="233.476201218137" />
-                <Position Name="14" Rotation="251.748251748252" />
-                <Position Name="15" Rotation="272.050530115047" />
-                <Position Name="16" Rotation="291.337694563501" />
-                <Position Name="17" Rotation="307.579517256936" />
-                <Position Name="18" Rotation="324.836453868712" />
-                <Position Name="19" Rotation="345.788405143244" />
+                <Position Name="0" Rotation="0.00" />
+                <Position Name="1" Rotation="17.26" />
+                <Position Name="2" Rotation="30.45" />
+                <Position Name="3" Rotation="47.71" />
+                <Position Name="4" Rotation="68.01" />
+                <Position Name="5" Rotation="90.35" />
+                <Position Name="6" Rotation="107.60" />
+                <Position Name="7" Rotation="121.81" />
+                <Position Name="8" Rotation="136.03" />
+                <Position Name="9" Rotation="158.36" />
+                <Position Name="10" Rotation="180.69" />
+                <Position Name="11" Rotation="198.96" />
+                <Position Name="12" Rotation="217.23" />
+                <Position Name="13" Rotation="233.48" />
+                <Position Name="14" Rotation="251.75" />
+                <Position Name="15" Rotation="272.05" />
+                <Position Name="16" Rotation="291.34" />
+                <Position Name="17" Rotation="307.58" />
+                <Position Name="18" Rotation="324.84" />
+                <Position Name="19" Rotation="345.79" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -1401,31 +1408,31 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="PRESET knob" SnapTarget="True" Locked="True">
-              <Location>108,119</Location>
-              <Size>50,50</Size>
+              <Location>86,95</Location>
+              <Size>40,40</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_1.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="0" />
-                <Position Name="1" Rotation="17.2569366117753" />
-                <Position Name="2" Rotation="30.4534175501918" />
-                <Position Name="3" Rotation="47.710354161967" />
-                <Position Name="4" Rotation="68.0126325287615" />
-                <Position Name="5" Rotation="90.3451387322355" />
-                <Position Name="6" Rotation="107.602075344011" />
-                <Position Name="7" Rotation="121.813670200767" />
-                <Position Name="8" Rotation="136.025265057523" />
-                <Position Name="9" Rotation="158.357771260997" />
-                <Position Name="10" Rotation="180.690277464471" />
-                <Position Name="11" Rotation="198.962327994586" />
-                <Position Name="12" Rotation="217.234378524701" />
-                <Position Name="13" Rotation="233.476201218137" />
-                <Position Name="14" Rotation="251.748251748252" />
-                <Position Name="15" Rotation="272.050530115047" />
-                <Position Name="16" Rotation="291.337694563501" />
-                <Position Name="17" Rotation="307.579517256936" />
-                <Position Name="18" Rotation="324.836453868712" />
-                <Position Name="19" Rotation="345.788405143244" />
+                <Position Name="0" Rotation="0.00" />
+                <Position Name="1" Rotation="17.26" />
+                <Position Name="2" Rotation="30.45" />
+                <Position Name="3" Rotation="47.71" />
+                <Position Name="4" Rotation="68.01" />
+                <Position Name="5" Rotation="90.35" />
+                <Position Name="6" Rotation="107.60" />
+                <Position Name="7" Rotation="121.81" />
+                <Position Name="8" Rotation="136.03" />
+                <Position Name="9" Rotation="158.36" />
+                <Position Name="10" Rotation="180.69" />
+                <Position Name="11" Rotation="198.96" />
+                <Position Name="12" Rotation="217.23" />
+                <Position Name="13" Rotation="233.48" />
+                <Position Name="14" Rotation="251.75" />
+                <Position Name="15" Rotation="272.05" />
+                <Position Name="16" Rotation="291.34" />
+                <Position Name="17" Rotation="307.58" />
+                <Position Name="18" Rotation="324.84" />
+                <Position Name="19" Rotation="345.79" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -1435,21 +1442,21 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="mega knob" SnapTarget="True" Locked="True">
-              <Location>205,279</Location>
-              <Size>60,60</Size>
+              <Location>164,223</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_1.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="0" />
-                <Position Name="1" Rotation="33.4987593052109" />
-                <Position Name="2" Rotation="69.0277464471013" />
-                <Position Name="3" Rotation="103.541619670652" />
-                <Position Name="4" Rotation="135.010151139184" />
-                <Position Name="5" Rotation="172.569366117753" />
-                <Position Name="6" Rotation="223.325062034739" />
-                <Position Name="7" Rotation="269.005188360027" />
-                <Position Name="8" Rotation="308.594631175277" />
-                <Position Name="9" Rotation="360" />
+                <Position Name="0" Rotation="0.00" />
+                <Position Name="1" Rotation="33.50" />
+                <Position Name="2" Rotation="69.03" />
+                <Position Name="3" Rotation="103.54" />
+                <Position Name="4" Rotation="135.01" />
+                <Position Name="5" Rotation="172.57" />
+                <Position Name="6" Rotation="223.33" />
+                <Position Name="7" Rotation="269.01" />
+                <Position Name="8" Rotation="308.59" />
+                <Position Name="9" Rotation="360.00" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <Continuous>True</Continuous>
@@ -1467,8 +1474,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>78,1</Location>
-              <Size>322,36</Size>
+              <Location>62,0</Location>
+              <Size>257,28</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1480,16 +1487,16 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>158,36</Location>
-              <Size>242,76</Size>
+              <Location>126,28</Location>
+              <Size>193,60</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="ANARC 83 panel" SnapTarget="True" Locked="True">
-          <Location>52,778</Location>
-          <Size>436,220</Size>
+          <Location>41,622</Location>
+          <Size>348,176</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -1502,8 +1509,8 @@
               <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>6,61</Location>
-              <Size>427,84</Size>
+              <Location>4,48</Location>
+              <Size>341,67</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1515,8 +1522,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>6,56</Location>
-              <Size>421,89</Size>
+              <Location>4,44</Location>
+              <Size>336,71</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1524,8 +1531,8 @@
               <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>31,1</Location>
-              <Size>380,59</Size>
+              <Location>24,0</Location>
+              <Size>304,47</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1537,14 +1544,14 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>31,1</Location>
-              <Size>364,58</Size>
+              <Location>24,0</Location>
+              <Size>291,46</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomGauge" Name="CustomGauge" SnapTarget="True" Locked="True">
-              <Location>306,10</Location>
-              <Size>90,50</Size>
+              <Location>244,8</Location>
+              <Size>72,40</Size>
               <Hidden>False</Hidden>
               <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\ADF_Needle_Gauge_Face.png</BGPlateImage>
               <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -1562,8 +1569,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape" SnapTarget="True" Locked="True">
-              <Location>143,84</Location>
-              <Size>150,39</Size>
+              <Location>114,67</Location>
+              <Size>120,31</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\ADF_Tape.png</TapeImage>
               <OffFlagImage />
@@ -1601,14 +1608,14 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\ADF_Panel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>1,0</Location>
-              <Size>435,200</Size>
+              <Location>0,0</Location>
+              <Size>348,160</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="adf bfo switch" SnapTarget="True" Locked="True">
-              <Location>115,6</Location>
-              <Size>33,50</Size>
+              <Location>92,4</Location>
+              <Size>26,40</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -1619,8 +1626,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="adf loop knob" SnapTarget="True" Locked="True">
-              <Location>44,14</Location>
-              <Size>50,50</Size>
+              <Location>35,11</Location>
+              <Size>40,40</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
               <InitialValue>0</InitialValue>
@@ -1636,15 +1643,15 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="ad mode selector" SnapTarget="True" Locked="True">
-              <Location>31,85</Location>
-              <Size>110,110</Size>
+              <Location>24,68</Location>
+              <Size>88,88</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\ADF_Outer.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="318.663136995368" />
-                <Position Name="1" Rotation="349.099933818663" />
-                <Position Name="2" Rotation="19.8544010589014" />
-                <Position Name="3" Rotation="48.3360026472534" />
+                <Position Name="0" Rotation="318.66" />
+                <Position Name="1" Rotation="349.10" />
+                <Position Name="2" Rotation="19.85" />
+                <Position Name="3" Rotation="48.34" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -1653,14 +1660,14 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="adf freq selector" SnapTarget="True" Locked="True">
-              <Location>289,78</Location>
-              <Size>138,138</Size>
+              <Location>231,62</Location>
+              <Size>110,110</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\ADF_Outer.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="312.706816677698" />
-                <Position Name="1" Rotation="355.056254136334" />
-                <Position Name="2" Rotation="41.6942422236929" />
+                <Position Name="0" Rotation="312.71" />
+                <Position Name="1" Rotation="355.06" />
+                <Position Name="2" Rotation="41.69" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -1672,8 +1679,8 @@
               <Image>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\ADF_Compass_Center_Line.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>219,77</Location>
-              <Size>1,50</Size>
+              <Location>175,61</Location>
+              <Size>1,40</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1681,8 +1688,8 @@
               <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>338,128</Location>
-              <Size>38,38</Size>
+              <Location>270,102</Location>
+              <Size>30,30</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1694,14 +1701,14 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>338,128</Location>
-              <Size>38,38</Size>
+              <Location>270,102</Location>
+              <Size>30,30</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="tune knob" SnapTarget="True" Locked="True">
-              <Location>322,112</Location>
-              <Size>70,70</Size>
+              <Location>257,89</Location>
+              <Size>56,56</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\ADF_Inner_Tune.png</KnobImage>
               <RotationStep>15</RotationStep>
@@ -1717,8 +1724,8 @@
               <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>68,122</Location>
-              <Size>35,35</Size>
+              <Location>54,97</Location>
+              <Size>28,28</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1730,14 +1737,14 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>68,122</Location>
-              <Size>35,35</Size>
+              <Location>54,97</Location>
+              <Size>28,28</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="tune knob 1" SnapTarget="True" Locked="True">
-              <Location>57,111</Location>
-              <Size>57,57</Size>
+              <Location>45,88</Location>
+              <Size>45,45</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\ADF_Inner_Gain.png</KnobImage>
               <RotationStep>15</RotationStep>
@@ -1755,8 +1762,8 @@
           <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>563,267</Location>
-          <Size>181,486</Size>
+          <Location>450,213</Location>
+          <Size>144,388</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -1768,14 +1775,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>563,266</Location>
-          <Size>181,488</Size>
+          <Location>450,212</Location>
+          <Size>144,390</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="Armament Panel" SnapTarget="True" Locked="True">
-          <Location>559,258</Location>
-          <Size>192,512</Size>
+          <Location>447,206</Location>
+          <Size>153,409</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -1789,7 +1796,7 @@
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>0,0</Location>
-              <Size>190,506</Size>
+              <Size>152,404</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1801,8 +1808,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>46,389</Location>
-              <Size>90,90</Size>
+              <Location>36,311</Location>
+              <Size>72,72</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1814,14 +1821,14 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>46,389</Location>
-              <Size>90,90</Size>
+              <Location>36,311</Location>
+              <Size>72,72</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="master arm" SnapTarget="True" Locked="True">
-              <Location>84,173</Location>
-              <Size>20,50</Size>
+              <Location>67,138</Location>
+              <Size>16,40</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -1838,7 +1845,7 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>12</FontSize>
+                <FontSize>9.6</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
@@ -1852,20 +1859,20 @@
               <OnTextColor>#FFB3A229</OnTextColor>
               <OffTextColor>#FF1C1C1C</OffTextColor>
               <ScalingMode>Height</ScalingMode>
-              <Location>33,21</Location>
-              <Size>119,50</Size>
+              <Location>26,16</Location>
+              <Size>95,40</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="wpn mode Switch" SnapTarget="True" Locked="True">
-              <Location>42,384</Location>
-              <Size>100,100</Size>
+              <Location>33,307</Location>
+              <Size>80,80</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_2.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="310.207174649617" />
-                <Position Name="1" Rotation="0" />
-                <Position Name="2" Rotation="55.8187749058564" />
+                <Position Name="0" Rotation="310.21" />
+                <Position Name="1" Rotation="0.00" />
+                <Position Name="2" Rotation="55.82" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -1880,7 +1887,7 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>12</FontSize>
+                <FontSize>9.6</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
@@ -1894,8 +1901,8 @@
               <OnTextColor>#FFB3A229</OnTextColor>
               <OffTextColor>#FF1C1C1C</OffTextColor>
               <ScalingMode>Height</ScalingMode>
-              <Location>35,95</Location>
-              <Size>117,50</Size>
+              <Location>28,76</Location>
+              <Size>93,40</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1906,7 +1913,7 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>12</FontSize>
+                <FontSize>9.6</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
@@ -1920,8 +1927,8 @@
               <OnTextColor>#FFB3A229</OnTextColor>
               <OffTextColor>#FF1C1C1C</OffTextColor>
               <ScalingMode>Height</ScalingMode>
-              <Location>35,249</Location>
-              <Size>114,50</Size>
+              <Location>28,199</Location>
+              <Size>91,40</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1931,8 +1938,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Tri_Gauge_Panel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>760,862</Location>
-          <Size>500,146</Size>
+          <Location>608,689</Location>
+          <Size>400,116</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -1940,8 +1947,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\Air_Bypass_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1271,878</Location>
-          <Size>120,56</Size>
+          <Location>1016,702</Location>
+          <Size>96,44</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -1952,7 +1959,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.96</FontSize>
+            <FontSize>10.32</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -1966,8 +1973,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1273,876</Location>
-          <Size>116,54</Size>
+          <Location>1018,700</Location>
+          <Size>92,43</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -1975,8 +1982,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\Oil_Chips_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1391,878</Location>
-          <Size>120,55</Size>
+          <Location>1112,702</Location>
+          <Size>96,44</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -1987,7 +1994,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.96</FontSize>
+            <FontSize>10.32</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -2001,8 +2008,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1393,876</Location>
-          <Size>116,54</Size>
+          <Location>1114,700</Location>
+          <Size>92,43</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2010,8 +2017,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\Fuel_Filter_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1511,878</Location>
-          <Size>120,56</Size>
+          <Location>1208,702</Location>
+          <Size>96,44</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2022,7 +2029,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.96</FontSize>
+            <FontSize>10.32</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -2036,8 +2043,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1512,876</Location>
-          <Size>117,54</Size>
+          <Location>1209,700</Location>
+          <Size>93,43</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2045,8 +2052,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\Generator_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1271,932</Location>
-          <Size>120,56</Size>
+          <Location>1016,745</Location>
+          <Size>96,44</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2057,7 +2064,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.48</FontSize>
+            <FontSize>9.84</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -2071,8 +2078,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1274,931</Location>
-          <Size>114,52</Size>
+          <Location>1019,744</Location>
+          <Size>91,41</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2080,8 +2087,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\Fuel_Low_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1392,932</Location>
-          <Size>120,56</Size>
+          <Location>1113,745</Location>
+          <Size>96,44</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2092,7 +2099,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.96</FontSize>
+            <FontSize>10.32</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -2106,8 +2113,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1394,930</Location>
-          <Size>116,54</Size>
+          <Location>1115,744</Location>
+          <Size>92,43</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2115,8 +2122,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\Oil_Bypass_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1512,932</Location>
-          <Size>120,56</Size>
+          <Location>1209,745</Location>
+          <Size>96,44</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2127,7 +2134,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.96</FontSize>
+            <FontSize>10.32</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -2141,8 +2148,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1513,930</Location>
-          <Size>117,54</Size>
+          <Location>1210,744</Location>
+          <Size>93,43</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2154,8 +2161,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>773,121</Location>
-          <Size>173,173</Size>
+          <Location>618,96</Location>
+          <Size>138,138</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2167,14 +2174,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>773,121</Location>
-          <Size>173,173</Size>
+          <Location>618,96</Location>
+          <Size>138,138</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Torque Gauge" SnapTarget="True" Locked="True">
-          <Location>771,118</Location>
-          <Size>179,179</Size>
+          <Location>616,94</Location>
+          <Size>143,143</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\Torque_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -2199,8 +2206,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>767,113</Location>
-          <Size>185,185</Size>
+          <Location>613,90</Location>
+          <Size>148,148</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2208,8 +2215,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>762,109</Location>
-          <Size>196,196</Size>
+          <Location>609,87</Location>
+          <Size>156,156</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2221,8 +2228,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>770,370</Location>
-          <Size>179,179</Size>
+          <Location>616,296</Location>
+          <Size>143,143</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2234,14 +2241,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>770,370</Location>
-          <Size>179,179</Size>
+          <Location>616,296</Location>
+          <Size>143,143</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="TOT Gauge" SnapTarget="True" Locked="True">
-          <Location>770,369</Location>
-          <Size>179,181</Size>
+          <Location>616,295</Location>
+          <Size>143,144</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\TOT_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -2266,8 +2273,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>767,366</Location>
-          <Size>185,185</Size>
+          <Location>613,292</Location>
+          <Size>148,148</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2275,8 +2282,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>762,362</Location>
-          <Size>196,196</Size>
+          <Location>609,289</Location>
+          <Size>156,156</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2288,8 +2295,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>770,622</Location>
-          <Size>179,179</Size>
+          <Location>616,497</Location>
+          <Size>143,143</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2301,14 +2308,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>770,622</Location>
-          <Size>179,179</Size>
+          <Location>616,497</Location>
+          <Size>143,143</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N1" SnapTarget="True" Locked="True">
-          <Location>770,623</Location>
-          <Size>179,179</Size>
+          <Location>616,498</Location>
+          <Size>143,143</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\Percent_RPM_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -2333,8 +2340,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>767,621</Location>
-          <Size>185,185</Size>
+          <Location>613,496</Location>
+          <Size>148,148</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2342,8 +2349,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>762,615</Location>
-          <Size>196,196</Size>
+          <Location>609,492</Location>
+          <Size>156,156</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2355,8 +2362,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>980,171</Location>
-          <Size>277,277</Size>
+          <Location>784,136</Location>
+          <Size>221,221</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2368,14 +2375,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>980,171</Location>
-          <Size>277,277</Size>
+          <Location>784,136</Location>
+          <Size>221,221</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Airspeed Gauge" SnapTarget="True" Locked="True">
-          <Location>978,170</Location>
-          <Size>280,280</Size>
+          <Location>782,136</Location>
+          <Size>224,224</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\Airspeed_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -2400,8 +2407,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>976,169</Location>
-          <Size>283,283</Size>
+          <Location>780,135</Location>
+          <Size>226,226</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2409,8 +2416,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>964,156</Location>
-          <Size>308,308</Size>
+          <Location>771,124</Location>
+          <Size>246,246</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2418,8 +2425,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>958,116</Location>
-          <Size>325,123</Size>
+          <Location>766,92</Location>
+          <Size>260,98</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2431,8 +2438,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>980,535</Location>
-          <Size>277,277</Size>
+          <Location>784,428</Location>
+          <Size>221,221</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2444,14 +2451,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>980,535</Location>
-          <Size>277,277</Size>
+          <Location>784,428</Location>
+          <Size>221,221</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N2 Gauge" SnapTarget="True" Locked="True">
-          <Location>978,531</Location>
-          <Size>280,280</Size>
+          <Location>782,424</Location>
+          <Size>224,224</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\N2_RPM_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_2.png</KnobImage>
@@ -2469,8 +2476,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM R Gauge" SnapTarget="True" Locked="True">
-          <Location>978,531</Location>
-          <Size>280,280</Size>
+          <Location>782,424</Location>
+          <Size>224,224</Size>
           <Hidden>False</Hidden>
           <BGPlateImage />
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_3.png</KnobImage>
@@ -2495,8 +2502,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>976,533</Location>
-          <Size>283,283</Size>
+          <Location>780,426</Location>
+          <Size>226,226</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2504,8 +2511,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>964,519</Location>
-          <Size>308,308</Size>
+          <Location>771,415</Location>
+          <Size>246,246</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2513,14 +2520,14 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>958,477</Location>
-          <Size>325,123</Size>
+          <Location>766,381</Location>
+          <Size>260,98</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomTape" Name="ADI Tape" SnapTarget="True" Locked="True">
-          <Location>1329,212</Location>
-          <Size>201,201</Size>
+          <Location>1063,169</Location>
+          <Size>160,160</Size>
           <Hidden>False</Hidden>
           <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\ADI_Tape.png</TapeImage>
           <OffFlagImage />
@@ -2562,8 +2569,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1329,211</Location>
-          <Size>204,204</Size>
+          <Location>1063,168</Location>
+          <Size>163,163</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2575,8 +2582,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1322,203</Location>
-          <Size>215,215</Size>
+          <Location>1057,162</Location>
+          <Size>172,172</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2588,14 +2595,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1328,211</Location>
-          <Size>210,205</Size>
+          <Location>1062,168</Location>
+          <Size>168,164</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Off Flag " SnapTarget="True" Locked="True">
-          <Location>1388,270</Location>
-          <Size>155,155</Size>
+          <Location>1110,216</Location>
+          <Size>124,124</Size>
           <Hidden>False</Hidden>
           <BGPlateImage />
           <KnobImage>MadKreator37\OH-6A-Night\Indicators\ADI_Off.png</KnobImage>
@@ -2620,8 +2627,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1289,166</Location>
-          <Size>285,285</Size>
+          <Location>1031,132</Location>
+          <Size>228,228</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2633,8 +2640,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1289,166</Location>
-          <Size>285,285</Size>
+          <Location>1031,132</Location>
+          <Size>228,228</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2642,14 +2649,14 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\ADI_Face.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1289,170</Location>
-          <Size>282,282</Size>
+          <Location>1031,136</Location>
+          <Size>225,225</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Bank Pointer" SnapTarget="True" Locked="True">
-          <Location>1322,205</Location>
-          <Size>214,214</Size>
+          <Location>1057,164</Location>
+          <Size>171,171</Size>
           <Hidden>False</Hidden>
           <BGPlateImage />
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\ADI_Pointer.png</KnobImage>
@@ -2670,8 +2677,8 @@
           <Image>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\ADI_Wings.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1380,311</Location>
-          <Size>100,12</Size>
+          <Location>1104,248</Location>
+          <Size>80,9</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2679,14 +2686,14 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1275,158</Location>
-          <Size>308,308</Size>
+          <Location>1020,126</Location>
+          <Size>246,246</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomTape" Name="Slip Ball Gauge" SnapTarget="True" Locked="True">
-          <Location>1301,270</Location>
-          <Size>256,204</Size>
+          <Location>1040,216</Location>
+          <Size>204,163</Size>
           <Hidden>False</Hidden>
           <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Ball.png</TapeImage>
           <OffFlagImage />
@@ -2724,8 +2731,8 @@
           <Image>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Ball_Indicator_Marks.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1410,383</Location>
-          <Size>37,35</Size>
+          <Location>1128,306</Location>
+          <Size>29,28</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2733,8 +2740,8 @@
           <Image>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Indicator_End_Caps.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1313,362</Location>
-          <Size>230,46</Size>
+          <Location>1050,289</Location>
+          <Size>184,36</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2742,8 +2749,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1269,117</Location>
-          <Size>325,123</Size>
+          <Location>1015,93</Location>
+          <Size>260,98</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2751,8 +2758,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1579,116</Location>
-          <Size>325,123</Size>
+          <Location>1263,92</Location>
+          <Size>260,98</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2764,8 +2771,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1647,504</Location>
-          <Size>217,217</Size>
+          <Location>1317,403</Location>
+          <Size>173,173</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2777,14 +2784,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1647,504</Location>
-          <Size>217,217</Size>
+          <Location>1317,403</Location>
+          <Size>173,173</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="VVI Gauge" SnapTarget="True" Locked="True">
-          <Location>1645,503</Location>
-          <Size>220,220</Size>
+          <Location>1316,402</Location>
+          <Size>176,176</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\VVI_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -2809,8 +2816,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1643,501</Location>
-          <Size>225,225</Size>
+          <Location>1314,400</Location>
+          <Size>180,180</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2818,8 +2825,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1633,491</Location>
-          <Size>245,245</Size>
+          <Location>1306,392</Location>
+          <Size>196,196</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2831,8 +2838,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1647,786</Location>
-          <Size>219,219</Size>
+          <Location>1317,628</Location>
+          <Size>175,175</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2844,14 +2851,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1647,786</Location>
-          <Size>219,219</Size>
+          <Location>1317,628</Location>
+          <Size>175,175</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Fuel Gauge" SnapTarget="True" Locked="True">
-          <Location>1645,784</Location>
-          <Size>220,220</Size>
+          <Location>1316,627</Location>
+          <Size>176,176</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\LBS_Fuel_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_2.png</KnobImage>
@@ -2876,8 +2883,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1643,782</Location>
-          <Size>225,225</Size>
+          <Location>1314,625</Location>
+          <Size>180,180</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2885,8 +2892,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1633,772</Location>
-          <Size>245,245</Size>
+          <Location>1306,617</Location>
+          <Size>196,196</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2898,8 +2905,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>778,869</Location>
-          <Size>135,135</Size>
+          <Location>622,695</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2911,14 +2918,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>778,869</Location>
-          <Size>135,135</Size>
+          <Location>622,695</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Press Gauge" SnapTarget="True" Locked="True">
-          <Location>778,869</Location>
-          <Size>135,135</Size>
+          <Location>622,695</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\Engine_Oil_Pressure.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -2939,8 +2946,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>773,864</Location>
-          <Size>145,145</Size>
+          <Location>618,691</Location>
+          <Size>116,116</Size>
           <Hidden>True</Hidden>
           <Children />
         </Control>
@@ -2952,8 +2959,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>936,868</Location>
-          <Size>135,135</Size>
+          <Location>748,694</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -2965,14 +2972,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>936,868</Location>
-          <Size>135,135</Size>
+          <Location>748,694</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Temp Gauge" SnapTarget="True" Locked="True">
-          <Location>936,869</Location>
-          <Size>135,135</Size>
+          <Location>748,695</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\Engine_Oil_Temp_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -2993,8 +3000,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>931,864</Location>
-          <Size>145,145</Size>
+          <Location>744,691</Location>
+          <Size>116,116</Size>
           <Hidden>True</Hidden>
           <Children />
         </Control>
@@ -3006,8 +3013,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1093,868</Location>
-          <Size>135,135</Size>
+          <Location>874,694</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3019,14 +3026,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1093,868</Location>
-          <Size>135,135</Size>
+          <Location>874,694</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="DC Amp Gauge" SnapTarget="True" Locked="True">
-          <Location>1092,869</Location>
-          <Size>135,135</Size>
+          <Location>873,695</Location>
+          <Size>108,108</Size>
           <Hidden>False</Hidden>
           <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\DC_Amps_Face.png</BGPlateImage>
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -3047,8 +3054,8 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1087,864</Location>
-          <Size>145,145</Size>
+          <Location>869,691</Location>
+          <Size>116,116</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3056,8 +3063,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\XMission_Oil_Press_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1137,56</Location>
-          <Size>120,59</Size>
+          <Location>909,44</Location>
+          <Size>96,47</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3068,7 +3075,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.48</FontSize>
+            <FontSize>9.84</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -3082,8 +3089,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1141,55</Location>
-          <Size>111,52</Size>
+          <Location>912,44</Location>
+          <Size>88,41</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3091,8 +3098,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\XMission_Oil_Temp_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1267,56</Location>
-          <Size>120,57</Size>
+          <Location>1013,44</Location>
+          <Size>96,45</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3103,7 +3110,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.48</FontSize>
+            <FontSize>9.84</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -3117,8 +3124,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1270,54</Location>
-          <Size>112,52</Size>
+          <Location>1016,43</Location>
+          <Size>89,41</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3126,8 +3133,8 @@
           <Image>MadKreator37\OH-6A-Night\Indicators\Engine_Out_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1401,56</Location>
-          <Size>120,59</Size>
+          <Location>1120,44</Location>
+          <Size>96,47</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3138,7 +3145,7 @@
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
-            <FontSize>12.48</FontSize>
+            <FontSize>9.84</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -3152,8 +3159,8 @@
           <OnTextColor>#FFB3A229</OnTextColor>
           <OffTextColor>#FF1C1C1C</OffTextColor>
           <ScalingMode>Height</ScalingMode>
-          <Location>1405,55</Location>
-          <Size>112,52</Size>
+          <Location>1124,44</Location>
+          <Size>89,41</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3165,8 +3172,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1328,558</Location>
-          <Size>251,251</Size>
+          <Location>1062,446</Location>
+          <Size>200,200</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3178,14 +3185,14 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1328,558</Location>
-          <Size>251,251</Size>
+          <Location>1062,446</Location>
+          <Size>200,200</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Compass" SnapTarget="True" Locked="True">
-          <Location>1296,526</Location>
-          <Size>311,311</Size>
+          <Location>1036,420</Location>
+          <Size>248,248</Size>
           <Hidden>False</Hidden>
           <BGPlateImage />
           <KnobImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\HSI_Face.png</KnobImage>
@@ -3203,8 +3210,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Needle" SnapTarget="True" Locked="True">
-          <Location>1296,526</Location>
-          <Size>311,311</Size>
+          <Location>1036,420</Location>
+          <Size>248,248</Size>
           <Hidden>False</Hidden>
           <BGPlateImage />
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_4.png</KnobImage>
@@ -3222,8 +3229,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Off Flag" SnapTarget="True" Locked="True">
-          <Location>1302,531</Location>
-          <Size>155,155</Size>
+          <Location>1041,424</Location>
+          <Size>124,124</Size>
           <Hidden>False</Hidden>
           <BGPlateImage />
           <KnobImage>MadKreator37\OH-6A-Night\Indicators\HSI_Off.png</KnobImage>
@@ -3248,8 +3255,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>1307,531</Location>
-          <Size>300,300</Size>
+          <Location>1045,424</Location>
+          <Size>240,240</Size>
           <Rotation>ROT180</Rotation>
           <Hidden>False</Hidden>
           <Children />
@@ -3258,14 +3265,14 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\HSI_Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1283,509</Location>
-          <Size>339,347</Size>
+          <Location>1026,407</Location>
+          <Size>271,277</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Course Dev" SnapTarget="True" Locked="True">
-          <Location>1296,526</Location>
-          <Size>311,311</Size>
+          <Location>1036,420</Location>
+          <Size>248,248</Size>
           <Hidden>False</Hidden>
           <BGPlateImage />
           <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\HSI_Yaw_Needle.png</KnobImage>
@@ -3286,14 +3293,14 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Dash_Misc_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1321,464</Location>
-          <Size>269,77</Size>
+          <Location>1056,371</Location>
+          <Size>215,61</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape" SnapTarget="True" Locked="True">
-          <Location>579,77</Location>
-          <Size>150,150</Size>
+          <Location>463,61</Location>
+          <Size>120,120</Size>
           <Hidden>False</Hidden>
           <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Compass_Tape.png</TapeImage>
           <OffFlagImage />
@@ -3335,8 +3342,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>590,76</Location>
-          <Size>126,126</Size>
+          <Location>472,60</Location>
+          <Size>100,100</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3348,8 +3355,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>579,74</Location>
-          <Size>148,148</Size>
+          <Location>463,59</Location>
+          <Size>118,118</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3361,8 +3368,8 @@
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
-          <Location>575,75</Location>
-          <Size>157,157</Size>
+          <Location>460,60</Location>
+          <Size>125,125</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3370,8 +3377,8 @@
           <Image>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\ADF_Compass_Center_Line.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>654,93</Location>
-          <Size>1,100</Size>
+          <Location>523,74</Location>
+          <Size>1,80</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -3379,14 +3386,14 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Mag_Compass.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>559,55</Location>
-          <Size>192,192</Size>
+          <Location>447,44</Location>
+          <Size>153,153</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="RAlt Digi" SnapTarget="True" Locked="True">
-          <Location>1678,55</Location>
-          <Size>114,61</Size>
+          <Location>1342,44</Location>
+          <Size>91,48</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -3400,7 +3407,7 @@
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>0,0</Location>
-              <Size>113,60</Size>
+              <Size>90,48</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -3424,15 +3431,16 @@
               </Font>
               <Text>R.ALT</Text>
               <ScalingMode>None</ScalingMode>
-              <Location>24,5</Location>
-              <Size>60,22</Size>
+              <Location>19,4</Location>
+              <Size>48,17</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter 1" SnapTarget="False" Locked="False">
-              <Location>4,0</Location>
-              <Size>31,27</Size>
+              <Location>3,0</Location>
+              <Size>24,21</Size>
               <Hidden>True</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <PointCount>2</PointCount>
               <CalibrationPoints>
                 <Point>
@@ -3451,7 +3459,7 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>19.2</FontSize>
+                <FontSize>15.36</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
@@ -3468,16 +3476,16 @@
               <UseBackground>False</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>Height</ScalingMode>
-              <Location>18,14</Location>
-              <Size>72,40</Size>
+              <Location>14,11</Location>
+              <Size>57,32</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="Altimeter Panel" SnapTarget="True" Locked="True">
-          <Location>1566,158</Location>
-          <Size>336,323</Size>
+          <Location>1252,126</Location>
+          <Size>268,258</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -3494,8 +3502,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>34,16</Location>
-              <Size>280,280</Size>
+              <Location>27,12</Location>
+              <Size>224,224</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -3507,8 +3515,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>34,16</Location>
-              <Size>280,280</Size>
+              <Location>27,12</Location>
+              <Size>224,224</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -3516,14 +3524,14 @@
               <Image>MadKreator37\OH-6A-Night\Black_Square.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>86,73</Location>
-              <Size>56,38</Size>
+              <Location>68,58</Location>
+              <Size>44,30</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Alt 10s" SnapTarget="True" Locked="True">
-              <Location>117,139</Location>
-              <Size>19,37</Size>
+              <Location>93,111</Location>
+              <Size>15,29</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -3538,8 +3546,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Alt 10000s" SnapTarget="True" Locked="True">
-              <Location>66,138</Location>
-              <Size>26,37</Size>
+              <Location>52,110</Location>
+              <Size>20,29</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -3554,8 +3562,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Alt 1000s" SnapTarget="True" Locked="True">
-              <Location>90,138</Location>
-              <Size>26,37</Size>
+              <Location>72,110</Location>
+              <Size>20,29</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -3570,8 +3578,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Press 10s" SnapTarget="True" Locked="True">
-              <Location>198,184</Location>
-              <Size>17,31</Size>
+              <Location>158,147</Location>
+              <Size>13,24</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -3586,8 +3594,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Press 1s" SnapTarget="True" Locked="True">
-              <Location>213,184</Location>
-              <Size>17,31</Size>
+              <Location>170,147</Location>
+              <Size>13,24</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -3602,8 +3610,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Press 10th" SnapTarget="True" Locked="True">
-              <Location>227,184</Location>
-              <Size>17,31</Size>
+              <Location>181,147</Location>
+              <Size>13,24</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -3618,8 +3626,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Press 100th" SnapTarget="True" Locked="True">
-              <Location>242,184</Location>
-              <Size>17,31</Size>
+              <Location>193,147</Location>
+              <Size>13,24</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\9_tape.png</DrumImage>
               <Drum_PosX>0</Drum_PosX>
@@ -3634,8 +3642,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomGauge" Name="off flag" SnapTarget="True" Locked="True">
-              <Location>67,57</Location>
-              <Size>100,100</Size>
+              <Location>53,45</Location>
+              <Size>80,80</Size>
               <Hidden>False</Hidden>
               <BGPlateImage />
               <KnobImage>MadKreator37\OH-6A-Night\Indicators\Alt_Off.png</KnobImage>
@@ -3653,8 +3661,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Baro Altimeter Gauge" SnapTarget="True" Locked="True">
-              <Location>34,16</Location>
-              <Size>280,280</Size>
+              <Location>27,12</Location>
+              <Size>224,224</Size>
               <Hidden>False</Hidden>
               <BGPlateImage>MadKreator37\OH-6A-Night\Bezels_And_Faces\Altimeter_Baro_Face.png</BGPlateImage>
               <KnobImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Needle_1.png</KnobImage>
@@ -3679,8 +3687,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>25,6</Location>
-              <Size>300,300</Size>
+              <Location>20,4</Location>
+              <Size>240,240</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -3692,8 +3700,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>34,16</Location>
-              <Size>280,280</Size>
+              <Location>27,12</Location>
+              <Size>224,224</Size>
               <Hidden>True</Hidden>
               <Children />
             </Control>
@@ -3701,14 +3709,14 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Trim_Ring_Altimeter.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>9,1</Location>
-              <Size>319,315</Size>
+              <Location>7,0</Location>
+              <Size>255,252</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder" SnapTarget="True" Locked="True">
-              <Location>0,243</Location>
-              <Size>80,80</Size>
+              <Location>0,194</Location>
+              <Size>64,64</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_4.png</KnobImage>
               <RotationStep>5</RotationStep>
@@ -3726,14 +3734,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>808,55</Location>
-          <Size>100,50</Size>
+          <Location>646,44</Location>
+          <Size>80,40</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button" SnapTarget="True" Locked="True">
-          <Location>821,60</Location>
-          <Size>71,34</Size>
+          <Location>656,48</Location>
+          <Size>56,27</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -3744,7 +3752,7 @@
               <FontFamily>MS 33558 Regular</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>10</FontSize>
+              <FontSize>9</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Top</VerticalAlignment>
               <Padding>
@@ -3763,14 +3771,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1446,997</Location>
-          <Size>60,60</Size>
+          <Location>1156,797</Location>
+          <Size>48,48</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="True">
-          <Location>1455,1003</Location>
-          <Size>41,41</Size>
+          <Location>1164,802</Location>
+          <Size>32,32</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -3800,14 +3808,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1333,997</Location>
-          <Size>124,61</Size>
+          <Location>1066,797</Location>
+          <Size>99,48</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="True">
-          <Location>1350,1003</Location>
-          <Size>87,42</Size>
+          <Location>1080,802</Location>
+          <Size>69,33</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -3837,14 +3845,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1283,998</Location>
-          <Size>60,60</Size>
+          <Location>1026,798</Location>
+          <Size>48,48</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="True">
-          <Location>1292,1004</Location>
-          <Size>41,41</Size>
+          <Location>1033,803</Location>
+          <Size>32,32</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -3874,14 +3882,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1507,997</Location>
-          <Size>73,59</Size>
+          <Location>1205,797</Location>
+          <Size>58,47</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Markpoint Button" SnapTarget="True" Locked="True">
-          <Location>1517,1003</Location>
-          <Size>50,40</Size>
+          <Location>1213,802</Location>
+          <Size>40,32</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -3911,14 +3919,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>423,62</Location>
-          <Size>100,50</Size>
+          <Location>338,49</Location>
+          <Size>80,40</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="control center button" SnapTarget="True" Locked="True">
-          <Location>436,67</Location>
-          <Size>71,34</Size>
+          <Location>348,53</Location>
+          <Size>56,27</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -3929,7 +3937,7 @@
               <FontFamily>MS 33558 Regular</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>10</FontSize>
+              <FontSize>9</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Top</VerticalAlignment>
               <Padding>
@@ -3948,14 +3956,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1710,738</Location>
-          <Size>100,35</Size>
+          <Location>1368,590</Location>
+          <Size>80,28</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="KEYS BUTTON " SnapTarget="True" Locked="True">
-          <Location>1723,742</Location>
-          <Size>71,23</Size>
+          <Location>1378,593</Location>
+          <Size>56,18</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -3966,7 +3974,7 @@
               <FontFamily>MS 33558 Regular</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>9.5</FontSize>
+              <FontSize>9</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Top</VerticalAlignment>
               <Padding>
@@ -3985,14 +3993,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>83,62</Location>
-          <Size>100,50</Size>
+          <Location>66,49</Location>
+          <Size>80,40</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1" SnapTarget="True" Locked="True">
-          <Location>96,67</Location>
-          <Size>71,34</Size>
+          <Location>76,53</Location>
+          <Size>56,27</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -4003,7 +4011,7 @@
               <FontFamily>MS 33558 Regular</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>9.5</FontSize>
+              <FontSize>9</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Top</VerticalAlignment>
               <Padding>
@@ -4022,14 +4030,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>338,62</Location>
-          <Size>100,50</Size>
+          <Location>270,49</Location>
+          <Size>80,40</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1 1" SnapTarget="True" Locked="True">
-          <Location>351,67</Location>
-          <Size>71,34</Size>
+          <Location>280,53</Location>
+          <Size>56,27</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -4040,7 +4048,7 @@
               <FontFamily>MS 33558 Regular</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>9.5</FontSize>
+              <FontSize>9</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Top</VerticalAlignment>
               <Padding>
@@ -4059,8 +4067,8 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>168,62</Location>
-          <Size>100,50</Size>
+          <Location>134,49</Location>
+          <Size>80,40</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -4068,14 +4076,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>253,62</Location>
-          <Size>100,50</Size>
+          <Location>202,49</Location>
+          <Size>80,40</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2" SnapTarget="True" Locked="True">
-          <Location>266,67</Location>
-          <Size>71,34</Size>
+          <Location>212,53</Location>
+          <Size>56,27</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -4086,7 +4094,7 @@
               <FontFamily>MS 33558 Regular</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>9.5</FontSize>
+              <FontSize>9</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Top</VerticalAlignment>
               <Padding>
@@ -4102,8 +4110,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2 1" SnapTarget="True" Locked="True">
-          <Location>181,67</Location>
-          <Size>71,34</Size>
+          <Location>144,53</Location>
+          <Size>56,27</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -4114,7 +4122,7 @@
               <FontFamily>MS 33558 Regular</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>9.5</FontSize>
+              <FontSize>9</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Top</VerticalAlignment>
               <Padding>
@@ -4130,8 +4138,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="RWR Panel" SnapTarget="True" Locked="True">
-          <Location>489,763</Location>
-          <Size>265,265</Size>
+          <Location>391,610</Location>
+          <Size>212,212</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -4144,8 +4152,8 @@
               <Image>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\RWR_Rings.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>30,26</Location>
-              <Size>210,210</Size>
+              <Location>24,20</Location>
+              <Size>168,168</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4153,14 +4161,14 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\RWR_Bezel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>12,9</Location>
-              <Size>245,245</Size>
+              <Location>9,7</Location>
+              <Size>196,196</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="rwr brilliance " SnapTarget="True" Locked="True">
-              <Location>202,2</Location>
-              <Size>60,60</Size>
+              <Location>161,1</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\RWR_BRIL_KN OB.png</KnobImage>
               <InitialValue>0</InitialValue>
@@ -4191,8 +4199,8 @@
               </Font>
               <Text>OFF</Text>
               <ScalingMode>None</ScalingMode>
-              <Location>203,223</Location>
-              <Size>31,23</Size>
+              <Location>162,178</Location>
+              <Size>24,18</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4216,14 +4224,14 @@
               </Font>
               <Text>ON</Text>
               <ScalingMode>None</ScalingMode>
-              <Location>232,187</Location>
-              <Size>31,23</Size>
+              <Location>185,149</Location>
+              <Size>24,18</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="RWR on off switch" SnapTarget="True" Locked="True">
-              <Location>225,198</Location>
-              <Size>32,42</Size>
+              <Location>180,158</Location>
+              <Size>25,33</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -4234,8 +4242,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="rwr brilliance  1" SnapTarget="True" Locked="True">
-              <Location>7,201</Location>
-              <Size>60,60</Size>
+              <Location>5,160</Location>
+              <Size>48,48</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\RWR_BRIL_KN OB.png</KnobImage>
               <InitialValue>0</InitialValue>
@@ -4253,8 +4261,8 @@
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="Controls Panel argument activate" SnapTarget="True" Locked="True">
-          <Location>497,771</Location>
-          <Size>250,245</Size>
+          <Location>397,616</Location>
+          <Size>200,196</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -4267,8 +4275,8 @@
               <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>13,9</Location>
-              <Size>226,227</Size>
+              <Location>10,7</Location>
+              <Size>180,181</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4280,8 +4288,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>11,11</Location>
-              <Size>233,227</Size>
+              <Location>8,8</Location>
+              <Size>186,181</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4289,8 +4297,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Vertical_Percent_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>14,34</Location>
-              <Size>19,178</Size>
+              <Location>11,27</Location>
+              <Size>15,142</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4298,8 +4306,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Horizontal_Percent_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>33,211</Location>
-              <Size>185,18</Size>
+              <Location>26,168</Location>
+              <Size>148,14</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4307,14 +4315,14 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Cyclic_Center_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>50,20</Location>
-              <Size>179,172</Size>
+              <Location>40,16</Location>
+              <Size>143,137</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape 1" SnapTarget="True" Locked="True">
-              <Location>0,28</Location>
-              <Size>200,200</Size>
+              <Location>0,22</Location>
+              <Size>160,160</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Ball_Reapeater_Throttle.png</TapeImage>
               <OffFlagImage />
@@ -4349,8 +4357,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape 1 1" SnapTarget="True" Locked="True">
-              <Location>26,38</Location>
-              <Size>200,200</Size>
+              <Location>20,30</Location>
+              <Size>160,160</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Ball_Reapeater.png</TapeImage>
               <OffFlagImage />
@@ -4385,8 +4393,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape" SnapTarget="True" Locked="True">
-              <Location>24,11</Location>
-              <Size>200,200</Size>
+              <Location>19,8</Location>
+              <Size>160,160</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Ball_Reapeater.png</TapeImage>
               <OffFlagImage />
@@ -4424,16 +4432,16 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Multi_Function_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>4,2</Location>
-              <Size>244,239</Size>
+              <Location>3,1</Location>
+              <Size>195,191</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="Controls Panel button activate" SnapTarget="True" Locked="True">
-          <Location>497,771</Location>
-          <Size>250,245</Size>
+          <Location>397,616</Location>
+          <Size>200,196</Size>
           <Hidden>True</Hidden>
           <Background />
           <Interaction>
@@ -4446,8 +4454,8 @@
               <Image>MadKreator37\OH-6A-Night\Gauge_Light_Backing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>13,9</Location>
-              <Size>226,227</Size>
+              <Location>10,7</Location>
+              <Size>180,181</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4459,8 +4467,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>11,11</Location>
-              <Size>233,227</Size>
+              <Location>8,8</Location>
+              <Size>186,181</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4468,8 +4476,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Vertical_Percent_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>14,34</Location>
-              <Size>19,178</Size>
+              <Location>11,27</Location>
+              <Size>15,142</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4477,8 +4485,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Horizontal_Percent_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>33,211</Location>
-              <Size>185,18</Size>
+              <Location>26,168</Location>
+              <Size>148,14</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4486,14 +4494,14 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Cyclic_Center_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>50,20</Location>
-              <Size>179,172</Size>
+              <Location>40,16</Location>
+              <Size>143,137</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape 1" SnapTarget="True" Locked="True">
-              <Location>0,28</Location>
-              <Size>200,200</Size>
+              <Location>0,22</Location>
+              <Size>160,160</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Ball_Reapeater_Throttle.png</TapeImage>
               <OffFlagImage />
@@ -4528,8 +4536,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape 1 1" SnapTarget="True" Locked="True">
-              <Location>26,38</Location>
-              <Size>200,200</Size>
+              <Location>20,30</Location>
+              <Size>160,160</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Ball_Reapeater.png</TapeImage>
               <OffFlagImage />
@@ -4564,8 +4572,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape" SnapTarget="True" Locked="True">
-              <Location>24,11</Location>
-              <Size>200,200</Size>
+              <Location>19,8</Location>
+              <Size>160,160</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Slip_Ball_Reapeater.png</TapeImage>
               <OffFlagImage />
@@ -4603,8 +4611,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Multi_Function_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>4,2</Location>
-              <Size>244,239</Size>
+              <Location>3,1</Location>
+              <Size>195,191</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4614,14 +4622,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>980,55</Location>
-          <Size>100,50</Size>
+          <Location>784,44</Location>
+          <Size>80,40</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="control repeater button" SnapTarget="True" Locked="True">
-          <Location>993,60</Location>
-          <Size>71,34</Size>
+          <Location>794,48</Location>
+          <Size>56,27</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -4651,14 +4659,14 @@
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>812,311</Location>
-          <Size>100,50</Size>
+          <Location>649,248</Location>
+          <Size>80,40</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Switch to Day button " SnapTarget="True" Locked="True">
-          <Location>825,316</Location>
-          <Size>71,34</Size>
+          <Location>660,252</Location>
+          <Size>56,27</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
           <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -4669,7 +4677,7 @@
               <FontFamily>MS 33558 Regular</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>10</FontSize>
+              <FontSize>9</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Top</VerticalAlignment>
               <Padding>
@@ -4685,8 +4693,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="True">
-          <Location>0,749</Location>
-          <Size>545,331</Size>
+          <Location>0,599</Location>
+          <Size>436,264</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -4705,23 +4713,25 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>0,5</Location>
-              <Size>500,325</Size>
+              <Location>0,4</Location>
+              <Size>400,260</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="True">
-              <Location>79,5</Location>
-              <Size>29,22</Size>
+              <Location>63,4</Location>
+              <Size>23,17</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <MetronomeEnabled>False</MetronomeEnabled>
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="True">
-              <Location>109,5</Location>
-              <Size>29,22</Size>
+              <Location>87,4</Location>
+              <Size>23,17</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <Thresholds>
                 <UseThresholdValues>True</UseThresholdValues>
                 <InitialValue>0</InitialValue>
@@ -4731,8 +4741,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="True">
-              <Location>64,5</Location>
-              <Size>24,22</Size>
+              <Location>51,4</Location>
+              <Size>19,17</Size>
               <Hidden>False</Hidden>
               <Background />
               <Interaction>
@@ -4764,23 +4774,25 @@
               </Font>
               <Text />
               <ScalingMode>None</ScalingMode>
-              <Location>281,171</Location>
-              <Size>125,25</Size>
+              <Location>224,136</Location>
+              <Size>100,20</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="True">
-              <Location>149,5</Location>
-              <Size>29,22</Size>
+              <Location>119,4</Location>
+              <Size>23,17</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <MetronomeEnabled>False</MetronomeEnabled>
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="True">
-              <Location>179,5</Location>
-              <Size>29,22</Size>
+              <Location>143,4</Location>
+              <Size>23,17</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <Thresholds>
                 <UseThresholdValues>True</UseThresholdValues>
                 <InitialValue>0</InitialValue>
@@ -4809,23 +4821,25 @@
               </Font>
               <Text />
               <ScalingMode>None</ScalingMode>
-              <Location>29,219</Location>
-              <Size>396,62</Size>
+              <Location>23,175</Location>
+              <Size>316,49</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2" SnapTarget="False" Locked="True">
-              <Location>318,5</Location>
-              <Size>27,30</Size>
+              <Location>254,4</Location>
+              <Size>21,24</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <MetronomeEnabled>False</MetronomeEnabled>
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add" SnapTarget="False" Locked="True">
-              <Location>352,5</Location>
-              <Size>33,32</Size>
+              <Location>281,4</Location>
+              <Size>26,25</Size>
               <Hidden>False</Hidden>
+              <EffectsExclusion>True</EffectsExclusion>
               <Thresholds>
                 <UseThresholdValues>True</UseThresholdValues>
                 <InitialValue>0</InitialValue>
@@ -4835,8 +4849,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1" SnapTarget="True" Locked="True">
-              <Location>294,5</Location>
-              <Size>24,22</Size>
+              <Location>235,4</Location>
+              <Size>19,17</Size>
               <Hidden>False</Hidden>
               <Background />
               <Interaction>
@@ -4854,14 +4868,14 @@
           <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Repeater_Filler.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>975,54</Location>
-          <Size>127,63</Size>
+          <Location>780,43</Location>
+          <Size>101,50</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="True">
-          <Location>1580,773</Location>
-          <Size>340,280</Size>
+          <Location>1264,618</Location>
+          <Size>272,224</Size>
           <Hidden>True</Hidden>
           <Background>
             <Color>#CF000000</Color>
@@ -4882,153 +4896,153 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 2 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 2 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>82,206</Location>
-              <Size>95,73</Size>
+              <Location>65,164</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 2 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 2 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>164,206</Location>
-              <Size>95,73</Size>
+              <Location>131,164</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 1 1 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>245,206</Location>
-              <Size>95,73</Size>
+              <Location>196,164</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 2 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 2 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>0,206</Location>
-              <Size>95,73</Size>
+              <Location>0,164</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 2 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 2 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>82,140</Location>
-              <Size>95,73</Size>
+              <Location>65,112</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 2 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 2 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>164,140</Location>
-              <Size>95,73</Size>
+              <Location>131,112</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 1 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>245,140</Location>
-              <Size>95,73</Size>
+              <Location>196,112</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 2 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 2 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>0,140</Location>
-              <Size>95,73</Size>
+              <Location>0,112</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 2" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 2" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>82,73</Location>
-              <Size>95,73</Size>
+              <Location>65,58</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 2" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 2" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>164,73</Location>
-              <Size>95,73</Size>
+              <Location>131,58</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>245,73</Location>
-              <Size>95,73</Size>
+              <Location>196,58</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 2" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 2" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>0,73</Location>
-              <Size>95,73</Size>
+              <Location>0,58</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>82,6</Location>
-              <Size>95,73</Size>
+              <Location>65,4</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>164,6</Location>
-              <Size>95,73</Size>
+              <Location>131,4</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1 1 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>245,6</Location>
-              <Size>95,73</Size>
+              <Location>196,4</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="brief base 1 1 4 1 1 1 1 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>0,6</Location>
-              <Size>95,73</Size>
+              <Location>0,4</Location>
+              <Size>76,58</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button" SnapTarget="True" Locked="False">
-              <Location>13,13</Location>
-              <Size>66,50</Size>
+              <Location>10,10</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5055,8 +5069,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1" SnapTarget="True" Locked="False">
-              <Location>95,13</Location>
-              <Size>66,50</Size>
+              <Location>76,10</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5083,8 +5097,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1" SnapTarget="True" Locked="False">
-              <Location>177,13</Location>
-              <Size>66,50</Size>
+              <Location>141,10</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5111,8 +5125,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1" SnapTarget="True" Locked="False">
-              <Location>177,80</Location>
-              <Size>66,50</Size>
+              <Location>141,64</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5139,8 +5153,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1" SnapTarget="True" Locked="False">
-              <Location>95,80</Location>
-              <Size>66,50</Size>
+              <Location>76,64</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5167,8 +5181,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1" SnapTarget="True" Locked="False">
-              <Location>13,80</Location>
-              <Size>66,50</Size>
+              <Location>10,64</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5195,8 +5209,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1" SnapTarget="True" Locked="False">
-              <Location>13,147</Location>
-              <Size>66,50</Size>
+              <Location>10,117</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5223,8 +5237,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1 1" SnapTarget="True" Locked="False">
-              <Location>95,147</Location>
-              <Size>66,50</Size>
+              <Location>76,117</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5251,8 +5265,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1 1 1" SnapTarget="True" Locked="False">
-              <Location>177,147</Location>
-              <Size>66,50</Size>
+              <Location>141,117</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5279,8 +5293,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1 1 1 1" SnapTarget="True" Locked="False">
-              <Location>177,213</Location>
-              <Size>66,50</Size>
+              <Location>141,170</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5307,8 +5321,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1 1 1 1 1" SnapTarget="True" Locked="False">
-              <Location>95,213</Location>
-              <Size>66,50</Size>
+              <Location>76,170</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5335,8 +5349,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1 1 1 1 1 1" SnapTarget="True" Locked="False">
-              <Location>13,213</Location>
-              <Size>66,50</Size>
+              <Location>10,170</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5363,8 +5377,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 2" SnapTarget="True" Locked="False">
-              <Location>258,13</Location>
-              <Size>66,50</Size>
+              <Location>206,10</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5375,7 +5389,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>16</FontSize>
+                  <FontSize>14</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -5391,8 +5405,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 2" SnapTarget="True" Locked="False">
-              <Location>258,80</Location>
-              <Size>66,50</Size>
+              <Location>206,64</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5403,7 +5417,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>16</FontSize>
+                  <FontSize>14</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -5419,8 +5433,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1 1 1 2" SnapTarget="True" Locked="False">
-              <Location>258,147</Location>
-              <Size>66,50</Size>
+              <Location>206,117</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5431,7 +5445,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>16</FontSize>
+                  <FontSize>14</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -5447,8 +5461,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1 1 1 1 2 2" SnapTarget="True" Locked="False">
-              <Location>258,213</Location>
-              <Size>66,50</Size>
+              <Location>206,170</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Generic_Button2_Norm.png</Image>
@@ -5459,7 +5473,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>16</FontSize>
+                  <FontSize>14</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -5477,8 +5491,8 @@
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="Console Panel" SnapTarget="True" Locked="True">
-          <Location>51,0</Location>
-          <Size>700,1080</Size>
+          <Location>40,0</Location>
+          <Size>560,864</Size>
           <Hidden>True</Hidden>
           <Background>
             <Color>#C1000000</Color>
@@ -5507,8 +5521,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>30,596</Location>
-              <Size>400,88</Size>
+              <Location>24,476</Location>
+              <Size>320,70</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5520,8 +5534,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>30,596</Location>
-              <Size>398,88</Size>
+              <Location>24,476</Location>
+              <Size>318,70</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5533,8 +5547,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>27,28</Location>
-              <Size>400,196</Size>
+              <Location>21,22</Location>
+              <Size>320,156</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5546,8 +5560,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>27,28</Location>
-              <Size>399,196</Size>
+              <Location>21,22</Location>
+              <Size>319,156</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5559,8 +5573,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>27,243</Location>
-              <Size>400,196</Size>
+              <Location>21,194</Location>
+              <Size>320,156</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5572,8 +5586,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>27,243</Location>
-              <Size>399,196</Size>
+              <Location>21,194</Location>
+              <Size>319,156</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5585,8 +5599,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>27,454</Location>
-              <Size>397,127</Size>
+              <Location>21,363</Location>
+              <Size>317,101</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5598,8 +5612,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>27,454</Location>
-              <Size>396,127</Size>
+              <Location>21,363</Location>
+              <Size>316,101</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5611,8 +5625,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>466,243</Location>
-              <Size>189,415</Size>
+              <Location>372,194</Location>
+              <Size>151,332</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5624,8 +5638,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>466,243</Location>
-              <Size>188,415</Size>
+              <Location>372,194</Location>
+              <Size>150,332</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5637,8 +5651,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>31,699</Location>
-              <Size>269,200</Size>
+              <Location>24,559</Location>
+              <Size>215,160</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5650,8 +5664,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>31,699</Location>
-              <Size>267,200</Size>
+              <Location>24,559</Location>
+              <Size>213,160</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5663,8 +5677,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>40,903</Location>
-              <Size>359,95</Size>
+              <Location>32,722</Location>
+              <Size>287,76</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5676,8 +5690,8 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>40,903</Location>
-              <Size>356,95</Size>
+              <Location>32,722</Location>
+              <Size>284,76</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5685,8 +5699,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Console_Fill_Panel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>443,26</Location>
-              <Size>235,212</Size>
+              <Location>354,20</Location>
+              <Size>188,169</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5694,8 +5708,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Electronic_Panel_HR.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>20,694</Location>
-              <Size>660,357</Size>
+              <Location>16,555</Location>
+              <Size>528,285</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5703,8 +5717,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\CMWS_Panel_HR.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>20,587</Location>
-              <Size>422,107</Size>
+              <Location>16,469</Location>
+              <Size>337,85</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5712,8 +5726,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Gun_Rocket_Panel_HR.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>20,452</Location>
-              <Size>422,135</Size>
+              <Location>16,361</Location>
+              <Size>337,108</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5721,8 +5735,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Intercom_Panel_HR.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>20,238</Location>
-              <Size>422,214</Size>
+              <Location>16,190</Location>
+              <Size>337,171</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5730,8 +5744,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Intercom_Panel_HR.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>20,24</Location>
-              <Size>422,214</Size>
+              <Location>16,19</Location>
+              <Size>337,171</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5739,23 +5753,23 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\Lighting_Panel_HR.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>444,239</Location>
-              <Size>235,456</Size>
+              <Location>355,191</Location>
+              <Size>188,364</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="interphone upper mode dial" SnapTarget="True" Locked="True">
-              <Location>172,118</Location>
-              <Size>118,118</Size>
+              <Location>137,94</Location>
+              <Size>94,94</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_8.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="273.9266288624" />
-                <Position Name="1" Rotation="302.475407938896" />
-                <Position Name="2" Rotation="330.170119199167" />
-                <Position Name="3" Rotation="1.04154611734753" />
-                <Position Name="4" Rotation="32.2879296377734" />
-                <Position Name="5" Rotation="60.4096748061564" />
+                <Position Name="0" Rotation="273.93" />
+                <Position Name="1" Rotation="302.48" />
+                <Position Name="2" Rotation="330.17" />
+                <Position Name="3" Rotation="1.04" />
+                <Position Name="4" Rotation="32.29" />
+                <Position Name="5" Rotation="60.41" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -5764,17 +5778,17 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="interphone lower mode dial" SnapTarget="True" Locked="True">
-              <Location>173,333</Location>
-              <Size>118,118</Size>
+              <Location>138,266</Location>
+              <Size>94,94</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_8.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="273.9266288624" />
-                <Position Name="1" Rotation="302.475407938896" />
-                <Position Name="2" Rotation="329.128573081819" />
-                <Position Name="3" Rotation="360" />
-                <Position Name="4" Rotation="32.2879296377737" />
-                <Position Name="5" Rotation="61.4512209235036" />
+                <Position Name="0" Rotation="273.93" />
+                <Position Name="1" Rotation="302.48" />
+                <Position Name="2" Rotation="329.13" />
+                <Position Name="3" Rotation="360.00" />
+                <Position Name="4" Rotation="32.29" />
+                <Position Name="5" Rotation="61.45" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -5783,8 +5797,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="interphone lower vol" SnapTarget="True" Locked="True">
-              <Location>79,370</Location>
-              <Size>90,90</Size>
+              <Location>63,296</Location>
+              <Size>72,72</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_5.png</KnobImage>
@@ -5801,8 +5815,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="interphone upper vol" SnapTarget="True" Locked="True">
-              <Location>78,156</Location>
-              <Size>90,90</Size>
+              <Location>62,124</Location>
+              <Size>72,72</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_5.png</KnobImage>
@@ -5819,8 +5833,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="sw pan brt kb" SnapTarget="True" Locked="True">
-              <Location>467,437</Location>
-              <Size>90,90</Size>
+              <Location>373,349</Location>
+              <Size>72,72</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_5.png</KnobImage>
@@ -5837,8 +5851,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="radio brt kb" SnapTarget="True" Locked="True">
-              <Location>566,438</Location>
-              <Size>90,90</Size>
+              <Location>452,350</Location>
+              <Size>72,72</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_5.png</KnobImage>
@@ -5855,8 +5869,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="flight brt kb" SnapTarget="True" Locked="True">
-              <Location>567,559</Location>
-              <Size>90,90</Size>
+              <Location>453,447</Location>
+              <Size>72,72</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_5.png</KnobImage>
@@ -5873,8 +5887,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="engine brt kb" SnapTarget="True" Locked="True">
-              <Location>467,559</Location>
-              <Size>90,90</Size>
+              <Location>373,447</Location>
+              <Size>72,72</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_5.png</KnobImage>
@@ -5891,19 +5905,19 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="rock pair" SnapTarget="True" Locked="True">
-              <Location>184,495</Location>
-              <Size>55,55</Size>
+              <Location>147,396</Location>
+              <Size>44,44</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Knob_6.png</KnobImage>
               <Positions>
-                <Position Name="0" Rotation="307.256104617521" />
-                <Position Name="1" Rotation="346.220344867492" />
-                <Position Name="2" Rotation="31.2463835204259" />
-                <Position Name="3" Rotation="69.7835898622845" />
-                <Position Name="4" Rotation="111.445434556186" />
-                <Position Name="5" Rotation="151.024187015392" />
-                <Position Name="6" Rotation="191.644485591946" />
-                <Position Name="7" Rotation="233.306330285847" />
+                <Position Name="0" Rotation="307.26" />
+                <Position Name="1" Rotation="346.22" />
+                <Position Name="2" Rotation="31.25" />
+                <Position Name="3" Rotation="69.78" />
+                <Position Name="4" Rotation="111.45" />
+                <Position Name="5" Rotation="151.02" />
+                <Position Name="6" Rotation="191.64" />
+                <Position Name="7" Rotation="233.31" />
               </Positions>
               <DefaultPosition>1</DefaultPosition>
               <ClickType>
@@ -5912,8 +5926,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="anti coll" SnapTarget="True" Locked="True">
-              <Location>594,330</Location>
-              <Size>21,50</Size>
+              <Location>475,264</Location>
+              <Size>16,40</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5924,8 +5938,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="cmws arm" SnapTarget="True" Locked="True">
-              <Location>153,614</Location>
-              <Size>19,44</Size>
+              <Location>122,491</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5936,8 +5950,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Pos Lt" SnapTarget="True" Locked="True">
-              <Location>507,331</Location>
-              <Size>22,50</Size>
+              <Location>405,264</Location>
+              <Size>17,40</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5949,8 +5963,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gyro" SnapTarget="True" Locked="True">
-              <Location>75,766</Location>
-              <Size>25,83</Size>
+              <Location>60,612</Location>
+              <Size>20,66</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5961,8 +5975,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Aux Tank" SnapTarget="True" Locked="True">
-              <Location>147,766</Location>
-              <Size>25,83</Size>
+              <Location>117,612</Location>
+              <Size>20,66</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5973,8 +5987,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Inverter" SnapTarget="True" Locked="True">
-              <Location>75,912</Location>
-              <Size>25,83</Size>
+              <Location>60,729</Location>
+              <Size>20,66</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5985,8 +5999,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Fuel Pump" SnapTarget="True" Locked="True">
-              <Location>223,779</Location>
-              <Size>26,60</Size>
+              <Location>178,623</Location>
+              <Size>20,48</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -5997,8 +6011,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gen" SnapTarget="True" Locked="True">
-              <Location>146,926</Location>
-              <Size>26,60</Size>
+              <Location>116,740</Location>
+              <Size>20,48</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6009,8 +6023,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Batt" SnapTarget="True" Locked="True">
-              <Location>296,932</Location>
-              <Size>31,72</Size>
+              <Location>236,745</Location>
+              <Size>24,57</Size>
               <Rotation>CW</Rotation>
               <Hidden>False</Hidden>
               <SwitchType>OnOnOn</SwitchType>
@@ -6023,8 +6037,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="flare button" SnapTarget="True" Locked="True">
-              <Location>281,622</Location>
-              <Size>38,38</Size>
+              <Location>224,497</Location>
+              <Size>30,30</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Flare_Button_Norm.png</Image>
@@ -6035,14 +6049,14 @@
               <Image>MadKreator37\OH-6A-Night\Buttons_Switches_Knobs\Switch_2_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>345,518</Location>
-              <Size>27,28</Size>
+              <Location>276,414</Location>
+              <Size>21,22</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Jett Switch" SnapTarget="True" Locked="True">
-              <Location>349,509</Location>
-              <Size>20,44</Size>
+              <Location>279,407</Location>
+              <Size>16,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>MomOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6053,8 +6067,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard " SnapTarget="True" Locked="True">
-              <Location>341,446</Location>
-              <Size>38,116</Size>
+              <Location>272,356</Location>
+              <Size>30,92</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6072,8 +6086,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch" SnapTarget="True" Locked="True">
-              <Location>309,761</Location>
-              <Size>90,100</Size>
+              <Location>247,608</Location>
+              <Size>72,80</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6084,8 +6098,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1" SnapTarget="True" Locked="True">
-              <Location>92,40</Location>
-              <Size>19,44</Size>
+              <Location>73,32</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6096,8 +6110,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1" SnapTarget="True" Locked="True">
-              <Location>139,40</Location>
-              <Size>19,44</Size>
+              <Location>111,32</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6108,8 +6122,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 1" SnapTarget="True" Locked="True">
-              <Location>186,40</Location>
-              <Size>19,44</Size>
+              <Location>148,32</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6120,8 +6134,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2" SnapTarget="True" Locked="True">
-              <Location>237,40</Location>
-              <Size>19,44</Size>
+              <Location>189,32</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6132,8 +6146,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2 1" SnapTarget="True" Locked="True">
-              <Location>284,40</Location>
-              <Size>19,44</Size>
+              <Location>227,32</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6144,8 +6158,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 1 2 1 1" SnapTarget="True" Locked="True">
-              <Location>337,40</Location>
-              <Size>19,44</Size>
+              <Location>269,32</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6156,8 +6170,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2" SnapTarget="True" Locked="True">
-              <Location>91,254</Location>
-              <Size>19,44</Size>
+              <Location>72,203</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6168,8 +6182,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1" SnapTarget="True" Locked="True">
-              <Location>139,254</Location>
-              <Size>19,44</Size>
+              <Location>111,203</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6180,8 +6194,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1" SnapTarget="True" Locked="True">
-              <Location>186,254</Location>
-              <Size>19,44</Size>
+              <Location>148,203</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6192,8 +6206,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1" SnapTarget="True" Locked="True">
-              <Location>237,254</Location>
-              <Size>19,44</Size>
+              <Location>189,203</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6204,8 +6218,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1 1" SnapTarget="True" Locked="True">
-              <Location>284,254</Location>
-              <Size>19,44</Size>
+              <Location>227,203</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6216,8 +6230,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gun rock select 1 2 1 1 1 1 1" SnapTarget="True" Locked="True">
-              <Location>337,254</Location>
-              <Size>19,44</Size>
+              <Location>269,203</Location>
+              <Size>15,35</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6228,8 +6242,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch 1" SnapTarget="True" Locked="True">
-              <Location>60,473</Location>
-              <Size>22,50</Size>
+              <Location>48,378</Location>
+              <Size>17,40</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -6243,8 +6257,8 @@
               <Image>MadKreator37\OH-6A-Night\Bezels_And_Faces\CMWS_Cover.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>20,588</Location>
-              <Size>422,105</Size>
+              <Location>16,470</Location>
+              <Size>337,84</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -6253,8 +6267,8 @@
       </Children>
     </Monitor>
     <Monitor>
-      <Location>3840,731</Location>
-      <Size>5120,1440</Size>
+      <Location>3072,582</Location>
+      <Size>4096,1152</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
       <AlwaysOnTop>True</AlwaysOnTop>
@@ -7385,7 +7399,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Console button 1 1;Helios.Base.PushButton;Console button 1 1" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{LSHIFT}{LALT}s</StaticValue>
+      <StaticValue>{RSHIFT}{LALT}s</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Console button 2;Helios.Base.PushButton;Console button 2" Name="closed" />
