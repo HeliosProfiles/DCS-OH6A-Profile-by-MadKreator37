@@ -63,6 +63,12 @@ This profile was designed and created by myself, in close collaboration with Blu
 1: Fixed missing image file path in controls indicators.
 2: Correct Readme
 
+### CHANGELOG FROM 1.0.7
+
+1: Fixed binding for Visor button.. default keybind changed?
+2: Adjusted interface for Gunsight toggle new device command.
+3: Text tweaks
+
 ### ENJOY!
 
 
