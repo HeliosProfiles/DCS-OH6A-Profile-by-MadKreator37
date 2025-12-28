@@ -19,7 +19,7 @@
       <AlwaysOnTop>True</AlwaysOnTop>
       <Background />
       <Children>
-        <Control TypeIdentifier="Helios.Base.Image" Name="outside backdrop" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="outside backdrop" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Lower_Image.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -28,7 +28,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="OH6A_RWR" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="OH6A_RWR" SnapTarget="True" Locked="False">
           <FillBackground>True</FillBackground>
           <BackgroundColor>#807DDB29</BackgroundColor>
           <FontColor>#FFFFFFFF</FontColor>
@@ -55,7 +55,7 @@
           <ViewportName>OH6A_RWR</ViewportName>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Background" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Background" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Main_BG_T1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -64,7 +64,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="ANARC 54 panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="ANARC 54 panel" SnapTarget="True" Locked="False">
           <Location>43,89</Location>
           <Size>372,201</Size>
           <Hidden>False</Hidden>
@@ -228,7 +228,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="ANARC 51 Radio panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="ANARC 51 Radio panel" SnapTarget="True" Locked="False">
           <Location>43,314</Location>
           <Size>372,286</Size>
           <Hidden>False</Hidden>
@@ -1087,7 +1087,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="ANARC 83 panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="ANARC 83 panel" SnapTarget="True" Locked="False">
           <Location>41,622</Location>
           <Size>348,176</Size>
           <Hidden>False</Hidden>
@@ -1263,7 +1263,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Armament Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Armament Panel" SnapTarget="True" Locked="False">
           <Location>447,206</Location>
           <Size>153,409</Size>
           <Hidden>False</Hidden>
@@ -1391,7 +1391,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="trigauge base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="trigauge base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Tri_Gauge_Panel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1400,7 +1400,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="bypass air base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="bypass air base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\Air_Bypass_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1409,7 +1409,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="bypass air 1nd" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="bypass air 1nd" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\Air_Bypass_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1435,7 +1435,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="oil chip base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="oil chip base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\Oil_Chips_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1444,7 +1444,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="oil chip ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="oil chip ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\Oil_Chips_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1470,7 +1470,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel filter base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel filter base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\Fuel_Filter_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1479,7 +1479,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel filter ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel filter ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\Fuel_Filter_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1505,7 +1505,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="gen out base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="gen out base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\Generator_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1514,7 +1514,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="generator out ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="generator out ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\Generator_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1540,7 +1540,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel low base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel low base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\Fuel_Low_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1549,7 +1549,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel low ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel low ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\Fuel_Low_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1575,7 +1575,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="oil byp base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="oil byp base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\Oil_Bypass_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1584,7 +1584,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="oil bypass ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="oil bypass ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\Oil_Bypass_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -1610,7 +1610,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Torque Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Torque Gauge" SnapTarget="True" Locked="False">
           <Location>616,94</Location>
           <Size>143,143</Size>
           <Hidden>False</Hidden>
@@ -1629,7 +1629,7 @@
           <RotationTravel>331.685393258427</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1642,7 +1642,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="torque ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="torque ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1651,7 +1651,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="TOT Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="TOT Gauge" SnapTarget="True" Locked="False">
           <Location>616,295</Location>
           <Size>143,144</Size>
           <Hidden>False</Hidden>
@@ -1670,7 +1670,7 @@
           <RotationTravel>280.719101123596</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1683,7 +1683,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="tot ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="tot ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1692,7 +1692,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N1" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N1" SnapTarget="True" Locked="False">
           <Location>616,498</Location>
           <Size>143,143</Size>
           <Hidden>False</Hidden>
@@ -1711,7 +1711,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1724,7 +1724,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="RPM N1 ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="RPM N1 ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1733,7 +1733,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Airspeed Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Airspeed Gauge" SnapTarget="True" Locked="False">
           <Location>782,136</Location>
           <Size>224,224</Size>
           <Hidden>False</Hidden>
@@ -1752,7 +1752,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1765,7 +1765,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="airspeed ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="airspeed ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1774,7 +1774,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="airspeed ss" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="airspeed ss" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1783,7 +1783,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N2 Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM N2 Gauge" SnapTarget="True" Locked="False">
           <Location>782,424</Location>
           <Size>224,224</Size>
           <Hidden>False</Hidden>
@@ -1802,7 +1802,7 @@
           <RotationTravel>301.395348837209</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM R Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="RPM R Gauge" SnapTarget="True" Locked="False">
           <Location>782,424</Location>
           <Size>224,224</Size>
           <Hidden>False</Hidden>
@@ -1821,7 +1821,7 @@
           <RotationTravel>300.751341681574</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1834,7 +1834,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="rpm R N2 ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="rpm R N2 ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1843,7 +1843,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="rpm ss" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="rpm ss" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1852,43 +1852,35 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="ADI Tape" SnapTarget="True" Locked="True">
-          <Location>1063,169</Location>
-          <Size>160,160</Size>
+        <Control TypeIdentifier="Helios.Base.CustomGaugeBall" Name="Custom Gauge Sphere" SnapTarget="True" Locked="False">
+          <Location>993,98</Location>
+          <Size>300,300</Size>
           <Hidden>False</Hidden>
-          <TapeImage>MadKreator37\OH-6A\Needles_Tapes_Pointers\ADI_Tape.png</TapeImage>
-          <OffFlagImage />
-          <ForegroundImage />
-          <BackgroundImage />
-          <Tape_PosX>0</Tape_PosX>
-          <Tape_PosY>0</Tape_PosY>
-          <Tape_Width>200</Tape_Width>
-          <Tape_Height>800</Tape_Height>
-          <Tape_CenterX>100</Tape_CenterX>
-          <Tape_CenterY>100</Tape_CenterY>
-          <OffFlag_PosX>30</OffFlag_PosX>
-          <OffFlag_PosY>30</OffFlag_PosY>
-          <OffFlag_Width>50</OffFlag_Width>
-          <OffFlag_Height>50</OffFlag_Height>
-          <OffFlag_IsHidden>False</OffFlag_IsHidden>
-          <MinHorizontal>0</MinHorizontal>
-          <HorizontalTravel>0</HorizontalTravel>
-          <MinVertical>-702</MinVertical>
-          <VerticalTravel>98</VerticalTravel>
-          <MinRotation>180</MinRotation>
-          <RotationTravel>-180</RotationTravel>
-          <InitialHorizontal>0</InitialHorizontal>
-          <InitialVertical>-301</InitialVertical>
-          <InitialRotation>0</InitialRotation>
-          <MinInputHorizontal>0</MinInputHorizontal>
-          <MaxInputHorizontal>1</MaxInputHorizontal>
-          <MinInputVertical>-180</MinInputVertical>
-          <MaxInputVertical>180</MaxInputVertical>
-          <MinInputRotation>-180</MinInputRotation>
-          <MaxInputRotation>180</MaxInputRotation>
+          <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\ADI_Tape_3D.png</Image>
+          <Properties3D>
+            <InitialAngleX>0</InitialAngleX>
+            <InitialAngleY>0</InitialAngleY>
+            <InitialAngleZ>-90</InitialAngleZ>
+            <AxesCalibrations>
+              <ZCalibration>
+                <MinInputZ>-180</MinInputZ>
+                <MaxInputZ>180</MaxInputZ>
+                <MinOutputZ>180</MinOutputZ>
+                <MaxOutputZ>-180</MaxOutputZ>
+              </ZCalibration>
+            </AxesCalibrations>
+            <FieldOfView>68.9824015916221</FieldOfView>
+            <Lighting>
+              <X>-1</X>
+              <Y>-1</Y>
+              <Z>-2</Z>
+              <Color>#FFFFFFFF</Color>
+              <ColorBrightness>1</ColorBrightness>
+            </Lighting>
+          </Properties3D>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Round_Shadow.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1901,7 +1893,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 4 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 4 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1914,7 +1906,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Off Flag " SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Off Flag " SnapTarget="True" Locked="False">
           <Location>1110,216</Location>
           <Size>124,124</Size>
           <Hidden>False</Hidden>
@@ -1933,7 +1925,7 @@
           <RotationTravel>260.46511627907</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="ADI Bezel" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="ADI Bezel" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\ADI_Face.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1942,7 +1934,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Bank Pointer" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ADI Bank Pointer" SnapTarget="True" Locked="False">
           <Location>1057,164</Location>
           <Size>171,171</Size>
           <Hidden>False</Hidden>
@@ -1961,7 +1953,7 @@
           <RotationTravel>180</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="ADI Wings" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="ADI Wings" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\ADI_Wings.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1970,7 +1962,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="adi ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="adi ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1979,7 +1971,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="Slip Ball Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomTape" Name="Slip Ball Gauge" SnapTarget="True" Locked="False">
           <Location>1040,216</Location>
           <Size>204,163</Size>
           <Hidden>False</Hidden>
@@ -2004,7 +1996,7 @@
           <VerticalTravel>0</VerticalTravel>
           <MinRotation>8</MinRotation>
           <RotationTravel>-8</RotationTravel>
-          <InitialHorizontal>89</InitialHorizontal>
+          <InitialHorizontal>90</InitialHorizontal>
           <InitialVertical>116</InitialVertical>
           <InitialRotation>0</InitialRotation>
           <MinInputHorizontal>-180</MinInputHorizontal>
@@ -2015,7 +2007,7 @@
           <MaxInputRotation>180</MaxInputRotation>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="slip centers" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="slip centers" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\Slip_Ball_Indicator_Marks.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2024,7 +2016,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="slip ends" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="slip ends" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\Slip_Indicator_End_Caps.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2033,7 +2025,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="adi ss" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="adi ss" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2042,7 +2034,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="alt ss" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="alt ss" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2051,7 +2043,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="VVI Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="VVI Gauge" SnapTarget="True" Locked="False">
           <Location>1316,402</Location>
           <Size>176,176</Size>
           <Hidden>False</Hidden>
@@ -2070,7 +2062,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2083,7 +2075,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="vvi ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="vvi ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2092,7 +2084,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Fuel Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Fuel Gauge" SnapTarget="True" Locked="False">
           <Location>1316,627</Location>
           <Size>176,176</Size>
           <Hidden>False</Hidden>
@@ -2111,7 +2103,7 @@
           <RotationTravel>214.150447227191</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2124,7 +2116,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2133,7 +2125,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Press Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Press Gauge" SnapTarget="True" Locked="False">
           <Location>622,695</Location>
           <Size>108,108</Size>
           <Hidden>False</Hidden>
@@ -2152,7 +2144,7 @@
           <RotationTravel>87.4538881896197</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="oil press ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="oil press ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2161,7 +2153,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Temp Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Eng Oil Temp Gauge" SnapTarget="True" Locked="False">
           <Location>748,695</Location>
           <Size>108,108</Size>
           <Hidden>False</Hidden>
@@ -2180,7 +2172,7 @@
           <RotationTravel>92.260296734346</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="oil temp ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="oil temp ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2189,7 +2181,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="DC Amp Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="DC Amp Gauge" SnapTarget="True" Locked="False">
           <Location>873,695</Location>
           <Size>108,108</Size>
           <Hidden>False</Hidden>
@@ -2208,7 +2200,7 @@
           <RotationTravel>81.6861979359482</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="dc amps ring" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="dc amps ring" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Trim_Ring_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2217,7 +2209,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="xmsn press base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="xmsn press base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\XMission_Oil_Press_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2226,7 +2218,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="xmsn press ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="xmsn press ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\XMission_Oil_Press_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -2252,7 +2244,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="xmsn temp base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="xmsn temp base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\XMission_Oil_Temp_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2261,7 +2253,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="xmsn temp ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="xmsn temp ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\XMission_Oil_Temp_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -2287,7 +2279,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="engine out base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="engine out base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Indicators\Engine_Out_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2296,7 +2288,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="engine out ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="engine out ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\OH-6A\Indicators\Engine_Out_On.png</OnImage>
           <OffImage>MadKreator37\OH-6A\Transparent_Image.png</OffImage>
           <Font>
@@ -2322,7 +2314,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Compass" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Compass" SnapTarget="True" Locked="False">
           <Location>1036,420</Location>
           <Size>248,248</Size>
           <Hidden>False</Hidden>
@@ -2341,7 +2333,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Needle" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Needle" SnapTarget="True" Locked="False">
           <Location>1036,420</Location>
           <Size>248,248</Size>
           <Hidden>False</Hidden>
@@ -2360,7 +2352,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Off Flag" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Off Flag" SnapTarget="True" Locked="False">
           <Location>1041,424</Location>
           <Size>124,124</Size>
           <Hidden>False</Hidden>
@@ -2379,7 +2371,7 @@
           <RotationTravel>45.1162790697674</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 3 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 3 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2393,7 +2385,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="HSI bezel" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="HSI bezel" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\HSI_Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2402,7 +2394,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Course Dev" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomGauge" Name="HSI Course Dev" SnapTarget="True" Locked="False">
           <Location>1036,420</Location>
           <Size>248,248</Size>
           <Hidden>False</Hidden>
@@ -2421,7 +2413,7 @@
           <RotationTravel>86.5116279069768</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="decor" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="decor" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Dash_Misc_1.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2430,43 +2422,46 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape" SnapTarget="True" Locked="True">
-          <Location>463,61</Location>
-          <Size>120,120</Size>
+        <Control TypeIdentifier="Helios.Base.CustomGaugeCylinder" Name="Custom Gauge Cylinder" SnapTarget="True" Locked="False">
+          <Location>431,24</Location>
+          <Size>187,187</Size>
+          <Rotation>CCW</Rotation>
           <Hidden>False</Hidden>
-          <TapeImage>MadKreator37\OH-6A\Needles_Tapes_Pointers\Compass_Tape.png</TapeImage>
-          <OffFlagImage />
-          <ForegroundImage />
-          <BackgroundImage />
-          <Tape_PosX>0</Tape_PosX>
-          <Tape_PosY>0</Tape_PosY>
-          <Tape_Width>700</Tape_Width>
-          <Tape_Height>50</Tape_Height>
-          <Tape_CenterX>100</Tape_CenterX>
-          <Tape_CenterY>100</Tape_CenterY>
-          <OffFlag_PosX>30</OffFlag_PosX>
-          <OffFlag_PosY>30</OffFlag_PosY>
-          <OffFlag_Width>50</OffFlag_Width>
-          <OffFlag_Height>50</OffFlag_Height>
-          <OffFlag_IsHidden>False</OffFlag_IsHidden>
-          <MinHorizontal>-9</MinHorizontal>
-          <HorizontalTravel>-499</HorizontalTravel>
-          <MinVertical>90</MinVertical>
-          <VerticalTravel>45</VerticalTravel>
-          <MinRotation>-15</MinRotation>
-          <RotationTravel>15</RotationTravel>
-          <InitialHorizontal>-254</InitialHorizontal>
-          <InitialVertical>66</InitialVertical>
-          <InitialRotation>0</InitialRotation>
-          <MinInputHorizontal>0</MinInputHorizontal>
-          <MaxInputHorizontal>360</MaxInputHorizontal>
-          <MinInputVertical>-15</MinInputVertical>
-          <MaxInputVertical>15</MaxInputVertical>
-          <MinInputRotation>-15</MinInputRotation>
-          <MaxInputRotation>15</MaxInputRotation>
+          <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\3D_Compass_Tape.png</Image>
+          <Properties3D>
+            <InitialAngleX>0</InitialAngleX>
+            <InitialAngleY>0</InitialAngleY>
+            <InitialAngleZ>90</InitialAngleZ>
+            <AxesCalibrations>
+              <XCalibration>
+                <MinInputX>0</MinInputX>
+                <MaxInputX>360</MaxInputX>
+                <MinOutputX>180</MinOutputX>
+                <MaxOutputX>-180</MaxOutputX>
+              </XCalibration>
+              <YCalibration>
+                <MinInputY>-15</MinInputY>
+                <MaxInputY>15</MaxInputY>
+                <MinOutputY>15</MinOutputY>
+                <MaxOutputY>-15</MaxOutputY>
+              </YCalibration>
+            </AxesCalibrations>
+            <FieldOfView>56.2954362694692</FieldOfView>
+            <Lighting>
+              <X>-1</X>
+              <Y>-1</Y>
+              <Z>-2</Z>
+              <Color>#FFFFFFFF</Color>
+              <ColorBrightness>1</ColorBrightness>
+            </Lighting>
+          </Properties3D>
+          <CylinderProperties>
+            <Radius>0.900</Radius>
+            <Height>0.800</Height>
+          </CylinderProperties>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Round_Shadow.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2479,7 +2474,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 4 1 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 4 1 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Sphere.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2492,7 +2487,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="compass center" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="compass center" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Needles_Tapes_Pointers\ADF_Compass_Center_Line.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2501,7 +2496,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Compass Base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Compass Base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Mag_Compass.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2510,7 +2505,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RAlt Digi" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="RAlt Digi" SnapTarget="True" Locked="False">
           <Location>1342,44</Location>
           <Size>91,48</Size>
           <Hidden>False</Hidden>
@@ -2602,7 +2597,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Altimeter Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Altimeter Panel" SnapTarget="True" Locked="False">
           <Location>1252,126</Location>
           <Size>268,258</Size>
           <Hidden>False</Hidden>
@@ -2810,7 +2805,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2819,7 +2814,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button" SnapTarget="True" Locked="False">
           <Location>656,48</Location>
           <Size>56,27</Size>
           <Hidden>False</Hidden>
@@ -2847,7 +2842,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2856,7 +2851,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="False">
           <Location>1164,802</Location>
           <Size>32,32</Size>
           <Hidden>False</Hidden>
@@ -2884,7 +2879,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2893,7 +2888,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="False">
           <Location>1080,802</Location>
           <Size>69,33</Size>
           <Hidden>False</Hidden>
@@ -2921,7 +2916,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2930,7 +2925,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="False">
           <Location>1033,803</Location>
           <Size>32,32</Size>
           <Hidden>False</Hidden>
@@ -2958,7 +2953,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2967,7 +2962,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Markpoint Button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Markpoint Button" SnapTarget="True" Locked="False">
           <Location>1213,802</Location>
           <Size>40,32</Size>
           <Hidden>False</Hidden>
@@ -2995,7 +2990,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="control center base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="control center base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3004,7 +2999,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="control center button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="control center button" SnapTarget="True" Locked="False">
           <Location>348,53</Location>
           <Size>56,27</Size>
           <Hidden>False</Hidden>
@@ -3032,7 +3027,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="KEYS BASE" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="KEYS BASE" SnapTarget="True" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3041,7 +3036,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="KEYS BUTTON " SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="KEYS BUTTON " SnapTarget="True" Locked="False">
           <Location>1378,593</Location>
           <Size>56,18</Size>
           <Hidden>False</Hidden>
@@ -3069,7 +3064,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3078,7 +3073,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1" SnapTarget="True" Locked="False">
           <Location>76,53</Location>
           <Size>56,27</Size>
           <Hidden>False</Hidden>
@@ -3106,7 +3101,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 1 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 1 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3115,7 +3110,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1 1" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 1 1" SnapTarget="True" Locked="False">
           <Location>280,53</Location>
           <Size>56,27</Size>
           <Hidden>False</Hidden>
@@ -3143,7 +3138,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 2" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 2" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3152,7 +3147,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 2 1" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Console button base 2 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3161,7 +3156,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2" SnapTarget="True" Locked="False">
           <Location>212,53</Location>
           <Size>56,27</Size>
           <Hidden>False</Hidden>
@@ -3189,7 +3184,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2 1" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Console button 2 1" SnapTarget="True" Locked="False">
           <Location>144,53</Location>
           <Size>56,27</Size>
           <Hidden>False</Hidden>
@@ -3217,7 +3212,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="night button base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="night button base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3226,7 +3221,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Switch to Night button " SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Switch to Night button " SnapTarget="True" Locked="False">
           <Location>660,252</Location>
           <Size>56,27</Size>
           <Hidden>False</Hidden>
@@ -3254,7 +3249,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="False">
           <Location>0,599</Location>
           <Size>436,264</Size>
           <Hidden>False</Hidden>
@@ -3426,7 +3421,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RWR Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="RWR Panel" SnapTarget="True" Locked="False">
           <Location>391,610</Location>
           <Size>212,212</Size>
           <Hidden>False</Hidden>
@@ -3549,7 +3544,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Controls Panel argument activate" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Controls Panel argument activate" SnapTarget="True" Locked="False">
           <Location>399,616</Location>
           <Size>200,196</Size>
           <Hidden>False</Hidden>
@@ -3769,7 +3764,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Controls Panel button activate" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Controls Panel button activate" SnapTarget="True" Locked="False">
           <Location>399,616</Location>
           <Size>200,196</Size>
           <Hidden>True</Hidden>
@@ -3989,7 +3984,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="control repeater base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="control repeater base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Buttons_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -3998,7 +3993,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="control repeater button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="control repeater button" SnapTarget="True" Locked="False">
           <Location>794,48</Location>
           <Size>56,27</Size>
           <Hidden>False</Hidden>
@@ -4026,7 +4021,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="filler" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="filler" SnapTarget="False" Locked="False">
           <Image>MadKreator37\OH-6A\Bezels_And_Faces\Repeater_Filler.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -4035,7 +4030,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="False">
           <Location>1264,618</Location>
           <Size>272,224</Size>
           <Hidden>True</Hidden>
@@ -4652,7 +4647,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Console Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Console Panel" SnapTarget="True" Locked="False">
           <Location>40,0</Location>
           <Size>560,864</Size>
           <Hidden>True</Hidden>
@@ -5532,16 +5527,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_PITCH.changed" />
-      <Action Target="Visual;Monitor 2.ADI Tape;Helios.Base.CustomTape;ADI Tape" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_BANK.changed" />
-      <Action Target="Visual;Monitor 2.ADI Tape;Helios.Base.CustomTape;ADI Tape" Name="set.Tape Rotation" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.ATTITUDE_OFF.changed" />
       <Action Target="Visual;Monitor 2.ADI Off Flag ;Helios.Base.CustomGauge;ADI Off Flag " Name="set.value" />
       <TriggerValue />
@@ -5619,21 +5604,6 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ID_1351_ADF2 Course Deviation.changed" />
       <Action Target="Visual;Monitor 2.HSI Course Dev;Helios.Base.CustomGauge;HSI Course Dev" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_HDG.changed" />
-      <Action Target="Visual;Monitor 2.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_Bank.changed" />
-      <Action Target="Visual;Monitor 2.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Rotation" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_Pitch.changed" />
-      <Action Target="Visual;Monitor 2.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Vertical Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5934,6 +5904,31 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="WEAPON_SYSTEM.Gun/Rockets.changed" />
       <Action Target="Visual;Monitor 2.Console Panel.Toggle Switch 1;Helios.Base.ToggleSwitch;Toggle Switch 1" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_PITCH.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Sphere;Helios.Base.CustomGaugeBall;Custom Gauge Sphere" Name="set.X Rotation" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_BANK.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Sphere;Helios.Base.CustomGaugeBall;Custom Gauge Sphere" Name="set.Z Rotation" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_HDG.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Cylinder;Helios.Base.CustomGaugeCylinder;Custom Gauge Cylinder" Name="set.X Rotation" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_Pitch.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Cylinder;Helios.Base.CustomGaugeCylinder;Custom Gauge Cylinder" Name="set.Y Rotation" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_Bank.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Cylinder;Helios.Base.CustomGaugeCylinder;Custom Gauge Cylinder" Name="set.Z Rotation" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">

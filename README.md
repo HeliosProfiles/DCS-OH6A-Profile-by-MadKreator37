@@ -46,29 +46,28 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 ![Screenshot 2024-11-10 212104](https://github.com/user-attachments/assets/c7583f6d-03a3-4454-b639-555cd5382299)
 
-### CHANGELOG FROM 1.0.3
+### 1.0.4
 
 1. Center console has new individual panel images so it can pulled apart easier, for multi-screen use.
 
-### CHANGELOG FROM 1.0.3/1.0.4
+### 1.0.5
 
 1: Added "Night" version of the profile.
 
-### CHANGFELOG FROM 1.0.5
+### 1.0.6
 
 1: Remove the folder containing  files to manually replace. Profile will install a new folder with the patches included and will automatically apply them via "DCS Additional Viewports", when you Revert and Install patches. 
 
-### CHANGELOG FROM 1.0.6
+### 1.0.7
 
 1: Fixed missing image file path in controls indicators.
 2: Correct Readme
 
-### CHANGELOG FROM 1.0.7
+### 1.0.8
+1: Adjustments for OH6A v1.6
 
-1: Fixed binding for Visor button.. default keybind changed?
-2: Adjusted interface for Gunsight toggle new device command.
-3: Text tweaks
-
+### 1.0.9
+1: Changed ADI and Compass to new 3D elements
 ### ENJOY!
 
 

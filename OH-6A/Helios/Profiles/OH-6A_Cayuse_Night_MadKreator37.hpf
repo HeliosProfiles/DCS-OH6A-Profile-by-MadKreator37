@@ -2525,40 +2525,32 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="ADI Tape" SnapTarget="True" Locked="True">
-          <Location>1063,169</Location>
-          <Size>160,160</Size>
+        <Control TypeIdentifier="Helios.Base.CustomGaugeBall" Name="Custom Gauge Sphere" SnapTarget="True" Locked="False">
+          <Location>992,99</Location>
+          <Size>300,300</Size>
           <Hidden>False</Hidden>
-          <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\ADI_Tape.png</TapeImage>
-          <OffFlagImage />
-          <ForegroundImage />
-          <BackgroundImage />
-          <Tape_PosX>0</Tape_PosX>
-          <Tape_PosY>0</Tape_PosY>
-          <Tape_Width>200</Tape_Width>
-          <Tape_Height>800</Tape_Height>
-          <Tape_CenterX>100</Tape_CenterX>
-          <Tape_CenterY>100</Tape_CenterY>
-          <OffFlag_PosX>30</OffFlag_PosX>
-          <OffFlag_PosY>30</OffFlag_PosY>
-          <OffFlag_Width>50</OffFlag_Width>
-          <OffFlag_Height>50</OffFlag_Height>
-          <OffFlag_IsHidden>False</OffFlag_IsHidden>
-          <MinHorizontal>0</MinHorizontal>
-          <HorizontalTravel>0</HorizontalTravel>
-          <MinVertical>-702</MinVertical>
-          <VerticalTravel>98</VerticalTravel>
-          <MinRotation>180</MinRotation>
-          <RotationTravel>-180</RotationTravel>
-          <InitialHorizontal>0</InitialHorizontal>
-          <InitialVertical>-301</InitialVertical>
-          <InitialRotation>0</InitialRotation>
-          <MinInputHorizontal>0</MinInputHorizontal>
-          <MaxInputHorizontal>1</MaxInputHorizontal>
-          <MinInputVertical>-180</MinInputVertical>
-          <MaxInputVertical>180</MaxInputVertical>
-          <MinInputRotation>-180</MinInputRotation>
-          <MaxInputRotation>180</MaxInputRotation>
+          <Image>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\ADI_Tape_3D.png</Image>
+          <Properties3D>
+            <InitialAngleX>0</InitialAngleX>
+            <InitialAngleY>0</InitialAngleY>
+            <InitialAngleZ>-90</InitialAngleZ>
+            <AxesCalibrations>
+              <ZCalibration>
+                <MinInputZ>-180</MinInputZ>
+                <MaxInputZ>180</MaxInputZ>
+                <MinOutputZ>180</MinOutputZ>
+                <MaxOutputZ>-180</MaxOutputZ>
+              </ZCalibration>
+            </AxesCalibrations>
+            <FieldOfView>68.9824015916221</FieldOfView>
+            <Lighting>
+              <X>-1</X>
+              <Y>-1</Y>
+              <Z>-2</Z>
+              <Color>#FFFFFFFF</Color>
+              <ColorBrightness>1</ColorBrightness>
+            </Lighting>
+          </Properties3D>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="True">
@@ -2716,7 +2708,7 @@
           <VerticalTravel>0</VerticalTravel>
           <MinRotation>8</MinRotation>
           <RotationTravel>-8</RotationTravel>
-          <InitialHorizontal>89</InitialHorizontal>
+          <InitialHorizontal>90</InitialHorizontal>
           <InitialVertical>116</InitialVertical>
           <InitialRotation>0</InitialRotation>
           <MinInputHorizontal>-180</MinInputHorizontal>
@@ -3298,40 +3290,43 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="CustomTape" SnapTarget="True" Locked="True">
-          <Location>463,61</Location>
-          <Size>120,120</Size>
+        <Control TypeIdentifier="Helios.Base.CustomGaugeCylinder" Name="Custom Gauge Cylinder" SnapTarget="True" Locked="False">
+          <Location>431,24</Location>
+          <Size>187,187</Size>
+          <Rotation>CCW</Rotation>
           <Hidden>False</Hidden>
-          <TapeImage>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\Compass_Tape.png</TapeImage>
-          <OffFlagImage />
-          <ForegroundImage />
-          <BackgroundImage />
-          <Tape_PosX>0</Tape_PosX>
-          <Tape_PosY>0</Tape_PosY>
-          <Tape_Width>700</Tape_Width>
-          <Tape_Height>50</Tape_Height>
-          <Tape_CenterX>100</Tape_CenterX>
-          <Tape_CenterY>100</Tape_CenterY>
-          <OffFlag_PosX>30</OffFlag_PosX>
-          <OffFlag_PosY>30</OffFlag_PosY>
-          <OffFlag_Width>50</OffFlag_Width>
-          <OffFlag_Height>50</OffFlag_Height>
-          <OffFlag_IsHidden>False</OffFlag_IsHidden>
-          <MinHorizontal>-9</MinHorizontal>
-          <HorizontalTravel>-499</HorizontalTravel>
-          <MinVertical>90</MinVertical>
-          <VerticalTravel>45</VerticalTravel>
-          <MinRotation>-15</MinRotation>
-          <RotationTravel>15</RotationTravel>
-          <InitialHorizontal>-254</InitialHorizontal>
-          <InitialVertical>66</InitialVertical>
-          <InitialRotation>0</InitialRotation>
-          <MinInputHorizontal>0</MinInputHorizontal>
-          <MaxInputHorizontal>360</MaxInputHorizontal>
-          <MinInputVertical>-15</MinInputVertical>
-          <MaxInputVertical>15</MaxInputVertical>
-          <MinInputRotation>-15</MinInputRotation>
-          <MaxInputRotation>15</MaxInputRotation>
+          <Image>MadKreator37\OH-6A-Night\Needles_Tapes_Pointers\3D_Compass_Tape.png</Image>
+          <Properties3D>
+            <InitialAngleX>0</InitialAngleX>
+            <InitialAngleY>0</InitialAngleY>
+            <InitialAngleZ>90</InitialAngleZ>
+            <AxesCalibrations>
+              <XCalibration>
+                <MinInputX>0</MinInputX>
+                <MaxInputX>360</MaxInputX>
+                <MinOutputX>180</MinOutputX>
+                <MaxOutputX>-180</MaxOutputX>
+              </XCalibration>
+              <YCalibration>
+                <MinInputY>-15</MinInputY>
+                <MaxInputY>15</MaxInputY>
+                <MinOutputY>15</MinOutputY>
+                <MaxOutputY>-15</MaxOutputY>
+              </YCalibration>
+            </AxesCalibrations>
+            <FieldOfView>56.2954362694692</FieldOfView>
+            <Lighting>
+              <X>-1</X>
+              <Y>-1</Y>
+              <Z>-2</Z>
+              <Color>#FFFFFFFF</Color>
+              <ColorBrightness>0.363621529639387</ColorBrightness>
+            </Lighting>
+          </Properties3D>
+          <CylinderProperties>
+            <Radius>0.900</Radius>
+            <Height>0.800</Height>
+          </CylinderProperties>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="compass light" SnapTarget="False" Locked="True">
@@ -6552,16 +6547,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_PITCH.changed" />
-      <Action Target="Visual;Monitor 2.ADI Tape;Helios.Base.CustomTape;ADI Tape" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_BANK.changed" />
-      <Action Target="Visual;Monitor 2.ADI Tape;Helios.Base.CustomTape;ADI Tape" Name="set.Tape Rotation" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.ATTITUDE_OFF.changed" />
       <Action Target="Visual;Monitor 2.ADI Off Flag ;Helios.Base.CustomGauge;ADI Off Flag " Name="set.value" />
       <TriggerValue />
@@ -6639,21 +6624,6 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ID_1351_ADF2 Course Deviation.changed" />
       <Action Target="Visual;Monitor 2.HSI Course Dev;Helios.Base.CustomGauge;HSI Course Dev" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_HDG.changed" />
-      <Action Target="Visual;Monitor 2.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_Bank.changed" />
-      <Action Target="Visual;Monitor 2.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Rotation" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_Pitch.changed" />
-      <Action Target="Visual;Monitor 2.CustomTape;Helios.Base.CustomTape;CustomTape" Name="set.Tape Vertical Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -6954,6 +6924,31 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Network Values.FLARES_EQUIPPED.changed" />
       <Action Target="Visual;Monitor 2.Console Panel.cmws cover;Helios.Base.Image;cmws cover" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_PITCH.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Sphere;Helios.Base.CustomGaugeBall;Custom Gauge Sphere" Name="set.X Rotation" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.ADI_BANK.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Sphere;Helios.Base.CustomGaugeBall;Custom Gauge Sphere" Name="set.Z Rotation" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_HDG.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Cylinder;Helios.Base.CustomGaugeCylinder;Custom Gauge Cylinder" Name="set.X Rotation" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_Pitch.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Cylinder;Helios.Base.CustomGaugeCylinder;Custom Gauge Cylinder" Name="set.Y Rotation" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS OH-6A Cayuse (Community Mod)" Name="Scaled Network Values.Compass_Bank.changed" />
+      <Action Target="Visual;Monitor 2.Custom Gauge Cylinder;Helios.Base.CustomGaugeCylinder;Custom Gauge Cylinder" Name="set.Z Rotation" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
