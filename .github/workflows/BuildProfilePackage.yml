@@ -142,8 +142,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }}
+          tag_name: ${{ env.NewTag }}
+          release_name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ env.NewTag }}
           body: ${{ env.ABOUT }}
           draft: true
           prerelease: false
