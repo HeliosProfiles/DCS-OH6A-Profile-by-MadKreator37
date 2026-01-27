@@ -53,8 +53,8 @@ jobs:
           #env
           echo ${{ env.VEHICLE }} - ${{ env.VEHICLECOMMONNAME }}
           echo "Commit SHA (short) - " ${{ steps.vars.outputs.sha_short }}
-          echo "New Release - V " ${{ steps.bump_tag.outputs.tag }}
-          echo "NewTag=${ steps.bump_tag.outputs.tag }" >> $GITHUB_ENV
+          echo "New Release - V" ${{ steps.bump_tag.outputs.tag }}
+          echo "NewTag="${{ steps.bump_tag.outputs.tag }} >> $GITHUB_ENV
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
