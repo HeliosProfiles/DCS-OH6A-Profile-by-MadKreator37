@@ -68,6 +68,9 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 ### 1.0.9
 1: Changed ADI and Compass to new 3D elements
+
+### 1.0.10
+1: Fixed small interface error
 ### ENJOY!
 
 
